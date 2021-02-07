@@ -1,0 +1,134 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4272,        126]
+NotebookOptionsPosition[      3211,        101]
+NotebookOutlinePosition[      3614,        117]
+CellTagsIndexPosition[      3571,        114]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"\n", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Needs", "[", "\"\<tyk`\>\"", "]"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"AbsoluteTiming", "[", "\[IndentingNewLine]", 
+    RowBox[{"tykCompetitors$Run", "[", 
+     RowBox[{"\"\<TestMode\>\"", " ", "\[Rule]", " ", "False"}], "]"}], 
+    "\[IndentingNewLine]", "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.8179080824939747`*^9, 3.81790810200242*^9}, 
+   3.8179083250588713`*^9, {3.81792185922958*^9, 3.817921863422611*^9}, {
+   3.817926576624864*^9, 3.817926611230977*^9}, {3.818015612054072*^9, 
+   3.818015620514241*^9}, 3.818015794119437*^9, 3.818016324203247*^9, 
+   3.8180166508718777`*^9, {3.818076746410554*^9, 3.8180767525503473`*^9}, {
+   3.8180969512757387`*^9, 3.818096960825963*^9}, 
+   3.821117549035878*^9},ExpressionUUID->"0f014e24-0449-4cfb-9f9f-\
+6177320bc03b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["\<\"Getting Data\"\>"], "Print",
+ CellChangeTimes->{3.8180969747902107`*^9, 3.8186195567356367`*^9, 
+  3.818699870579266*^9, 3.8193916420264473`*^9, 3.819820632940352*^9},
+ CellLabel->
+  "During evaluation of \
+In[11]:=",ExpressionUUID->"2f87fb2a-cdfa-4d53-8c09-15f8961f50de"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"base URL\"\>",
+   "EchoLabel"], 
+  "  ", "\<\"https://%REGION%.abuniverse.com/product/%PAGE%\"\>"}]], "Echo",
+ CellChangeTimes->{
+  3.819820632993572*^9},ExpressionUUID->"453a4696-a623-45a2-93c8-\
+e49e53901289"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Number of URLs\"\>",
+   "EchoLabel"], "  ", "145"}]], "Echo",
+ CellChangeTimes->{
+  3.819820633016313*^9},ExpressionUUID->"f015753d-14b4-4ab7-9b0b-\
+39e6328e8801"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Length[imputed]\"\>",
+   "EchoLabel"], "  ", "346469"}]], "Echo",
+ CellChangeTimes->{
+  3.819822859111273*^9},ExpressionUUID->"1e869956-c230-40f7-b552-\
+b74b319ebbea"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Length[result]\"\>",
+   "EchoLabel"], "  ", "346469"}]], "Echo",
+ CellChangeTimes->{
+  3.819822881366599*^9},ExpressionUUID->"f58620b3-fee2-4559-a242-\
+4e06f01e6aeb"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"Output Folder\"\>",
+   "EchoLabel"], 
+  "  ", "\<\"/Users/mike/projects/tykables/files/tykCompetitors/output\"\>"}]]\
+, "Echo",
+ CellChangeTimes->{
+  3.819822881378807*^9},ExpressionUUID->"116a719f-6b38-45b0-902b-\
+cd47ef13751b"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"2533.64459`", ",", "Null"}], "}"}]], "Output",
+ CellChangeTimes->{3.8180993921367493`*^9, 3.818621886340488*^9, 
+  3.81870230700449*^9, 3.819394028730073*^9, 3.81982316657297*^9},
+ CellLabel->"Out[12]=",ExpressionUUID->"7360bcc9-021b-4565-acea-015a3caa87ee"]
+}, Open  ]]
+},
+WindowSize->{1075, 1297},
+WindowMargins->{{-1363, Automatic}, {369, Automatic}},
+FrontEndVersion->"12.2 for Mac OS X x86 (64-bit) (December 12, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"ca17fbcf-a42c-4076-acef-61aebe25e3bb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 846, 16, 115, "Input",ExpressionUUID->"0f014e24-0449-4cfb-9f9f-6177320bc03b"],
+Cell[CellGroupData[{
+Cell[1451, 42, 290, 5, 24, "Print",ExpressionUUID->"2f87fb2a-cdfa-4d53-8c09-15f8961f50de"],
+Cell[1744, 49, 249, 7, 25, "Echo",ExpressionUUID->"453a4696-a623-45a2-93c8-e49e53901289"],
+Cell[1996, 58, 201, 6, 25, "Echo",ExpressionUUID->"f015753d-14b4-4ab7-9b0b-39e6328e8801"],
+Cell[2200, 66, 205, 6, 25, "Echo",ExpressionUUID->"1e869956-c230-40f7-b552-b74b319ebbea"],
+Cell[2408, 74, 204, 6, 25, "Echo",ExpressionUUID->"f58620b3-fee2-4559-a242-4e06f01e6aeb"],
+Cell[2615, 82, 267, 8, 25, "Echo",ExpressionUUID->"116a719f-6b38-45b0-902b-cd47ef13751b"]
+}, Open  ]],
+Cell[2897, 93, 298, 5, 34, "Output",ExpressionUUID->"7360bcc9-021b-4565-acea-015a3caa87ee"]
+}, Open  ]]
+}
+]
+*)
+

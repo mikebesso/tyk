@@ -1,0 +1,56 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1394,         46]
+NotebookOptionsPosition[       952,         31]
+NotebookOutlinePosition[      1353,         47]
+CellTagsIndexPosition[      1310,         44]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Needs", "[", "\"\<tyk`\>\"", "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.819575566980867*^9, 3.8195755891221943`*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"76f2b0b0-d162-437b-bb71-beba3639d7cf"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.8195755982585783`*^9, 
+  3.819575605154242*^9}},ExpressionUUID->"0ede59de-cd40-4af2-a704-\
+b524f66c1344"]
+},
+WindowSize->{808, 905},
+WindowMargins->{{-912, Automatic}, {Automatic, -499}},
+FrontEndVersion->"12.2 for Mac OS X x86 (64-bit) (December 12, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"9911a85c-9edd-4687-8608-a2a624e550cd"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 233, 4, 30, "Input",ExpressionUUID->"76f2b0b0-d162-437b-bb71-beba3639d7cf"],
+Cell[794, 26, 154, 3, 30, "Input",ExpressionUUID->"0ede59de-cd40-4af2-a704-b524f66c1344"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
