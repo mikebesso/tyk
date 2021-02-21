@@ -1,0 +1,1393 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     53732,       1385]
+NotebookOptionsPosition[     41920,       1153]
+NotebookOutlinePosition[     43056,       1189]
+CellTagsIndexPosition[     43013,       1186]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Tykables Subscription Report", "Title",
+ CellChangeTimes->{{3.804091784202824*^9, 
+  3.804091796756452*^9}},ExpressionUUID->"fca5c667-e95e-4116-87b7-\
+a18799aaed3a"],
+
+Cell[CellGroupData[{
+
+Cell["Executive Summary", "Chapter",
+ CellChangeTimes->{{3.804183192520183*^9, 
+  3.8041831959625187`*^9}},ExpressionUUID->"638adbc1-c734-4a0a-a0b6-\
+48127484ae76"],
+
+Cell[TextData[{
+ "This report was generated on ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[{
+     RowBox[{"tykBold$Today", " "}], "General", TextData},
+    "NotebookTemplateExpression"], TextForm]],ExpressionUUID->
+  "19ad0b59-2a3a-459e-beb7-68f13d399771"],
+ "\nwith data pulled from Bold on ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[{
+     RowBox[{
+       RowBox[{"str$Tidy", "[", "tykBold$AsOfDate", "]"}], " "}], "General", 
+     TextData},
+    "NotebookTemplateExpression"], TextForm]],ExpressionUUID->
+  "1253c4af-36d1-46d2-b345-0baa1d276b9d"],
+ "\n(",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[{
+     RowBox[{"tykBold$DataAge", " "}], "General", TextData},
+    "NotebookTemplateExpression"], TextForm]],ExpressionUUID->
+  "10962647-609c-4b74-896f-e6e8fb0dbf46"],
+ " days ago.)\n\nRemember, Littles Gear Diapers are counted under both \
+Diapers and and Littles Gear subscriptions."
+}], "Text",
+ CellChangeTimes->{{3.804091833322851*^9, 3.804091851657525*^9}, {
+  3.80409188706494*^9, 3.804092000857481*^9}, {3.8040942275882807`*^9, 
+  3.804094231096897*^9}, {3.804094295157467*^9, 3.804094304290468*^9}, {
+  3.8040944293718147`*^9, 3.8040944655525007`*^9}, {3.804096821597661*^9, 
+  3.804096844456888*^9}, {3.804096941278315*^9, 3.8040970206704493`*^9}, {
+  3.804108911654765*^9, 3.804109004829047*^9}, {3.804109170421857*^9, 
+  3.804109182265902*^9}, {3.8041831996542473`*^9, 3.804183206762718*^9}, {
+  3.80476417489863*^9, 
+  3.8047641777097387`*^9}},ExpressionUUID->"e74d6931-eed3-4cb7-a415-\
+fd9114b4db2c"],
+
+Cell[CellGroupData[{
+
+Cell["Average Subscription Length", "Section",
+ CellChangeTimes->{{3.8041832278686647`*^9, 3.804183232705392*^9}, {
+  3.804183308239173*^9, 
+  3.804183311163658*^9}},ExpressionUUID->"db37eb87-7184-4342-99fd-\
+980aa03c987d"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Active Subscriptions: ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[{
+     RowBox[{" ", 
+       RowBox[{"Floor", "[", 
+         RowBox[{"Mean", "[", 
+           RowBox[{
+             RowBox[{"tykBold$ActiveSubscriptions", "[", 
+               RowBox[{"All", ",", "\"Duration\""}], "]"}], "//", "Normal"}], 
+           "]"}], "]"}]}], "General", TextData},
+    "NotebookTemplateExpression"], TextForm]],ExpressionUUID->
+  "880c6eb7-0685-411d-ac65-ea2064d5ff3a"],
+ " weeks"
+}], "Item",
+ CellChangeTimes->{
+  3.804183323849448*^9, {3.804183370633237*^9, 3.8041834041818457`*^9}, {
+   3.8041834830526457`*^9, 
+   3.804183483920936*^9}},ExpressionUUID->"fa4224e2-0632-4105-a4be-\
+73e1154c7520"],
+
+Cell[TextData[{
+ "Inactive Subscriptions: ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[{
+     RowBox[{" ", 
+       RowBox[{"Floor", "[", 
+         RowBox[{"Mean", "[", 
+           RowBox[{
+             RowBox[{"tykBold$InactiveSubscriptions", "[", 
+               RowBox[{"All", ",", "\"Duration\""}], "]"}], "//", "Normal"}], 
+           "]"}], "]"}]}], "General", TextData},
+    "NotebookTemplateExpression"], TextForm]],ExpressionUUID->
+  "e10af0e7-e58a-47cb-b5fd-5eca94893015"],
+ " weeks"
+}], "Item",
+ CellChangeTimes->{
+  3.804183323849448*^9, {3.804183370633237*^9, 3.804183421292615*^9}, {
+   3.8041834867448187`*^9, 
+   3.8041834873299522`*^9}},ExpressionUUID->"18fed3e8-2768-4702-ae90-\
+7d534cf04c42"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Summary Counts", "Section",
+ CellChangeTimes->{{3.804183254441481*^9, 
+  3.804183256285981*^9}},ExpressionUUID->"51d51502-b617-49c0-8d2e-\
+c3fee19f604c"],
+
+Cell[BoxData[Cell[BoxData[
+  FormBox[
+   TemplateBox[{
+     RowBox[{
+       RowBox[{"tdyRow", "[", "\[IndentingNewLine]", 
+         RowBox[{"{", "\[IndentingNewLine]", 
+           RowBox[{"tykBold$Item", "[", "\[IndentingNewLine]", 
+             RowBox[{"tdyToGrid", "[", "\[IndentingNewLine]", 
+               
+               RowBox[{
+                "tykBold$SubscriptionSummaryTable", ",", 
+                 "\[IndentingNewLine]", 
+                 RowBox[{"\"paging\"", "\[Rule]", "False"}], ",", 
+                 "\[IndentingNewLine]", 
+                 RowBox[{"\"title\"", "\[Rule]", "\"All Subscriptions\""}]}], 
+               "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", "]"}], 
+           "\[IndentingNewLine]", "}"}], "\[IndentingNewLine]", "]"}], " "}], 
+     "General", BoxData},
+    "NotebookTemplateExpression"], TextForm]],ExpressionUUID->
+  "459806c9-cbe8-4907-b13d-3043713c6eb8"]], "Text",
+ CellChangeTimes->{{3.80410962162068*^9, 3.804109644958453*^9}, 
+   3.804109679922256*^9, {3.8041524342364893`*^9, 3.804152439072803*^9}, {
+   3.804152594313608*^9, 3.8041526445904503`*^9}, {3.804183259244699*^9, 
+   3.8041832648698997`*^9}},
+ TextAlignment->Center,ExpressionUUID->"24449915-b3f9-4aa9-9864-dc2df41fde49"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[{
+     RowBox[{
+       RowBox[{"tdyRow", "[", "\[IndentingNewLine]", 
+         RowBox[{"{", "\[IndentingNewLine]", 
+           RowBox[{
+             RowBox[{"tykBold$Item", "[", "\[IndentingNewLine]", 
+               RowBox[{"tdyToGrid", "[", "\[IndentingNewLine]", 
+                 
+                 RowBox[{
+                  "tykBold$DiapersSummaryTable", ",", "\[IndentingNewLine]", 
+                   RowBox[{"\"paging\"", "\[Rule]", "False"}], ",", 
+                   "\[IndentingNewLine]", 
+                   RowBox[{"\"title\"", "\[Rule]", "\"Diapers\""}]}], 
+                 "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", "]"}], 
+             ",", "\[IndentingNewLine]", 
+             RowBox[{"tykBold$Item", "[", "\[IndentingNewLine]", 
+               RowBox[{"tdyToGrid", "[", "\[IndentingNewLine]", 
+                 
+                 RowBox[{
+                  "tykBold$LittlesGearSummaryTable", ",", 
+                   "\[IndentingNewLine]", 
+                   RowBox[{"\"paging\"", "\[Rule]", "False"}], ",", 
+                   "\[IndentingNewLine]", 
+                   RowBox[{"\"title\"", "\[Rule]", "\"Littles Gear\""}]}], 
+                 "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", "]"}]}],
+            "\[IndentingNewLine]", "}"}], "\[IndentingNewLine]", "]"}], " "}],
+      "General", TextData},
+    "NotebookTemplateExpression"], TextForm]],ExpressionUUID->
+  "7e5536f9-2143-4717-b31d-8c41b31d47d0"],
+ "\n"
+}], "Text",
+ CellChangeTimes->{{3.804110433711344*^9, 3.804110490991153*^9}, {
+   3.8041524163378963`*^9, 3.804152425012669*^9}, {3.804152516642934*^9, 
+   3.804152516642974*^9}, {3.804152668306608*^9, 3.804152702111662*^9}, {
+   3.804152750004291*^9, 3.8041527500043373`*^9}, 3.804153295855814*^9},
+ TextAlignment->Center,ExpressionUUID->"6393691f-a172-4e1a-b33e-ddbdb4149b7b"],
+
+Cell[CellGroupData[{
+
+Cell["Paused Subscriptions", "Subsection",
+ CellChangeTimes->{{3.804183172956902*^9, 
+  3.8041831764885597`*^9}},ExpressionUUID->"85d48168-c403-4b4d-b0c8-\
+f7cbb02dccba"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tdyRow", "[", "\[IndentingNewLine]", 
+      RowBox[{"{", "\[IndentingNewLine]", 
+        RowBox[{"tykBold$Item", "[", "\[IndentingNewLine]", 
+          RowBox[{"\"There are currently \"", "<>", 
+            RowBox[{"str$Tidy", "[", 
+              RowBox[{"Length", "[", "tykBold$PausedSubscriptions", "]"}], 
+              "]"}], "<>", "\" paused subscriptions.\""}], 
+          "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", "}"}], " ", 
+      "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"97122915-ea75-40ec-914e-fcaf518a8c79"]], "Text",\
+
+ CellChangeTimes->{{3.804152484746451*^9, 3.8041525119969463`*^9}, {
+  3.804152713575984*^9, 3.804152713576024*^9}},
+ TextAlignment->Center,ExpressionUUID->"bb06292c-8926-469e-be48-dd814605590d"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"d40a690f-042b-43b5-ac0c-6b9efe04902f"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Trend", "Section",
+ CellChangeTimes->{{3.8047641940341377`*^9, 
+  3.8047641945961323`*^9}},ExpressionUUID->"c8231b4c-ad82-41c7-a866-\
+a70456a45c2a"],
+
+Cell["\<\
+The chart below shows the weekly trend of new subscriptions, unsubscribers \
+and the trend of total subscriptions by week.  In the upper plot, the points \
+indicate weekly changes to the number of subscriptions while the lines \
+provide 4-week moving averages.  The lower plot shows the number of active \
+subscriptions by week.\
+\>", "Text",
+ CellChangeTimes->{{3.804764528206798*^9, 3.804764687113871*^9}, 
+   3.805802852610424*^9},ExpressionUUID->"0e26fd82-6efa-4006-ab63-\
+035acea8b1b6"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{
+      RowBox[{"tykBold$PlotSubscriptionTrend", "[", "]"}], " "}], "General", 
+    TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"9c1b3870-c26d-4d8e-bf9b-d49be50e4167"]], "Text",\
+
+ CellChangeTimes->{
+  3.804764257176149*^9, {3.804764298450933*^9, 3.804764300888031*^9}},
+ TextAlignment->Center,ExpressionUUID->"8fb9e23d-54eb-41fb-aa89-4203990ae78b"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"2f705194-5f7e-46bb-b431-46cdbdf7cf1b"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Diapers", "Chapter",
+ CellChangeTimes->{{3.804153752987015*^9, 
+  3.804153753863761*^9}},ExpressionUUID->"127c850f-cfc8-458b-8edd-\
+c0915cb037e4"],
+
+Cell[CellGroupData[{
+
+Cell["Big Littles Diaper Boxes", "Section",
+ CellChangeTimes->{{3.8041731508937693`*^9, 
+  3.8041731583977613`*^9}},ExpressionUUID->"34353d83-f5ea-44e8-9044-\
+56c7586579de"],
+
+Cell[CellGroupData[{
+
+Cell["Average Subscription Length", "Subsection",
+ CellChangeTimes->{{3.804182956008827*^9, 
+  3.804182961949456*^9}},ExpressionUUID->"f17802ca-db05-4456-ae5a-\
+659c55621184"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[{
+     RowBox[{
+       RowBox[{"tykBold$DiaperBoxes", "[", "\"Average Duration\"", "]"}], 
+       " "}], "General", TextData},
+    "NotebookTemplateExpression"], TextForm]],ExpressionUUID->
+  "0aa42db8-6a73-4816-ba09-1f1d1d1824e2"],
+ " weeks."
+}], "Text",
+ CellChangeTimes->{{3.804182974451015*^9, 3.804183004407034*^9}, {
+  3.8041830490263147`*^9, 3.80418305050019*^9}, {3.804183118721512*^9, 
+  3.8041831363832912`*^9}},
+ TextAlignment->Center,ExpressionUUID->"77ccc903-886c-4648-991a-60de08e6712d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["By Size", "Subsection",
+ CellChangeTimes->{{3.80417964116721*^9, 
+  3.804179644845376*^9}},ExpressionUUID->"8a7e0aee-3948-4cf3-8818-\
+adf866002af9"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tykBold$Report$BuildWidget$Counts", "[", "\[IndentingNewLine]", 
+      RowBox[{"tykBold$DiaperBoxes", "[", "\"Counts by Size\"", "]"}], 
+      "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"c4c5e573-5b01-42c1-b3b4-703b7b0a140d"]], "Text",\
+
+ CellChangeTimes->{{3.804152846894114*^9, 3.804152885645156*^9}, {
+  3.804152939123637*^9, 3.804152942031798*^9}, {3.804153149045927*^9, 
+  3.804153160977531*^9}, {3.804153402555315*^9, 3.8041534053562593`*^9}, {
+  3.804173168402499*^9, 3.804173171731833*^9}, {3.8041794712756023`*^9, 
+  3.8041794760387697`*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"b0127080-aabe-41c8-83c2-4b8c04b9e3e9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["By Gender", "Subsection",
+ CellChangeTimes->{{3.8041796529915648`*^9, 
+  3.804179656467067*^9}},ExpressionUUID->"63e51225-0c5f-4913-823f-\
+f982b120da8a"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tykBold$Report$BuildWidget$Counts", "[", "\[IndentingNewLine]", 
+      RowBox[{"tykBold$DiaperBoxes", "[", "\"Counts by Gender\"", "]"}], 
+      "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"300ec003-d2ae-4e6e-9db1-616e95c95713"]], "Text",\
+
+ CellChangeTimes->{{3.804152846894114*^9, 3.804152885645156*^9}, {
+  3.804152939123637*^9, 3.804152942031798*^9}, {3.804153149045927*^9, 
+  3.804153160977531*^9}, {3.804153402555315*^9, 3.8041534053562593`*^9}, {
+  3.804173168402499*^9, 3.804173171731833*^9}, {3.8041794712756023`*^9, 
+  3.804179501812438*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"ba30ebdc-81d8-47b8-a839-e90e6701d412"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Breakout", "Subsection",
+ CellChangeTimes->{{3.8041796688428698`*^9, 
+  3.804179677414691*^9}},ExpressionUUID->"c6d70e5b-7d02-4739-9665-\
+8f24f5c43eb6"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tykBold$Report$BuildWidget$Counts", "[", "\[IndentingNewLine]", 
+      RowBox[{"tykBold$DiaperBoxes", "[", "\"Breakout Counts\"", "]"}], 
+      "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"2ebe1bff-d7b9-4cfd-8bc9-8fa33a524982"]], "Text",\
+
+ CellChangeTimes->{{3.804152846894114*^9, 3.804152885645156*^9}, {
+  3.804152939123637*^9, 3.804152942031798*^9}, {3.804153149045927*^9, 
+  3.804153160977531*^9}, {3.804153402555315*^9, 3.8041534053562593`*^9}, {
+  3.804173168402499*^9, 3.804173171731833*^9}, {3.8041794712756023`*^9, 
+  3.804179507684952*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"7fe5e7f1-3b0e-42be-b4d7-1db790a01195"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"f197bc78-5678-4808-a481-169d3255f24e"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Littles Gear Diapers", "Section",
+ CellChangeTimes->{{3.804173181799754*^9, 
+  3.80417318501626*^9}},ExpressionUUID->"9d53a148-0360-44bd-a8dc-\
+49f35d30b5ba"],
+
+Cell[CellGroupData[{
+
+Cell["Average Subscription Length", "Subsection",
+ CellChangeTimes->{{3.804182956008827*^9, 
+  3.804182961949456*^9}},ExpressionUUID->"d6183193-f7e7-45c3-b624-\
+30d3dac1eb86"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[{
+     RowBox[{
+       RowBox[{
+        "tykBold$LittlesGearDiapers", "[", "\"Average Duration\"", "]"}], 
+       " "}], "General", TextData},
+    "NotebookTemplateExpression"], TextForm]],ExpressionUUID->
+  "66ad3293-ed25-49ca-ac7d-c919dd69a66c"],
+ " weeks."
+}], "Text",
+ CellChangeTimes->{{3.804182974451015*^9, 3.804183004407034*^9}, {
+  3.8041830490263147`*^9, 3.80418305050019*^9}, {3.804183118721512*^9, 
+  3.804183146892383*^9}},
+ TextAlignment->Center,ExpressionUUID->"01d9fc6c-ba61-4281-a505-f65df7a39a8f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["By Size", "Subsection",
+ CellChangeTimes->{{3.80417964116721*^9, 
+  3.804179644845376*^9}},ExpressionUUID->"2369d19d-310a-44e7-a34c-\
+49119eac2b45"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tykBold$Report$BuildWidget$Counts", "[", "\[IndentingNewLine]", 
+      RowBox[{"tykBold$LittlesGearDiapers", "[", "\"Counts by Size\"", "]"}], 
+      "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"6574a158-923a-4ea8-9f84-bc0da9d86291"]], "Text",\
+
+ CellChangeTimes->{{3.804152846894114*^9, 3.804152885645156*^9}, {
+  3.804152939123637*^9, 3.804152942031798*^9}, {3.804153149045927*^9, 
+  3.804153160977531*^9}, {3.804153402555315*^9, 3.8041534053562593`*^9}, {
+  3.804173168402499*^9, 3.804173171731833*^9}, {3.8041794712756023`*^9, 
+  3.8041794760387697`*^9}, {3.804180209231867*^9, 3.8041802176147003`*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"582068a9-2ace-4d97-9324-30a6e89bf495"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["By Gender", "Subsection",
+ CellChangeTimes->{{3.8041796529915648`*^9, 
+  3.804179656467067*^9}},ExpressionUUID->"933e49b6-f7de-4b9f-8904-\
+e948664aa693"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tykBold$Report$BuildWidget$Counts", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       "tykBold$LittlesGearDiapers", "[", "\"Counts by Gender\"", "]"}], 
+      "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"31d85d98-1dfe-4443-89fc-b43ba8c437d2"]], "Text",\
+
+ CellChangeTimes->{{3.804152846894114*^9, 3.804152885645156*^9}, {
+  3.804152939123637*^9, 3.804152942031798*^9}, {3.804153149045927*^9, 
+  3.804153160977531*^9}, {3.804153402555315*^9, 3.8041534053562593`*^9}, {
+  3.804173168402499*^9, 3.804173171731833*^9}, {3.8041794712756023`*^9, 
+  3.804179501812438*^9}, {3.804180222812554*^9, 3.804180222812595*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"1285244f-10ab-4360-95b5-25d7c12b2353"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["By Gender and Size", "Subsection",
+ CellChangeTimes->{{3.8041796529915648`*^9, 3.804179656467067*^9}, {
+  3.805749944007637*^9, 
+  3.805749945818563*^9}},ExpressionUUID->"7452da67-9fd1-4f53-a0ea-\
+4d58133907b9"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tykBold$Report$BuildWidget$Counts", "[", "\[IndentingNewLine]", 
+      RowBox[{"tykBold$LittlesGearDiapers", "[", "\"Breakout Counts\"", "]"}],
+       "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"33749a3b-867e-48b7-9c5c-dbfacb66dcc9"]], "Text",\
+
+ CellChangeTimes->{{3.804152846894114*^9, 3.804152885645156*^9}, {
+  3.804152939123637*^9, 3.804152942031798*^9}, {3.804153149045927*^9, 
+  3.804153160977531*^9}, {3.804153402555315*^9, 3.8041534053562593`*^9}, {
+  3.804173168402499*^9, 3.804173171731833*^9}, {3.8041794712756023`*^9, 
+  3.804179501812438*^9}, {3.804180222812554*^9, 3.804180222812595*^9}, {
+  3.80574994876678*^9, 3.805749951264526*^9}, {3.805750388825877*^9, 
+  3.805750392952168*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"c3014fac-a634-4d62-8b9a-4483c1f96623"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"e3a7f999-9cd5-4ded-b6aa-37684020efa6"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Diaper Bags", "Section",
+ CellChangeTimes->{{3.8041732047389307`*^9, 
+  3.80417320802345*^9}},ExpressionUUID->"f6fb5c55-68bf-4fda-b3a4-\
+cc0193886127"],
+
+Cell[CellGroupData[{
+
+Cell["Average Subscription Length", "Subsection",
+ CellChangeTimes->{{3.804182956008827*^9, 
+  3.804182961949456*^9}},ExpressionUUID->"1ac1f138-3dcb-4918-bdb0-\
+0af1dc98b3aa"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[{
+     RowBox[{
+       RowBox[{"tykBold$DiaperBags", "[", "\"Average Duration\"", "]"}], 
+       " "}], "General", TextData},
+    "NotebookTemplateExpression"], TextForm]],ExpressionUUID->
+  "9ad23d4a-7b0d-43b2-a942-a7cef8b62709"],
+ " weeks."
+}], "Text",
+ CellChangeTimes->{{3.804182974451015*^9, 3.804183004407034*^9}, {
+  3.8041830490263147`*^9, 3.80418305050019*^9}, {3.804183118721512*^9, 
+  3.804183121299096*^9}},
+ TextAlignment->Center,ExpressionUUID->"c41f0483-4a4a-4f2b-b0d2-458d7e97e8c7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["By Size", "Subsection",
+ CellChangeTimes->{{3.80417964116721*^9, 
+  3.804179644845376*^9}},ExpressionUUID->"8dbd034e-db51-4c5b-8a88-\
+d4644f7efc21"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tykBold$Report$BuildWidget$Counts", "[", "\[IndentingNewLine]", 
+      RowBox[{"tykBold$DiaperBags", "[", "\"Counts by Size\"", "]"}], 
+      "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"0a73af41-1f02-422e-be42-954993ddf611"]], "Text",\
+
+ CellChangeTimes->{{3.804152846894114*^9, 3.804152885645156*^9}, {
+  3.804152939123637*^9, 3.804152942031798*^9}, {3.804153149045927*^9, 
+  3.804153160977531*^9}, {3.804153402555315*^9, 3.8041534053562593`*^9}, {
+  3.804173168402499*^9, 3.804173171731833*^9}, {3.8041794712756023`*^9, 
+  3.8041794760387697`*^9}, {3.804180209231867*^9, 3.8041802176147003`*^9}, {
+  3.804180642489442*^9, 3.804180642489493*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"d7f24869-c4e6-488b-a8b7-806e33b4e26c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["By Gender", "Subsection",
+ CellChangeTimes->{{3.8041796529915648`*^9, 
+  3.804179656467067*^9}},ExpressionUUID->"93a1d7f2-d5f4-45a6-88de-\
+f99b01126b76"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tykBold$Report$BuildWidget$Counts", "[", "\[IndentingNewLine]", 
+      RowBox[{"tykBold$DiaperBags", "[", "\"Counts by Gender\"", "]"}], 
+      "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"76f30f69-6429-46ee-bff4-3fe2677218f6"]], "Text",\
+
+ CellChangeTimes->{{3.804152846894114*^9, 3.804152885645156*^9}, {
+  3.804152939123637*^9, 3.804152942031798*^9}, {3.804153149045927*^9, 
+  3.804153160977531*^9}, {3.804153402555315*^9, 3.8041534053562593`*^9}, {
+  3.804173168402499*^9, 3.804173171731833*^9}, {3.8041794712756023`*^9, 
+  3.804179501812438*^9}, {3.804180222812554*^9, 3.804180222812595*^9}, {
+  3.804180643926936*^9, 3.804180643926979*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"08092f0f-c9b4-4dd6-8607-4624656f0bd6"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Breakouts", "Subsection",
+ CellChangeTimes->{{3.8041805320989447`*^9, 
+  3.804180540030156*^9}},ExpressionUUID->"bf86deb2-2632-4632-9ae9-\
+7c1216570241"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tykBold$Report$BuildWidget$Counts", "[", "\[IndentingNewLine]", 
+      RowBox[{"tykBold$DiaperBags", "[", "\"Breakout Counts\"", "]"}], 
+      "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"e1cd5a0b-02cf-4f4e-b019-064f545a07e5"]], "Text",\
+
+ CellChangeTimes->{{3.804152846894114*^9, 3.804152885645156*^9}, {
+  3.804152939123637*^9, 3.804152942031798*^9}, {3.804153149045927*^9, 
+  3.804153160977531*^9}, {3.804153402555315*^9, 3.8041534053562593`*^9}, {
+  3.804173168402499*^9, 3.804173171731833*^9}, {3.8041794712756023`*^9, 
+  3.804179507684952*^9}, {3.804180646290122*^9, 3.804180646290163*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"66333893-f855-4a56-ae77-20954fc33965"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"440b12ce-ba22-4b76-aa0c-0eca311c68ae"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Littles Gear", "Chapter",
+ CellChangeTimes->{{3.804153696140263*^9, 
+  3.8041536999304132`*^9}},ExpressionUUID->"3a661559-534c-492c-a58a-\
+2f81ccc8a8ae"],
+
+Cell[CellGroupData[{
+
+Cell["Summary", "Section",
+ CellChangeTimes->{{3.804154132634544*^9, 
+  3.804154133746772*^9}},ExpressionUUID->"bf8e2689-518a-4b77-b267-\
+1e38bccd5e6b"],
+
+Cell[CellGroupData[{
+
+Cell["Average Subscription Length", "Subsection",
+ CellChangeTimes->{{3.804182956008827*^9, 
+  3.804182961949456*^9}},ExpressionUUID->"09ce79fe-9b74-4848-9312-\
+7c2359db854e"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[{
+     RowBox[{
+       RowBox[{
+        "tykBold$LittlesGearOutfits", "[", "\"Average Duration\"", "]"}], 
+       " "}], "General", TextData},
+    "NotebookTemplateExpression"], TextForm]],ExpressionUUID->
+  "1758e69d-f3d8-46be-94e1-caee53ffc07a"],
+ " weeks."
+}], "Text",
+ CellChangeTimes->{{3.804182974451015*^9, 3.804183004407034*^9}, {
+  3.8041830490263147`*^9, 3.80418305050019*^9}},
+ TextAlignment->Center,ExpressionUUID->"a4f400b0-d5db-480a-815f-82c558a46380"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Summary", "Subsection",
+ CellChangeTimes->{{3.8041797115841417`*^9, 
+  3.804179733214799*^9}},ExpressionUUID->"01c186a1-6508-454d-b593-\
+b86dfc499712"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tdyToGrid", "[", 
+      RowBox[{"tykBold$LittlesGearSummaryTable", ",", 
+        RowBox[{"\"paging\"", "\[Rule]", "False"}]}], "]"}], "General", 
+    TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"2b90e35b-60eb-4251-a030-81e055a70041"]], "Text",\
+
+ CellChangeTimes->{{3.80415382302499*^9, 3.804153887508622*^9}, {
+  3.804154016580326*^9, 3.8041540318673687`*^9}, {3.804154416197081*^9, 
+  3.8041544199520597`*^9}, {3.804154482008678*^9, 3.8041544856080236`*^9}, {
+  3.804182911084998*^9, 3.8041829118529987`*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"d00ae056-e131-4467-b45d-7237f39df7fc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Anomalies", "Subsection",
+ CellChangeTimes->{{3.804179924410713*^9, 
+  3.804179927785977*^9}},ExpressionUUID->"9f073d34-fd47-4114-b522-\
+5a4b930f406a"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Outfits without Snappies: ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[{
+     RowBox[{
+       RowBox[{"Length", "[", 
+         RowBox[{"Complement", "[", 
+           RowBox[{
+             RowBox[{"tykBold$LittlesGearOutfits", "[", "\"IDs\"", "]"}], ",", 
+             RowBox[{"tykBold$LittlesGearSnappies", "[", "\"IDs\"", "]"}]}], 
+           "]"}], "]"}], " "}], "General", TextData},
+    "NotebookTemplateExpression"], TextForm]],ExpressionUUID->
+  "a3cc5794-84e0-4c19-afed-cde2ae41cd5c"]
+}], "Item",
+ CellChangeTimes->{{3.804179867958188*^9, 3.804179914375772*^9}, {
+  3.8041799488839912`*^9, 
+  3.804179948885373*^9}},ExpressionUUID->"36516073-175f-43ec-b8aa-\
+20ef99568533"],
+
+Cell[TextData[{
+ "Diapers without Snappies:  ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[{
+     RowBox[{"Length", "[", 
+       RowBox[{"Complement", "[", 
+         RowBox[{
+           RowBox[{"tykBold$LittlesGearDiapers", "[", "\"IDs\"", "]"}], ",", 
+           RowBox[{"tykBold$LittlesGearSnappies", "[", "\"IDs\"", "]"}]}], 
+         "]"}], "]"}], "General", TextData},
+    "NotebookTemplateExpression"], TextForm]],ExpressionUUID->
+  "a23a4762-c186-4d01-a0e6-19835aed212f"]
+}], "Item",
+ CellChangeTimes->{{3.804179867958188*^9, 3.804179914375772*^9}, {
+  3.804179950005011*^9, 
+  3.804179976568124*^9}},ExpressionUUID->"46e2be54-ec83-49a3-a7d3-\
+692cdcdbfaf7"]
+}, Open  ]],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"19674a84-914e-4ece-91b3-228302ec9057"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Snappies", "Section",
+ CellChangeTimes->{{3.804154155853887*^9, 
+  3.80415415675357*^9}},ExpressionUUID->"f4d51e8f-1011-4dc4-9977-\
+539701112d95"],
+
+Cell[CellGroupData[{
+
+Cell["Average Subscription Length", "Subsection",
+ CellChangeTimes->{{3.804182956008827*^9, 
+  3.804182961949456*^9}},ExpressionUUID->"7dde9244-39e7-4208-8951-\
+958a5e72f5a0"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[{
+     RowBox[{
+       RowBox[{
+        "tykBold$LittlesGearSnappies", "[", "\"Average Duration\"", "]"}], 
+       " "}], "General", TextData},
+    "NotebookTemplateExpression"], TextForm]],ExpressionUUID->
+  "669ada34-d0f2-4d25-a20c-b6c98202164b"],
+ " weeks."
+}], "Text",
+ CellChangeTimes->{{3.804182974451015*^9, 3.804183004407034*^9}},
+ TextAlignment->Center,ExpressionUUID->"49fa6403-f4cb-4a7f-abc2-2c68d42c0664"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["By Size", "Subsection",
+ CellChangeTimes->{{3.80417964116721*^9, 
+  3.804179644845376*^9}},ExpressionUUID->"b4a13af3-081e-4acc-9ce8-\
+38f553ff1511"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tykBold$Report$BuildWidget$Counts", "[", "\[IndentingNewLine]", 
+      RowBox[{"tykBold$LittlesGearSnappies", "[", "\"Counts by Size\"", "]"}],
+       "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"37300552-be2c-4572-bad1-60341c9e511b"]], "Text",\
+
+ CellChangeTimes->{{3.804152846894114*^9, 3.804152885645156*^9}, {
+  3.804152939123637*^9, 3.804152942031798*^9}, {3.804153149045927*^9, 
+  3.804153160977531*^9}, {3.804153402555315*^9, 3.8041534053562593`*^9}, {
+  3.804173168402499*^9, 3.804173171731833*^9}, {3.8041794712756023`*^9, 
+  3.8041794760387697`*^9}, {3.8041798027307997`*^9, 3.804179805702449*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"d814680f-ee9e-4499-a0bc-a852e2559469"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["By Gender", "Subsection",
+ CellChangeTimes->{{3.8041796529915648`*^9, 
+  3.804179656467067*^9}},ExpressionUUID->"e4531b4d-ab9f-40ab-99aa-\
+006efcf235fc"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tykBold$Report$BuildWidget$Counts", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       "tykBold$LittlesGearSnappies", "[", "\"Counts by Gender\"", "]"}], 
+      "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"a093f37f-76e2-49fb-947f-0a07ceaabbb7"]], "Text",\
+
+ CellChangeTimes->{{3.804152846894114*^9, 3.804152885645156*^9}, {
+  3.804152939123637*^9, 3.804152942031798*^9}, {3.804153149045927*^9, 
+  3.804153160977531*^9}, {3.804153402555315*^9, 3.8041534053562593`*^9}, {
+  3.804173168402499*^9, 3.804173171731833*^9}, {3.8041794712756023`*^9, 
+  3.804179501812438*^9}, {3.8041798094705963`*^9, 3.8041798094706383`*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"9da52413-4e98-4e9f-b81c-2e16fd326800"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["By Gender and Size", "Subsection",
+ CellChangeTimes->{{3.8041796529915648`*^9, 3.804179656467067*^9}, {
+  3.807993432013846*^9, 
+  3.807993434263455*^9}},ExpressionUUID->"6421e7e2-846a-4f58-855f-\
+88affb85f9d3"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tykBold$Report$BuildWidget$Counts", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       "tykBold$LittlesGearSnappies", "[", "\"Breakout Counts\"", "]"}], 
+      "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"44252caf-492e-4717-a9d4-949a12a44339"]], "Text",\
+
+ CellChangeTimes->{{3.804152846894114*^9, 3.804152885645156*^9}, {
+  3.804152939123637*^9, 3.804152942031798*^9}, {3.804153149045927*^9, 
+  3.804153160977531*^9}, {3.804153402555315*^9, 3.8041534053562593`*^9}, {
+  3.804173168402499*^9, 3.804173171731833*^9}, {3.8041794712756023`*^9, 
+  3.804179501812438*^9}, {3.8041798094705963`*^9, 3.8041798094706383`*^9}, {
+  3.804180028478325*^9, 3.804180028478362*^9}, {3.8079934092189407`*^9, 
+  3.8079934137101107`*^9}, {3.80799344649333*^9, 3.8079934688370543`*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"56dfd222-8ccf-4088-9e23-4c5b3f9816e8"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"e5dad896-f5c4-48e4-8378-e6e159518cbd"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Outfits", "Section",
+ CellChangeTimes->{{3.804154307450354*^9, 
+  3.8041543089454117`*^9}},ExpressionUUID->"f499bdc0-610a-4987-ac8e-\
+0ecd3571b181"],
+
+Cell[CellGroupData[{
+
+Cell["Average Subscription Length", "Subsection",
+ CellChangeTimes->{{3.804182956008827*^9, 
+  3.804182961949456*^9}},ExpressionUUID->"34bf17c9-b74b-4426-b27d-\
+f6e9e3546124"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[{
+     RowBox[{
+       RowBox[{
+        "tykBold$LittlesGearOutfits", "[", "\"Average Duration\"", "]"}], 
+       " "}], "General", TextData},
+    "NotebookTemplateExpression"], TextForm]],ExpressionUUID->
+  "1af6c8e0-75c0-4eb6-b7d8-91869a9b6301"],
+ " weeks."
+}], "Text",
+ CellChangeTimes->{{3.804182974451015*^9, 3.804183004407034*^9}, {
+  3.8041830490263147`*^9, 3.80418305050019*^9}},
+ TextAlignment->Center,ExpressionUUID->"b26c202d-27aa-464c-8157-9f654ab4a14f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["By Size", "Subsection",
+ CellChangeTimes->{{3.80417964116721*^9, 
+  3.804179644845376*^9}},ExpressionUUID->"5f9463be-5f85-4638-8b59-\
+24dbc54d32b1"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tykBold$Report$BuildWidget$Counts", "[", "\[IndentingNewLine]", 
+      RowBox[{"tykBold$LittlesGearOutfits", "[", "\"Counts by Size\"", "]"}], 
+      "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"9440c9a6-6020-4409-85d0-53d73ef3b280"]], "Text",\
+
+ CellChangeTimes->{{3.804152846894114*^9, 3.804152885645156*^9}, {
+  3.804152939123637*^9, 3.804152942031798*^9}, {3.804153149045927*^9, 
+  3.804153160977531*^9}, {3.804153402555315*^9, 3.8041534053562593`*^9}, {
+  3.804173168402499*^9, 3.804173171731833*^9}, {3.8041794712756023`*^9, 
+  3.8041794760387697`*^9}, {3.8041798027307997`*^9, 3.804179805702449*^9}, {
+  3.804180018677603*^9, 3.8041800246610117`*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"9f35900d-26fb-40ea-bbf9-4fff4002a903"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["By Gender", "Subsection",
+ CellChangeTimes->{{3.8041796529915648`*^9, 
+  3.804179656467067*^9}},ExpressionUUID->"2ba1e173-c8c3-4c29-84a2-\
+29acd620bf7a"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tykBold$Report$BuildWidget$Counts", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       "tykBold$LittlesGearOutfits", "[", "\"Counts by Gender\"", "]"}], 
+      "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"e1d1a31f-8749-4a44-beb7-fccebf933237"]], "Text",\
+
+ CellChangeTimes->{{3.804152846894114*^9, 3.804152885645156*^9}, {
+  3.804152939123637*^9, 3.804152942031798*^9}, {3.804153149045927*^9, 
+  3.804153160977531*^9}, {3.804153402555315*^9, 3.8041534053562593`*^9}, {
+  3.804173168402499*^9, 3.804173171731833*^9}, {3.8041794712756023`*^9, 
+  3.804179501812438*^9}, {3.8041798094705963`*^9, 3.8041798094706383`*^9}, {
+  3.804180028478325*^9, 3.804180028478362*^9}, {3.8079934092189407`*^9, 
+  3.8079934137101107`*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"2235676e-eaae-46a7-b7b7-3bac24fc9434"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["By Gender and Size", "Subsection",
+ CellChangeTimes->{{3.8041796529915648`*^9, 3.804179656467067*^9}, {
+  3.807993432013846*^9, 
+  3.807993434263455*^9}},ExpressionUUID->"503007ec-04be-4c47-9682-\
+16101d4cb015"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tykBold$Report$BuildWidget$Counts", "[", "\[IndentingNewLine]", 
+      RowBox[{"tykBold$LittlesGearOutfits", "[", "\"Breakout Counts\"", "]"}],
+       "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"dfbb0c63-0a86-4fd5-8418-4451808a97ac"]], "Text",\
+
+ CellChangeTimes->{{3.804152846894114*^9, 3.804152885645156*^9}, {
+  3.804152939123637*^9, 3.804152942031798*^9}, {3.804153149045927*^9, 
+  3.804153160977531*^9}, {3.804153402555315*^9, 3.8041534053562593`*^9}, {
+  3.804173168402499*^9, 3.804173171731833*^9}, {3.8041794712756023`*^9, 
+  3.804179501812438*^9}, {3.8041798094705963`*^9, 3.8041798094706383`*^9}, {
+  3.804180028478325*^9, 3.804180028478362*^9}, {3.8079934092189407`*^9, 
+  3.8079934137101107`*^9}, {3.80799344649333*^9, 3.8079934514421883`*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"64e07894-5698-4b51-a166-de6a5f994701"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"a6e14871-58da-47a5-a37e-d9ef089d75a8"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Littles Gear Diapers", "Section",
+ CellChangeTimes->{{3.804173181799754*^9, 
+  3.80417318501626*^9}},ExpressionUUID->"fc18ff22-d9ea-443b-a1b1-\
+eeb421c7e944"],
+
+Cell[CellGroupData[{
+
+Cell["Average Subscription Length", "Subsection",
+ CellChangeTimes->{{3.804182956008827*^9, 
+  3.804182961949456*^9}},ExpressionUUID->"f35d0f93-32ab-4dff-a1b6-\
+7a9ddc872679"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[{
+     RowBox[{
+       RowBox[{
+        "tykBold$LittlesGearDiapers", "[", "\"Average Duration\"", "]"}], 
+       " "}], "General", TextData},
+    "NotebookTemplateExpression"], TextForm]],ExpressionUUID->
+  "a78bc60e-2bd8-44f6-88a7-2c0bd414461e"],
+ " weeks."
+}], "Text",
+ CellChangeTimes->{{3.804182974451015*^9, 3.804183004407034*^9}, {
+  3.8041830490263147`*^9, 3.804183067971918*^9}},
+ TextAlignment->Center,ExpressionUUID->"773bceaf-c2e6-496d-85d4-c3cf0b0011a2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["By Size", "Subsection",
+ CellChangeTimes->{{3.80417964116721*^9, 
+  3.804179644845376*^9}},ExpressionUUID->"a97c2506-2141-4b04-9b74-\
+23c07b6a640b"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tykBold$Report$BuildWidget$Counts", "[", "\[IndentingNewLine]", 
+      RowBox[{"tykBold$LittlesGearDiapers", "[", "\"Counts by Size\"", "]"}], 
+      "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"e05db4c6-eebe-4ca9-8a78-029811dce185"]], "Text",\
+
+ CellChangeTimes->{{3.804152846894114*^9, 3.804152885645156*^9}, {
+  3.804152939123637*^9, 3.804152942031798*^9}, {3.804153149045927*^9, 
+  3.804153160977531*^9}, {3.804153402555315*^9, 3.8041534053562593`*^9}, {
+  3.804173168402499*^9, 3.804173171731833*^9}, {3.8041794712756023`*^9, 
+  3.8041794760387697`*^9}, {3.804180209231867*^9, 3.8041802176147003`*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"17383865-9c95-454e-b4fa-a8408f095298"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["By Gender", "Subsection",
+ CellChangeTimes->{{3.8041796529915648`*^9, 
+  3.804179656467067*^9}},ExpressionUUID->"df6f06f9-12a7-46ef-b2bc-\
+8674b6f976f7"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tykBold$Report$BuildWidget$Counts", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       "tykBold$LittlesGearDiapers", "[", "\"Counts by Gender\"", "]"}], 
+      "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"5cb97493-38b0-4b36-a633-9e2c4ed0e81c"]], "Text",\
+
+ CellChangeTimes->{{3.804152846894114*^9, 3.804152885645156*^9}, {
+  3.804152939123637*^9, 3.804152942031798*^9}, {3.804153149045927*^9, 
+  3.804153160977531*^9}, {3.804153402555315*^9, 3.8041534053562593`*^9}, {
+  3.804173168402499*^9, 3.804173171731833*^9}, {3.8041794712756023`*^9, 
+  3.804179501812438*^9}, {3.804180222812554*^9, 3.804180222812595*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"39177170-b91b-4740-8f81-0dc76bb17718"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["By Gender and Size", "Subsection",
+ CellChangeTimes->{{3.8041796529915648`*^9, 3.804179656467067*^9}, {
+  3.805749944007637*^9, 
+  3.805749945818563*^9}},ExpressionUUID->"f0e6605c-6662-41b5-b613-\
+1185b05f95f6"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{"tykBold$Report$BuildWidget$Counts", "[", "\[IndentingNewLine]", 
+      RowBox[{"tykBold$LittlesGearDiapers", "[", "\"Breakout Counts\"", "]"}],
+       "\[IndentingNewLine]", "]"}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"f095dc35-8185-4fb3-8c5b-f3b3997b11eb"]], "Text",\
+
+ CellChangeTimes->{{3.804152846894114*^9, 3.804152885645156*^9}, {
+  3.804152939123637*^9, 3.804152942031798*^9}, {3.804153149045927*^9, 
+  3.804153160977531*^9}, {3.804153402555315*^9, 3.8041534053562593`*^9}, {
+  3.804173168402499*^9, 3.804173171731833*^9}, {3.8041794712756023`*^9, 
+  3.804179501812438*^9}, {3.804180222812554*^9, 3.804180222812595*^9}, {
+  3.80574994876678*^9, 3.805749951264526*^9}, {3.805750388825877*^9, 
+  3.805750392952168*^9}},
+ TextAlignment->Center,
+ FontSize->10,ExpressionUUID->"62cc0884-61ed-4d04-97ea-d5cde30fc335"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"be4a6020-5acc-490b-bebb-c15ea4a649d2"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Appendix", "Chapter",
+ CellChangeTimes->{{3.804154754395385*^9, 
+  3.8041547561498137`*^9}},ExpressionUUID->"df26d6ef-5594-4218-9275-\
+92ce9de5ac90"],
+
+Cell[CellGroupData[{
+
+Cell["Anomalies", "Section",
+ CellChangeTimes->{{3.804154763743968*^9, 
+  3.8041547768610983`*^9}},ExpressionUUID->"02b69b0d-5334-4910-bca3-\
+7f9e55297bdc"],
+
+Cell["This section provides a list of strange data conditions.", "Text",
+ CellChangeTimes->{
+  3.8041547921464376`*^9},ExpressionUUID->"a6a88cb3-c21c-4825-b3da-\
+9cd047424b2a"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+The following Littles Gear subscription Ids include diapers but not Snappies:\
+\
+\>", "Subsection",
+ CellChangeTimes->{
+  3.804154824388101*^9, {3.804180320423868*^9, 
+   3.804180320786297*^9}},ExpressionUUID->"de6ef7de-da0e-4bd6-a1c6-\
+0e01aaaf0f34"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{
+      RowBox[{"Complement", "[", 
+        RowBox[{
+          RowBox[{"tykBold$LittlesGearDiapers", "[", "\"IDs\"", "]"}], ",", 
+          RowBox[{"tykBold$LittlesGearSnappies", "[", "\"IDs\"", "]"}]}], 
+        "]"}], " "}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"df5e90fc-808c-4bbf-895e-df1191e5f2c6"]], "Text",\
+
+ CellChangeTimes->{{3.8041548921954737`*^9, 
+  3.8041548929158487`*^9}},ExpressionUUID->"bf9ace98-d233-415f-8612-\
+ba29cd8b4966"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+The following Littles Gear subscription Ids include Diapers but not Snappies:\
+\
+\>", "Subsection",
+ CellChangeTimes->{{3.8041549081798267`*^9, 
+  3.804154927005961*^9}},ExpressionUUID->"628d4b78-9ccd-4271-9266-\
+9b557a9b4043"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  TemplateBox[{
+    RowBox[{
+      RowBox[{"Complement", "[", 
+        RowBox[{
+          RowBox[{"tykBold$LittlesGearOutfits", "[", "\"IDs\"", "]"}], ",", 
+          RowBox[{"tykBold$LittlesGearSnappies", "[", "\"IDs\"", "]"}]}], 
+        "]"}], " "}], "General", TextData},
+   "NotebookTemplateExpression"], 
+  TextForm]],ExpressionUUID->"213d580b-07f5-469e-9f71-0456829382fc"]], "Text",\
+
+ CellChangeTimes->{{3.804154949695956*^9, 
+  3.8041549572294807`*^9}},ExpressionUUID->"f6b5c847-7370-4535-8877-\
+65542bcaf8fb"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1217, 905},
+WindowMargins->{{-1843, Automatic}, {Automatic, -508}},
+DockedCells->FEPrivate`FrontEndResource[
+ "NotebookTemplatingExpressions", "AuthoringDockedCell"],
+TaggingRules->{
+ "NotebookTemplateVersion" -> 1.1, "NotebookTemplate" -> True, 
+  "GeneratedNotebookOptions" -> {
+   ShowPageBreaks -> True, ShowCellBracket -> True}},
+CellContext->Notebook,
+ShowCellTags->True,
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (June 9, 2020)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"]], 
+   Cell[
+    StyleData[All], ShowStringCharacters -> False], 
+   Cell[
+    StyleData["Chapter"], FontSize -> 16], 
+   Cell[
+    StyleData["Subsection"], FontSize -> 12], 
+   Cell[
+    StyleData["Section"], FontSize -> 12]}, Visible -> False, FrontEndVersion -> 
+  "12.1 for Mac OS X x86 (64-bit) (June 9, 2020)", StyleDefinitions -> 
+  "PrivateStylesheetFormatting.nb"],
+ExpressionUUID->"c0846eec-7cfe-48fb-b584-664a83aad872"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 171, 3, 98, "Title",ExpressionUUID->"fca5c667-e95e-4116-87b7-a18799aaed3a"],
+Cell[CellGroupData[{
+Cell[776, 29, 164, 3, 46, "Chapter",ExpressionUUID->"638adbc1-c734-4a0a-a0b6-48127484ae76"],
+Cell[943, 34, 1516, 36, 160, "Text",ExpressionUUID->"e74d6931-eed3-4cb7-a415-fd9114b4db2c"],
+Cell[CellGroupData[{
+Cell[2484, 74, 223, 4, 47, "Section",ExpressionUUID->"db37eb87-7184-4342-99fd-980aa03c987d"],
+Cell[CellGroupData[{
+Cell[2732, 82, 705, 20, 43, "Item",ExpressionUUID->"fa4224e2-0632-4105-a4be-73e1154c7520"],
+Cell[3440, 104, 709, 20, 43, "Item",ExpressionUUID->"18fed3e8-2768-4702-ae90-7d534cf04c42"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4198, 130, 159, 3, 47, "Section",ExpressionUUID->"51d51502-b617-49c0-8d2e-c3fee19f604c"],
+Cell[4360, 135, 1239, 24, 305, "Text",ExpressionUUID->"24449915-b3f9-4aa9-9864-dc2df41fde49"],
+Cell[5602, 161, 1890, 38, 443, "Text",ExpressionUUID->"6393691f-a172-4e1a-b33e-ddbdb4149b7b"],
+Cell[CellGroupData[{
+Cell[7517, 203, 170, 3, 44, "Subsection",ExpressionUUID->"85d48168-c403-4b4d-b0c8-f7cbb02dccba"],
+Cell[7690, 208, 881, 17, 178, "Text",ExpressionUUID->"bb06292c-8926-469e-be48-dd814605590d"],
+Cell[8574, 227, 99, 1, 4, "PageBreak",ExpressionUUID->"d40a690f-042b-43b5-ac0c-6b9efe04902f",
+ PageBreakBelow->True]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8722, 234, 154, 3, 47, "Section",ExpressionUUID->"c8231b4c-ad82-41c7-a866-a70456a45c2a"],
+Cell[8879, 239, 501, 9, 58, "Text",ExpressionUUID->"0e26fd82-6efa-4006-ab63-035acea8b1b6"],
+Cell[9383, 250, 445, 11, 46, "Text",ExpressionUUID->"8fb9e23d-54eb-41fb-aa89-4203990ae78b"],
+Cell[9831, 263, 99, 1, 4, "PageBreak",ExpressionUUID->"2f705194-5f7e-46bb-b431-46cdbdf7cf1b",
+ PageBreakBelow->True]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9979, 270, 152, 3, 46, "Chapter",ExpressionUUID->"127c850f-cfc8-458b-8edd-c0915cb037e4"],
+Cell[CellGroupData[{
+Cell[10156, 277, 173, 3, 47, "Section",ExpressionUUID->"34353d83-f5ea-44e8-9044-56c7586579de"],
+Cell[CellGroupData[{
+Cell[10354, 284, 175, 3, 44, "Subsection",ExpressionUUID->"f17802ca-db05-4456-ae5a-659c55621184"],
+Cell[10532, 289, 558, 14, 46, "Text",ExpressionUUID->"77ccc903-886c-4648-991a-60de08e6712d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11127, 308, 154, 3, 44, "Subsection",ExpressionUUID->"8a7e0aee-3948-4cf3-8818-adf866002af9"],
+Cell[11284, 313, 785, 15, 73, "Text",ExpressionUUID->"b0127080-aabe-41c8-83c2-4b8c04b9e3e9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12106, 333, 159, 3, 44, "Subsection",ExpressionUUID->"63e51225-0c5f-4913-823f-f982b120da8a"],
+Cell[12268, 338, 785, 15, 73, "Text",ExpressionUUID->"ba30ebdc-81d8-47b8-a839-e90e6701d412"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13090, 358, 158, 3, 44, "Subsection",ExpressionUUID->"c6d70e5b-7d02-4739-9665-8f24f5c43eb6"],
+Cell[13251, 363, 784, 15, 73, "Text",ExpressionUUID->"7fe5e7f1-3b0e-42be-b4d7-1db790a01195"],
+Cell[14038, 380, 99, 1, 4, "PageBreak",ExpressionUUID->"f197bc78-5678-4808-a481-169d3255f24e",
+ PageBreakBelow->True]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14186, 387, 164, 3, 47, "Section",ExpressionUUID->"9d53a148-0360-44bd-a8dc-49f35d30b5ba"],
+Cell[CellGroupData[{
+Cell[14375, 394, 175, 3, 44, "Subsection",ExpressionUUID->"d6183193-f7e7-45c3-b624-30d3dac1eb86"],
+Cell[14553, 399, 572, 15, 46, "Text",ExpressionUUID->"01d9fc6c-ba61-4281-a505-f65df7a39a8f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15162, 419, 154, 3, 44, "Subsection",ExpressionUUID->"2369d19d-310a-44e7-a34c-49119eac2b45"],
+Cell[15319, 424, 840, 15, 73, "Text",ExpressionUUID->"582068a9-2ace-4d97-9324-30a6e89bf495"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16196, 444, 159, 3, 44, "Subsection",ExpressionUUID->"933e49b6-f7de-4b9f-8904-e948664aa693"],
+Cell[16358, 449, 846, 16, 73, "Text",ExpressionUUID->"1285244f-10ab-4360-95b5-25d7c12b2353"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17241, 470, 217, 4, 44, "Subsection",ExpressionUUID->"7452da67-9fd1-4f53-a0ea-4d58133907b9"],
+Cell[17461, 476, 934, 17, 73, "Text",ExpressionUUID->"c3014fac-a634-4d62-8b9a-4483c1f96623"],
+Cell[18398, 495, 99, 1, 4, "PageBreak",ExpressionUUID->"e3a7f999-9cd5-4ded-b6aa-37684020efa6",
+ PageBreakBelow->True]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18546, 502, 157, 3, 47, "Section",ExpressionUUID->"f6fb5c55-68bf-4fda-b3a4-cc0193886127"],
+Cell[CellGroupData[{
+Cell[18728, 509, 175, 3, 44, "Subsection",ExpressionUUID->"1ac1f138-3dcb-4918-bdb0-0af1dc98b3aa"],
+Cell[18906, 514, 555, 14, 46, "Text",ExpressionUUID->"c41f0483-4a4a-4f2b-b0d2-458d7e97e8c7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19498, 533, 154, 3, 44, "Subsection",ExpressionUUID->"8dbd034e-db51-4c5b-8a88-d4644f7efc21"],
+Cell[19655, 538, 881, 16, 73, "Text",ExpressionUUID->"d7f24869-c4e6-488b-a8b7-806e33b4e26c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20573, 559, 159, 3, 44, "Subsection",ExpressionUUID->"93a1d7f2-d5f4-45a6-88de-f99b01126b76"],
+Cell[20735, 564, 879, 16, 73, "Text",ExpressionUUID->"08092f0f-c9b4-4dd6-8607-4624656f0bd6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21651, 585, 159, 3, 44, "Subsection",ExpressionUUID->"bf86deb2-2632-4632-9ae9-7c1216570241"],
+Cell[21813, 590, 829, 15, 73, "Text",ExpressionUUID->"66333893-f855-4a56-ae77-20954fc33965"],
+Cell[22645, 607, 99, 1, 4, "PageBreak",ExpressionUUID->"440b12ce-ba22-4b76-aa0c-0eca311c68ae",
+ PageBreakBelow->True]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22805, 615, 159, 3, 46, "Chapter",ExpressionUUID->"3a661559-534c-492c-a58a-2f81ccc8a8ae"],
+Cell[CellGroupData[{
+Cell[22989, 622, 152, 3, 47, "Section",ExpressionUUID->"bf8e2689-518a-4b77-b267-1e38bccd5e6b"],
+Cell[CellGroupData[{
+Cell[23166, 629, 175, 3, 44, "Subsection",ExpressionUUID->"09ce79fe-9b74-4848-9312-7c2359db854e"],
+Cell[23344, 634, 523, 14, 46, "Text",ExpressionUUID->"a4f400b0-d5db-480a-815f-82c558a46380"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23904, 653, 157, 3, 44, "Subsection",ExpressionUUID->"01c186a1-6508-454d-b593-b86dfc499712"],
+Cell[24064, 658, 703, 15, 40, "Text",ExpressionUUID->"d00ae056-e131-4467-b45d-7237f39df7fc"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24804, 678, 157, 3, 44, "Subsection",ExpressionUUID->"9f073d34-fd47-4114-b522-5a4b930f406a"],
+Cell[CellGroupData[{
+Cell[24986, 685, 697, 18, 43, "Item",ExpressionUUID->"36516073-175f-43ec-b8aa-20ef99568533"],
+Cell[25686, 705, 663, 17, 43, "Item",ExpressionUUID->"46e2be54-ec83-49a3-a7d3-692cdcdbfaf7"]
+}, Open  ]],
+Cell[26364, 725, 99, 1, 4, "PageBreak",ExpressionUUID->"19674a84-914e-4ece-91b3-228302ec9057",
+ PageBreakBelow->True]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26512, 732, 152, 3, 47, "Section",ExpressionUUID->"f4d51e8f-1011-4dc4-9977-539701112d95"],
+Cell[CellGroupData[{
+Cell[26689, 739, 175, 3, 44, "Subsection",ExpressionUUID->"7dde9244-39e7-4208-8951-958a5e72f5a0"],
+Cell[26867, 744, 474, 13, 46, "Text",ExpressionUUID->"49fa6403-f4cb-4a7f-abc2-2c68d42c0664"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27378, 762, 154, 3, 44, "Subsection",ExpressionUUID->"b4a13af3-081e-4acc-9ce8-38f553ff1511"],
+Cell[27535, 767, 841, 15, 73, "Text",ExpressionUUID->"d814680f-ee9e-4499-a0bc-a852e2559469"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28413, 787, 159, 3, 44, "Subsection",ExpressionUUID->"e4531b4d-ab9f-40ab-99aa-006efcf235fc"],
+Cell[28575, 792, 851, 16, 73, "Text",ExpressionUUID->"9da52413-4e98-4e9f-b81c-2e16fd326800"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29463, 813, 217, 4, 44, "Subsection",ExpressionUUID->"6421e7e2-846a-4f58-855f-88affb85f9d3"],
+Cell[29683, 819, 999, 18, 73, "Text",ExpressionUUID->"56dfd222-8ccf-4088-9e23-4c5b3f9816e8"],
+Cell[30685, 839, 99, 1, 4, "PageBreak",ExpressionUUID->"e5dad896-f5c4-48e4-8378-e6e159518cbd",
+ PageBreakBelow->True]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30833, 846, 154, 3, 47, "Section",ExpressionUUID->"f499bdc0-610a-4987-ac8e-0ecd3571b181"],
+Cell[CellGroupData[{
+Cell[31012, 853, 175, 3, 44, "Subsection",ExpressionUUID->"34bf17c9-b74b-4426-b27d-f6e9e3546124"],
+Cell[31190, 858, 523, 14, 46, "Text",ExpressionUUID->"b26c202d-27aa-464c-8157-9f654ab4a14f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31750, 877, 154, 3, 44, "Subsection",ExpressionUUID->"5f9463be-5f85-4638-8b59-24dbc54d32b1"],
+Cell[31907, 882, 891, 16, 73, "Text",ExpressionUUID->"9f35900d-26fb-40ea-bbf9-4fff4002a903"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32835, 903, 159, 3, 44, "Subsection",ExpressionUUID->"2ba1e173-c8c3-4c29-84a2-29acd620bf7a"],
+Cell[32997, 908, 952, 18, 73, "Text",ExpressionUUID->"2235676e-eaae-46a7-b7b7-3bac24fc9434"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33986, 931, 217, 4, 44, "Subsection",ExpressionUUID->"503007ec-04be-4c47-9682-16101d4cb015"],
+Cell[34206, 937, 990, 17, 73, "Text",ExpressionUUID->"64e07894-5698-4b51-a166-de6a5f994701"],
+Cell[35199, 956, 99, 1, 4, "PageBreak",ExpressionUUID->"a6e14871-58da-47a5-a37e-d9ef089d75a8",
+ PageBreakBelow->True]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[35347, 963, 164, 3, 47, "Section",ExpressionUUID->"fc18ff22-d9ea-443b-a1b1-eeb421c7e944"],
+Cell[CellGroupData[{
+Cell[35536, 970, 175, 3, 44, "Subsection",ExpressionUUID->"f35d0f93-32ab-4dff-a1b6-7a9ddc872679"],
+Cell[35714, 975, 524, 14, 46, "Text",ExpressionUUID->"773bceaf-c2e6-496d-85d4-c3cf0b0011a2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36275, 994, 154, 3, 44, "Subsection",ExpressionUUID->"a97c2506-2141-4b04-9b74-23c07b6a640b"],
+Cell[36432, 999, 840, 15, 73, "Text",ExpressionUUID->"17383865-9c95-454e-b4fa-a8408f095298"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37309, 1019, 159, 3, 44, "Subsection",ExpressionUUID->"df6f06f9-12a7-46ef-b2bc-8674b6f976f7"],
+Cell[37471, 1024, 846, 16, 73, "Text",ExpressionUUID->"39177170-b91b-4740-8f81-0dc76bb17718"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38354, 1045, 217, 4, 44, "Subsection",ExpressionUUID->"f0e6605c-6662-41b5-b613-1185b05f95f6"],
+Cell[38574, 1051, 934, 17, 73, "Text",ExpressionUUID->"62cc0884-61ed-4d04-97ea-d5cde30fc335"],
+Cell[39511, 1070, 99, 1, 4, "PageBreak",ExpressionUUID->"be4a6020-5acc-490b-bebb-c15ea4a649d2",
+ PageBreakBelow->True]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[39671, 1078, 155, 3, 46, "Chapter",ExpressionUUID->"df26d6ef-5594-4218-9275-92ce9de5ac90"],
+Cell[CellGroupData[{
+Cell[39851, 1085, 156, 3, 47, "Section",ExpressionUUID->"02b69b0d-5334-4910-bca3-7f9e55297bdc"],
+Cell[40010, 1090, 176, 3, 35, "Text",ExpressionUUID->"a6a88cb3-c21c-4825-b3da-9cd047424b2a"],
+Cell[CellGroupData[{
+Cell[40211, 1097, 261, 7, 44, "Subsection",ExpressionUUID->"de6ef7de-da0e-4bd6-a1c6-0e01aaaf0f34"],
+Cell[40475, 1106, 559, 14, 46, "Text",ExpressionUUID->"bf9ace98-d233-415f-8612-ba29cd8b4966"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[41071, 1125, 237, 6, 44, "Subsection",ExpressionUUID->"628d4b78-9ccd-4271-9266-9b557a9b4043"],
+Cell[41311, 1133, 557, 14, 46, "Text",ExpressionUUID->"f6b5c847-7370-4535-8877-65542bcaf8fb"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

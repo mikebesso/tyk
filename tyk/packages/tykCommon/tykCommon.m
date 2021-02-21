@@ -6,6 +6,7 @@ BeginPackage[
 	"tykCommon`", 
 	{
 		"ww`",
+		"tyk`",
 		"wwFileSystem`",
 		"wwStrings`",
 		"wwBootstrap`"
@@ -45,13 +46,16 @@ tyk$DownloadsFolder::usage = "tyk$DownloadsFolder  "
 tyk$ParseGender::usage = "parse  ";
 tyk$ParseSize::usage = "parse  "
 
-tyk$TemplatesFolder::usage = "tyk$TemplatesFolder  "
+
 
 tyk$HyperlinkToSkulabs::usage = "tyk$HyperlinkToSkulabs  ";
 
 tyk$CleanOrderNumber::usage = "tyk$CleanOrderNumber "
 
-tyk$CleanTrackingNumber::usage = "tyk$CleanTrackingNumber  ";
+tyk$CleanTrackingNumber::usage = "tyk$CleanTrackingNumber  "
+
+tyk$ReportTemplate::usage = "tyk$ReportTemplate  ";
+tyk$TestFolder::usage = "tyk$ReportTemplate  ";
 
 
 Begin["`Private`"];
@@ -143,6 +147,14 @@ tyk$CreateProjectFolders[project_String] := Block[
 	retVal
 
 ];
+
+
+
+
+tyk$ReportTemplate[filename_String] := FileNameJoin[{Global`tyk$AppFolder, "templates", filename}];
+
+tyk$TestFolder = FileNameJoin[{ParentDirectory[Global`tyk$AppFolder], "Tests"}];
+
 
 
 pageHeaders[$title_String] :=Table[

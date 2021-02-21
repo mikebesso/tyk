@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      4272,        126]
-NotebookOptionsPosition[      3211,        101]
-NotebookOutlinePosition[      3614,        117]
-CellTagsIndexPosition[      3571,        114]
+NotebookDataLength[      5709,        150]
+NotebookOptionsPosition[      4543,        124]
+NotebookOutlinePosition[      4946,        140]
+CellTagsIndexPosition[      4903,        137]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -34,18 +34,61 @@ Cell[BoxData[
    3.817926576624864*^9, 3.817926611230977*^9}, {3.818015612054072*^9, 
    3.818015620514241*^9}, 3.818015794119437*^9, 3.818016324203247*^9, 
    3.8180166508718777`*^9, {3.818076746410554*^9, 3.8180767525503473`*^9}, {
-   3.8180969512757387`*^9, 3.818096960825963*^9}, 
-   3.821117549035878*^9},ExpressionUUID->"0f014e24-0449-4cfb-9f9f-\
-6177320bc03b"],
+   3.8180969512757387`*^9, 3.818096960825963*^9}, 3.821117549035878*^9, {
+   3.822912611488956*^9, 3.822912614020153*^9}, 3.8229165644962597`*^9},
+ EmphasizeSyntaxErrors->True,
+ CellLabel->"In[1]:=",ExpressionUUID->"0f014e24-0449-4cfb-9f9f-6177320bc03b"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "CloudConnect", "fbdn", 
+   "\"Unable to authorize request.  Please contact technical support for \
+assistance.\"", 2, 0, 1, 23352065567571421669, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.822913089255414*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"b0792aec-8c4e-45f6-8b13-872387c87643"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "ResourceObject", "updav", 
+   "\"There is an update available for resource \\\"\\!\\(\\*RowBox[{\\\"\\\\\
+\\\"PlotGrid\\\\\\\"\\\"}]\\)\\\". Use \
+\\!\\(\\*StyleBox[RowBox[{\\\"ResourceUpdate\\\", \\\"[\\\", \
+\\\"\\\\\\\"PlotGrid\\\\\\\"\\\", \\\"]\\\"}], Rule[ShowStringCharacters, \
+True], Rule[StripOnInput, False]]\\) to get the update.\"", 2, 0, 2, 
+   23352065567571421669, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8229130899089413`*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"c211b054-848a-485d-9358-f690fb7a9315"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "ResourceObject", "updav", 
+   "\"There is an update available for resource \\\"\\!\\(\\*RowBox[{\\\"\\\\\
+\\\"PlotGrid\\\\\\\"\\\"}]\\)\\\". Use \
+\\!\\(\\*StyleBox[RowBox[{\\\"ResourceUpdate\\\", \\\"[\\\", \
+\\\"\\\\\\\"PlotGrid\\\\\\\"\\\", \\\"]\\\"}], Rule[ShowStringCharacters, \
+True], Rule[StripOnInput, False]]\\) to get the update.\"", 2, 0, 3, 
+   23352065567571421669, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.822913089951007*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"d5134ce0-90e1-4b9f-a9f8-11a1cd3d0c4d"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData["\<\"Getting Data\"\>"], "Print",
  CellChangeTimes->{3.8180969747902107`*^9, 3.8186195567356367`*^9, 
-  3.818699870579266*^9, 3.8193916420264473`*^9, 3.819820632940352*^9},
+  3.818699870579266*^9, 3.8193916420264473`*^9, 3.819820632940352*^9, 
+  3.822911681020022*^9, 3.82291294796916*^9, 3.822913091676901*^9},
  CellLabel->
   "During evaluation of \
-In[11]:=",ExpressionUUID->"2f87fb2a-cdfa-4d53-8c09-15f8961f50de"],
+In[1]:=",ExpressionUUID->"80fd4395-e0c6-431c-b5c3-7e79cc3d34cb"],
 
 Cell[BoxData[
  RowBox[{
@@ -53,54 +96,34 @@ Cell[BoxData[
    "EchoLabel"], 
   "  ", "\<\"https://%REGION%.abuniverse.com/product/%PAGE%\"\>"}]], "Echo",
  CellChangeTimes->{
-  3.819820632993572*^9},ExpressionUUID->"453a4696-a623-45a2-93c8-\
-e49e53901289"],
+  3.8229130928084*^9},ExpressionUUID->"88a26aa4-e03c-4754-bb41-a6964e9b1f94"],
 
 Cell[BoxData[
  RowBox[{
   TagBox["\<\"Number of URLs\"\>",
-   "EchoLabel"], "  ", "145"}]], "Echo",
+   "EchoLabel"], "  ", "174"}]], "Echo",
  CellChangeTimes->{
-  3.819820633016313*^9},ExpressionUUID->"f015753d-14b4-4ab7-9b0b-\
-39e6328e8801"],
+  3.8229130928372803`*^9},ExpressionUUID->"dd7da019-4d3e-47de-be7e-\
+ccd32a3181a2"],
 
 Cell[BoxData[
  RowBox[{
-  TagBox["\<\"Length[imputed]\"\>",
-   "EchoLabel"], "  ", "346469"}]], "Echo",
+  TagBox["\<\"Number of Regions\"\>",
+   "EchoLabel"], "  ", "5"}]], "Echo",
  CellChangeTimes->{
-  3.819822859111273*^9},ExpressionUUID->"1e869956-c230-40f7-b552-\
-b74b319ebbea"],
-
-Cell[BoxData[
- RowBox[{
-  TagBox["\<\"Length[result]\"\>",
-   "EchoLabel"], "  ", "346469"}]], "Echo",
- CellChangeTimes->{
-  3.819822881366599*^9},ExpressionUUID->"f58620b3-fee2-4559-a242-\
-4e06f01e6aeb"],
-
-Cell[BoxData[
- RowBox[{
-  TagBox["\<\"Output Folder\"\>",
-   "EchoLabel"], 
-  "  ", "\<\"/Users/mike/projects/tykables/files/tykCompetitors/output\"\>"}]]\
-, "Echo",
- CellChangeTimes->{
-  3.819822881378807*^9},ExpressionUUID->"116a719f-6b38-45b0-902b-\
-cd47ef13751b"]
+  3.8229130928902607`*^9},ExpressionUUID->"4704ca62-84e8-48cb-90ed-\
+d91ae2b723bc"]
 }, Open  ]],
 
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"2533.64459`", ",", "Null"}], "}"}]], "Output",
+Cell[BoxData["$Aborted"], "Output",
  CellChangeTimes->{3.8180993921367493`*^9, 3.818621886340488*^9, 
-  3.81870230700449*^9, 3.819394028730073*^9, 3.81982316657297*^9},
- CellLabel->"Out[12]=",ExpressionUUID->"7360bcc9-021b-4565-acea-015a3caa87ee"]
+  3.81870230700449*^9, 3.819394028730073*^9, 3.81982316657297*^9, 
+  3.822912615855166*^9, 3.8229130663411303`*^9, 3.8229135313565474`*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"73264363-f907-4367-a733-86c5b432762e"]
 }, Open  ]]
 },
 WindowSize->{1075, 1297},
-WindowMargins->{{-1363, Automatic}, {369, Automatic}},
+WindowMargins->{{-2300, Automatic}, {340, Automatic}},
 FrontEndVersion->"12.2 for Mac OS X x86 (64-bit) (December 12, 2020)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"ca17fbcf-a42c-4076-acef-61aebe25e3bb"
@@ -117,16 +140,17 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 846, 16, 115, "Input",ExpressionUUID->"0f014e24-0449-4cfb-9f9f-6177320bc03b"],
+Cell[580, 22, 967, 17, 115, "Input",ExpressionUUID->"0f014e24-0449-4cfb-9f9f-6177320bc03b"],
+Cell[1550, 41, 374, 9, 24, "Message",ExpressionUUID->"b0792aec-8c4e-45f6-8b13-872387c87643"],
+Cell[1927, 52, 611, 13, 24, "Message",ExpressionUUID->"c211b054-848a-485d-9358-f690fb7a9315"],
+Cell[2541, 67, 609, 13, 24, "Message",ExpressionUUID->"d5134ce0-90e1-4b9f-a9f8-11a1cd3d0c4d"],
 Cell[CellGroupData[{
-Cell[1451, 42, 290, 5, 24, "Print",ExpressionUUID->"2f87fb2a-cdfa-4d53-8c09-15f8961f50de"],
-Cell[1744, 49, 249, 7, 25, "Echo",ExpressionUUID->"453a4696-a623-45a2-93c8-e49e53901289"],
-Cell[1996, 58, 201, 6, 25, "Echo",ExpressionUUID->"f015753d-14b4-4ab7-9b0b-39e6328e8801"],
-Cell[2200, 66, 205, 6, 25, "Echo",ExpressionUUID->"1e869956-c230-40f7-b552-b74b319ebbea"],
-Cell[2408, 74, 204, 6, 25, "Echo",ExpressionUUID->"f58620b3-fee2-4559-a242-4e06f01e6aeb"],
-Cell[2615, 82, 267, 8, 25, "Echo",ExpressionUUID->"116a719f-6b38-45b0-902b-cd47ef13751b"]
+Cell[3175, 84, 357, 6, 24, "Print",ExpressionUUID->"80fd4395-e0c6-431c-b5c3-7e79cc3d34cb"],
+Cell[3535, 92, 245, 6, 25, "Echo",ExpressionUUID->"88a26aa4-e03c-4754-bb41-a6964e9b1f94"],
+Cell[3783, 100, 203, 6, 25, "Echo",ExpressionUUID->"dd7da019-4d3e-47de-be7e-ccd32a3181a2"],
+Cell[3989, 108, 204, 6, 25, "Echo",ExpressionUUID->"4704ca62-84e8-48cb-90ed-d91ae2b723bc"]
 }, Open  ]],
-Cell[2897, 93, 298, 5, 34, "Output",ExpressionUUID->"7360bcc9-021b-4565-acea-015a3caa87ee"]
+Cell[4208, 117, 319, 4, 34, "Output",ExpressionUUID->"73264363-f907-4367-a733-86c5b432762e"]
 }, Open  ]]
 }
 ]

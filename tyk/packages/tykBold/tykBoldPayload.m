@@ -2,6 +2,7 @@
 
 BeginPackage["tykBoldPayload`", 
 	{
+		"tyk`",
 		"tykCommon`",
 		"wwPayload`",
 		"wwDates`",
@@ -90,9 +91,7 @@ tykbold$DiapersAverageDuration::usage = "  "
 tykBold$DiapersSummaryTable::usage = ""
 tykBold$LittlesGearSummaryTable::usage = ""
 
-tykBold$TemplatesFolder::usage = "tykBold$TemplatesFolder  "
 
-tykBold$ReportTemplate::usage = "tykBold$ReportTemplate  "
 
 tykBold$LittlesGearAverageDuration::usage = "tykBold$LittlesGearAverageDuration  "
 
@@ -139,8 +138,7 @@ tykBold$Payload[] := <|
 
 	"Folders" -> <|
 		"Data" -> tykBold$DataFolder,
-		"Output" -> tykBold$OutputFolder,
-		"Templates" -> tykBold$TemplatesFolder
+		"Output" -> tykBold$OutputFolder
 	|>,
 	
 	"Files" -> <|
@@ -252,13 +250,7 @@ tykBold$InitPayload[] := Block[
         ]  // Sort // Last;
     
 
-	tykBold$TemplatesFolder := FileNameJoin[
-		{
-			Global`tykBold$AppFolder,
-			"templates"
-		}
-	];
-    
+ 
     tykBold$ReportPDFFile = fs$AddDateToFileName[
     	FileNameJoin[{tykBold$OutputFolder, "Tykables Subscription Report.pdf"}]
     ];
@@ -273,13 +265,6 @@ tykBold$InitPayload[] := Block[
     	
 	tykBold$ReportNotebookFile = fs$AddDateToFileName[
      	FileNameJoin[{tykBold$OutputFolder, "Tykables Subscription Report.nb"}]
-	];
-	
-	tykBold$ReportTemplate = FileNameJoin[
-		{
-			tykBold$TemplatesFolder,
-			"subscription-report-template.nb"
-		}
 	];
 	
 

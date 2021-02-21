@@ -13,32 +13,22 @@ Get[ "tyk`tyk`"];
 
 Needs["ww`"];
 
-ww$TestFolder = FileNameJoin[{
-	ParentDirectory[ParentDirectory[DirectoryName[$InputFileName]]], 
-	"Tests"}
-	];
+
+Global`tyk$AppFolder = ParentDirectory[DirectoryName[$InputFileName]];
 
 
-ww$AppFolder = ParentDirectory[DirectoryName[$InputFileName]];
 
 
-With[
-	{
-		packageFolder = FileNameJoin[
-			{
-				ParentDirectory[DirectoryName[$InputFileName]], 
-				"packages"
-			}
-		]
-	},
+tyk$PackageFolder = FileNameJoin[{tyk$AppFolder, "packages"}];
 
-	ww$PackageFolders = Select[FileNames["*", packageFolder, Infinity], DirectoryQ];
-	ww$PackageFiles = FileNames["*.m", ww$PackageFolders];
-];
+tyk$PackageFolders = Select[FileNames["*", tyk$PackageFolder, Infinity], DirectoryQ];
 
-ww$Packages = Map[
+tyk$PackageFiles = FileNames["*.m", tyk$PackageFolders];
+
+
+tyk$Packages = Map[
 	FileBaseName[FileNameTake[#]] <> "`"&,
-	ww$PackageFiles
+	tyk$PackageFiles
 ] // Sort;
 
 	
@@ -50,31 +40,8 @@ PrependTo[
 Scan[
 	PrependTo[$Path, #]&,
 	Complement[
-		ww$PackageFolders, 
+		tyk$PackageFolders, 
 		$Path
 	]
 ];
 	
-
-ww$Bootstrap[] = Block[
-	{
-		needs
-	},
-	
-	Needs["wwBootstrap`"];
-	
-	$DateStringFormat = {"Year", "-", "Month", "-", "Day"};
-	
-
-	
-	Scan[
-		Needs, 
-		ww$Packages
-	];
-];
-
-	
-ww$Bootstrap[];
-
-
-

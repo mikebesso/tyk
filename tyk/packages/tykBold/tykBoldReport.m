@@ -606,7 +606,7 @@ tykBold$BuildReport[] := Block[
 		throwFalseIfFileExists[tykBold$ReportNotebookFile];
 
 		notebook := GenerateDocument[
-			tykBold$ReportTemplate,
+			tyk$ReportTemplate["subscription-report-template.nb"],
 			tykBold$Payload[]
 		];
 		

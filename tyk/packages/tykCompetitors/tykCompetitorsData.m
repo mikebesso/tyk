@@ -102,14 +102,16 @@ downloadPage[args___] := msgDefinitionNotFound["downloadPage", args];
 
 
 
-
+(* TODO: pull this from metadata *)
 
 selectByRegion[urls_List, region_String] := Select[urls, StringStartsQ[#["url"], "https://" <> region] &];
 splitByRegion[urls_List] := {
-	selectByRegion[urls, "us"],
-	selectByRegion[urls, "au"],
-	selectByRegion[urls, "eu"],
-	selectByRegion[urls, "jp"]
+	selectByRegion[urls, "au"]
+	, selectByRegion[urls, "eu"]
+	, selectByRegion[urls, "jp"]
+	, selectByRegion[urls, "mx"]
+	, selectByRegion[urls, "uk"]
+	, selectByRegion[urls, "us"]
 }
 
  Options[tykCompetitors$GetData] = tykCompetitors$Options;
@@ -172,10 +174,15 @@ tykCompetitors$GetData[OptionsPattern[]] := Module[
 	results = Block[
 		{
 			temp
+			, regionalUrls = splitByRegion[urls]
 		}
 		,
+		
+		Echo[Length[regionalUrls], "Number of Regions"];
+		LaunchKernels[];
+		DistributeDefinitions[downloadPages];
 		temp = AbsoluteTiming[
-			ParallelMap[downloadPages, splitByRegion[urls]]
+			ParallelMap[downloadPages, regionalUrls]
 		];
 		<|
 			"Timing" -> Quantity[First[temp], "Seconds"]
