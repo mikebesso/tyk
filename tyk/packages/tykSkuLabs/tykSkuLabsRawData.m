@@ -9,6 +9,7 @@ BeginPackage[
 		, "wwJSON`"
 		, "wwDatasets`"
 		, "wwDates`"
+		, "wwStrings`"
 	}
 ]
 
@@ -25,7 +26,11 @@ dsTakeColumns::usage = "dsTakeColumns  "
 dsDeleteDuplicates::usage = "dsDeleteDuplicates  "
 
 
+tykSkuLabsDateCard::usage = " "
 
+tykSkuLabsSetDate::usage = "tykSkuLabsSetDate  "
+
+skulabsRawData::usage = "skulabsRawData  ";
 
 
 
@@ -34,7 +39,35 @@ dsDeleteDuplicates::usage = "dsDeleteDuplicates  "
 Begin["`Private`"] (* Begin Private Context *) 
 
 
+rawDataFolder[endPoint_String, dateCard_String] := FileNameJoin[
+	{
+		"~"
+		, "projects"
+		, "tykables"
+		, "files"
+		, "tykSkuLabs"
+		, "json"
+		, dateCard
+		, endPoint
+	}
+	
+];
 
+
+Options[skulabsRawData] = {
+	"Environment" -> "Production"
+	, "TestMode" -> True
+}
+
+
+skulabsRawData[dateCard_String, opt:OptionsPattern[]] := <| 
+		"Items" -> tykRawItems[dateCard]
+		, "Inventory" -> tykRawInventory[dateCard]
+		, "Kits" -> tykRawKits[dateCard]
+		, "Orders" -> tykRawOrders[dateCard]
+	|>
+	
+skulabsRawData[date_DateObject, opt:OptionsPattern[]] := skulabsRawData[str$Tidy[date], opt];
 
 
 parseJsonItem[{}] = Nothing;
@@ -45,11 +78,11 @@ parseJsonItem[json_Association] := <|
    , "Item Active" -> json["active"]
    , "Item Listings" -> json["listings"]
    , "Item Name" -> json["name"]
-   , "Item Retail" -> nullIfMissing[json["retail"]]
+(*   , "Item Retail" -> nullIfMissing[json["retail"]]
    , "Item Cost" -> nullIfMissing[json["cost"]]
    , "Item Wholesale" -> nullIfMissing[json["wholesale"]]
    , "Item Weight" -> nullIfMissing[Quantity[json["weight"], json["weight_unit"]]]
-   |> ;
+*)   |> ;
 
 
 
@@ -89,11 +122,23 @@ parseStash[json_Association, key_String] := Module[
 
 parseJsonOrder[{}] = Nothing;
 parseJsonOrder[Null] = Nothing;
-parseJsonOrder[json_Association] := With[
+parseJsonOrder[json_Association] := Module[
 	{
-		orderDateTime = StringSplit[parseStash[json, "date"], "T"]
+		orderDateRaw
+		, orderDateTime
 	}
 	,
+	
+	If[
+		! KeyExistsQ[json, "stash"]
+		,
+		Return[Nothing]
+	];
+	
+	orderDateRaw = parseStash[json, "date"];
+	
+	orderDateTime =	StringSplit[parseStash[json, "date"], "T"];
+	
 	<|
 		"Order ID" -> json["_id"]
 		, "Store ID" -> json["store_id"]
@@ -107,31 +152,61 @@ parseJsonOrder[json_Association] := With[
 ];
 
 
-tykRawInventory[] := tykRawInventory[] = importRawJsonFolder[
-	"/Users/mike/projects/tykables/files/tykSkuLabs/json/2021-01-15/inventory"
+tykRawInventory[dateCard_String] := importRawJsonFolder[
+	rawDataFolder["inventory", dateCard]
 	, parseJsonInventory
+][
+	All
+	,
+	<|
+		"Inventory Date" -> dateCard
+		, #
+	|>&
 ];
 	
 
-tykRawItems[] := tykRawItems[] = importRawJsonFolder[
-	"/Users/mike/projects/tykables/files/tykSkuLabs/json/2021-01-15/item"
+tykRawItems[dateCard_String] := importRawJsonFolder[
+	rawDataFolder["item", dateCard]
 	, parseJsonItem
 ]
 
 
-tykRawKits[] := tykRawKits[] = importRawJsonFolder[
-	"/Users/mike/projects/tykables/files/tykSkuLabs/json/2021-01-15/kit"
-	, parseJsonKit
-]
-
-tykRawOrders[] := tykRawOrders[] = With[
+tykRawKits[dateCard_String] :=  Module[
 	{
-		orders = importRawJsonFolder[
-			"/Users/mike/projects/tykables/files/tykSkuLabs/json/2021-01-15/order"
-			, parseJsonOrder
-		]
+		rawKits
+	},
+	
+	
+	rawKits = importRawJsonFolder[
+		rawDataFolder["kit", dateCard]
+		, parseJsonKit
+	];
+
+	rawKits[Select[Length[#["Kit Items"]] > 0 &], All]
+
+];
+
+
+
+
+Options[tykRawOrders] = {
+	"Environment" -> "Production"
+	, "TestMode" -> True
+}
+
+tykRawOrders[dateCard_String, OptionsPattern[]] = Module[
+	{
+		limit = If[OptionValue["TestMode"], 3, All],
+		orders
 	}
 	,
+	
+	orders = importRawJsonFolder[
+		rawDataFolder["order", dateCard]
+		, parseJsonOrder
+		, "Limit" -> limit
+	];
+	
 	orders[
 		Select[Length[#["Order Items"]] > 0 &]
 		, All
