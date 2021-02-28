@@ -5,6 +5,7 @@
 BeginPackage[
 	"tykCompetitors`",  
 	{
+			"tyk`",
 		"tykCommon`", 
 		"ww`", 
 		"wwFileSystem`", 

@@ -3,6 +3,7 @@
 BeginPackage[
 	"tykCompetitorsParse`",
 	{
+			"tyk`",
 		"tykCommon`", 
 		"tykCompetitors`",
 		"ww`", 

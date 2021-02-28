@@ -3,6 +3,7 @@
 BeginPackage[
 	"tykCompetitorsRun`",
 		{
+			"tyk`",
 		"tykCommon`", 
 		"tykCompetitors`",
 		"tykCompetitorsData`",
@@ -35,14 +36,14 @@ tykCompetitors$Run[OptionsPattern[]] := Module[
 	}
 	,
 	
-	Enclose[
+
 
 		tykCompetitors$GetData["TestMode" -> testMode];
 		tykCompetitors$Parse["TestMode" -> testMode];
 		tykCompetitors$Analyze["TestMode" -> testMode];
 		
 	
-	]
+
 ]
 
 

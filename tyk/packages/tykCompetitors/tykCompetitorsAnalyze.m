@@ -3,6 +3,7 @@
 BeginPackage[
 	"tykCompetitorsAnalyze`",
 	{
+			"tyk`",
 		"tykCommon`", 
 		"tykCompetitors`",
 		"ww`", 
