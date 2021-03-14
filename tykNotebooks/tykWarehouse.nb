@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    605176,      11176]
-NotebookOptionsPosition[    604470,      11155]
-NotebookOutlinePosition[    604868,      11171]
-CellTagsIndexPosition[    604825,      11168]
+NotebookDataLength[    622268,      11470]
+NotebookOptionsPosition[    621558,      11449]
+NotebookOutlinePosition[    621960,      11465]
+CellTagsIndexPosition[    621917,      11462]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -23,15 +23,16 @@ Cell[CellGroupData[{
 Cell[BoxData[{
  RowBox[{
   RowBox[{
-   RowBox[{"Needs", "[", "\"\<tykWarehouse`\>\"", "]"}], ";"}], 
+   RowBox[{"Needs", "[", "\"\<tyk`\>\"", "]"}], ";"}], 
   "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"tykWarehouse$Init", "[", "False", "]"}], 
   "\[IndentingNewLine]"}], "\[IndentingNewLine]"}], "Input",
  CellChangeTimes->{{3.801759029250753*^9, 3.801759034128893*^9}, {
   3.8017590823051443`*^9, 3.801759090438409*^9}, {3.801759335818234*^9, 
-  3.801759336323348*^9}, {3.8017594301175423`*^9, 3.8017594515144672`*^9}},
- CellLabel->"In[7]:=",ExpressionUUID->"fe30c873-a910-4e5c-947a-7c23c0b04054"],
+  3.801759336323348*^9}, {3.8017594301175423`*^9, 3.8017594515144672`*^9}, {
+  3.823881620325165*^9, 3.823881621715914*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"fe30c873-a910-4e5c-947a-7c23c0b04054"],
 
 Cell[BoxData[
  RowBox[{"\[LeftAssociation]", 
@@ -45,7 +46,7 @@ Cell[BoxData[
    ",", 
    RowBox[{"\<\"Scrape File Path\"\>", 
     "\[Rule]", \
-"\<\"/Users/mike/projects/tykables/files/tykWarehouse/data/scrapes/2020-11-28.\
+"\<\"/Users/mike/projects/tykables/files/tykWarehouse/data/scrapes/2021-03-04.\
 xlsx\"\>"}], ",", 
    RowBox[{"\<\"Cleansed Folder Path\"\>", 
     "\[Rule]", \
@@ -59,7 +60,7 @@ xlsx\"\>"}], ",",
    RowBox[{"\<\"Report File Path\"\>", 
     "\[Rule]", \
 "\<\"/Users/mike/projects/tykables/files/tykWarehouse/output/warehouse-\
-supplies-2020-11-28.pdf\"\>"}], ",", 
+supplies-2021-03-04.pdf\"\>"}], ",", 
    RowBox[{"\<\"PublishQ\"\>", "\[Rule]", "False"}], ",", 
    RowBox[{"\<\"FailedQ\"\>", "\[Rule]", "False"}], ",", 
    RowBox[{"\<\"Failure Reason\"\>", "\[Rule]", "Null"}], ",", 
@@ -70,15 +71,16 @@ supplies-2020-11-28.pdf\"\>"}], ",",
   "\[RightAssociation]"}]], "Output",
  CellChangeTimes->{3.8017594518879347`*^9, 3.801759493333433*^9, 
   3.802187977927854*^9, 3.8021901206604023`*^9, 3.8021909078555098`*^9, 
-  3.8139530644427023`*^9, 3.8155876327891912`*^9},
- CellLabel->"Out[8]=",ExpressionUUID->"c526a19d-f19d-4507-85bb-3af3dc73d48a"]
+  3.8139530644427023`*^9, 3.8155876327891912`*^9, 3.823881592540011*^9, 
+  3.823881642130064*^9, 3.8238820738702793`*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"c7c586c3-0a1a-4714-a3c3-27a2ab0c4ee6"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"tykWarehouse$Run", "[", "False", "]"}]], "Input",
- CellLabel->"In[9]:=",ExpressionUUID->"ac16d51b-384c-481e-8f28-070a605352e2"],
+ CellLabel->"In[5]:=",ExpressionUUID->"ac16d51b-384c-481e-8f28-070a605352e2"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -87,7 +89,7 @@ Cell[BoxData[
     {"\<\"Scrapes Folder Path\"\>", \
 "\<\"/Users/mike/projects/tykables/files/tykWarehouse/data/scrapes\"\>"},
     {"\<\"Scrape File Path\"\>", \
-"\<\"/Users/mike/projects/tykables/files/tykWarehouse/data/scrapes/2020-11-28.\
+"\<\"/Users/mike/projects/tykables/files/tykWarehouse/data/scrapes/2021-03-04.\
 xlsx\"\>"},
     {"\<\"Cleansed Folder Path\"\>", \
 "\<\"/Users/mike/projects/tykables/files/tykWarehouse/data/cleansed\"\>"},
@@ -96,7 +98,7 @@ xlsx\"\>"},
     {"\<\"Download Folder Path\"\>", "\<\"/Users/mike/downloads\"\>"},
     {"\<\"Report File Path\"\>", \
 "\<\"/Users/mike/projects/tykables/files/tykWarehouse/output/warehouse-\
-supplies-2020-11-28.pdf\"\>"},
+supplies-2021-03-04.pdf\"\>"},
     {"\<\"PublishQ\"\>", "False"},
     {"\<\"FailedQ\"\>", "False"},
     {"\<\"Failure Reason\"\>", "\<\"Null\"\>"},
@@ -120,10 +122,10 @@ xlsx\"\>"},
             2., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 6., 
             "Sample Ziplock Bags" -> 10., "Shrink Wrap (Rolls)" -> 15., 
             "Gloves (boxes)" -> 8., "Extra Pallets" -> 161., 
-            "Dubbler Bag (11x8x6)" -> "", "Double Bag Box (14x12x10)" -> "", 
-            "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Dubbler Bag (11x8x6)" -> 0., "Double Bag Box (14x12x10)" -> 0., 
+            "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 6, 3, 21, 56, 45.388999938964844`}, "Instant", 
@@ -135,10 +137,10 @@ xlsx\"\>"},
             1., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 1., 
             "Sample Ziplock Bags" -> 8., "Shrink Wrap (Rolls)" -> 14., 
             "Gloves (boxes)" -> 8., "Extra Pallets" -> 158., 
-            "Dubbler Bag (11x8x6)" -> "", "Double Bag Box (14x12x10)" -> "", 
-            "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Dubbler Bag (11x8x6)" -> 0., "Double Bag Box (14x12x10)" -> 0., 
+            "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 6, 10, 19, 34, 24.170000076293945`}, "Instant", 
@@ -150,10 +152,10 @@ xlsx\"\>"},
             0., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 3., 
             "Sample Ziplock Bags" -> 8., "Shrink Wrap (Rolls)" -> 12., 
             "Gloves (boxes)" -> 8., "Extra Pallets" -> 165., 
-            "Dubbler Bag (11x8x6)" -> "", "Double Bag Box (14x12x10)" -> "", 
-            "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Dubbler Bag (11x8x6)" -> 0., "Double Bag Box (14x12x10)" -> 0., 
+            "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 6, 12, 17, 28, 24.00600004196167}, "Instant", 
@@ -165,10 +167,10 @@ xlsx\"\>"},
             4., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 3., 
             "Sample Ziplock Bags" -> 7., "Shrink Wrap (Rolls)" -> 12., 
             "Gloves (boxes)" -> 7., "Extra Pallets" -> 159., 
-            "Dubbler Bag (11x8x6)" -> "", "Double Bag Box (14x12x10)" -> "", 
-            "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Dubbler Bag (11x8x6)" -> 0., "Double Bag Box (14x12x10)" -> 0., 
+            "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 6, 17, 19, 43, 1.6220002174377441`}, "Instant", 
@@ -180,25 +182,25 @@ xlsx\"\>"},
             4., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 4., 
             "Sample Ziplock Bags" -> 7., "Shrink Wrap (Rolls)" -> 12., 
             "Gloves (boxes)" -> 7., "Extra Pallets" -> 146., 
-            "Dubbler Bag (11x8x6)" -> "", "Double Bag Box (14x12x10)" -> "", 
-            "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Dubbler Bag (11x8x6)" -> 0., "Double Bag Box (14x12x10)" -> 0., 
+            "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 6, 20, 20, 36, 48.21500015258789}, "Instant", 
               "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 108., 
             "Single Bag Box (12x16x8)" -> 109., "Dubble Bag Box (16x12x12)" -> 
             103., "Dubble Bag Box (16x14x12)" -> 122., 
-            "Large Full Case Box (26x15x22)" -> "", 
+            "Large Full Case Box (26x15x22)" -> 0., 
             "Brown Craft Tape (rolls)" -> 8., "Loge Poly Bags (15x12x1) " -> 
             3., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 4., 
             "Sample Ziplock Bags" -> 8., "Shrink Wrap (Rolls)" -> 11., 
             "Gloves (boxes)" -> 7., "Extra Pallets" -> 138., 
-            "Dubbler Bag (11x8x6)" -> "", "Double Bag Box (14x12x10)" -> "", 
-            "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Dubbler Bag (11x8x6)" -> 0., "Double Bag Box (14x12x10)" -> 0., 
+            "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 6, 25, 20, 53, 32.26700019836426}, "Instant", 
@@ -210,10 +212,10 @@ xlsx\"\>"},
             3., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 4., 
             "Sample Ziplock Bags" -> 6., "Shrink Wrap (Rolls)" -> 10., 
             "Gloves (boxes)" -> 7., "Extra Pallets" -> 123., 
-            "Dubbler Bag (11x8x6)" -> "", "Double Bag Box (14x12x10)" -> "", 
-            "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Dubbler Bag (11x8x6)" -> 0., "Double Bag Box (14x12x10)" -> 0., 
+            "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 6, 27, 17, 51, 7.934000015258789}, "Instant", 
@@ -225,10 +227,10 @@ xlsx\"\>"},
             4., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 3., 
             "Sample Ziplock Bags" -> 6., "Shrink Wrap (Rolls)" -> 10., 
             "Gloves (boxes)" -> 7., "Extra Pallets" -> 126., 
-            "Dubbler Bag (11x8x6)" -> "", "Double Bag Box (14x12x10)" -> "", 
-            "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Dubbler Bag (11x8x6)" -> 0., "Double Bag Box (14x12x10)" -> 0., 
+            "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 7, 2, 16, 0, 38.88600015640259}, "Instant", 
@@ -240,10 +242,10 @@ xlsx\"\>"},
             3., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 3., 
             "Sample Ziplock Bags" -> 6., "Shrink Wrap (Rolls)" -> 11., 
             "Gloves (boxes)" -> 7., "Extra Pallets" -> 119., 
-            "Dubbler Bag (11x8x6)" -> "", "Double Bag Box (14x12x10)" -> "", 
-            "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Dubbler Bag (11x8x6)" -> 0., "Double Bag Box (14x12x10)" -> 0., 
+            "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 7, 8, 20, 55, 23.277999877929688`}, "Instant", 
@@ -256,9 +258,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 6., "Shrink Wrap (Rolls)" -> 9., 
             "Gloves (boxes)" -> 6., "Extra Pallets" -> 121., 
             "Dubbler Bag (11x8x6)" -> 50., "Double Bag Box (14x12x10)" -> 41.,
-             "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+             "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 7, 10, 19, 47, 17.47599983215332}, "Instant", 
@@ -271,9 +273,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 6., "Shrink Wrap (Rolls)" -> 8., 
             "Gloves (boxes)" -> 5., "Extra Pallets" -> 124., 
             "Dubbler Bag (11x8x6)" -> 50., "Double Bag Box (14x12x10)" -> 42.,
-             "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+             "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 7, 15, 17, 59, 33.64300012588501}, "Instant", 
@@ -286,9 +288,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 6., "Shrink Wrap (Rolls)" -> 8., 
             "Gloves (boxes)" -> 6., "Extra Pallets" -> 123., 
             "Dubbler Bag (11x8x6)" -> 47., "Double Bag Box (14x12x10)" -> 38.,
-             "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+             "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 7, 19, 20, 25, 1.5320000648498535`}, "Instant", 
@@ -301,9 +303,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 6., "Shrink Wrap (Rolls)" -> 6., 
             "Gloves (boxes)" -> 6., "Extra Pallets" -> 89., 
             "Dubbler Bag (11x8x6)" -> 45., "Double Bag Box (14x12x10)" -> 36.,
-             "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+             "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 7, 22, 18, 11, 26.02899980545044}, "Instant", 
@@ -316,9 +318,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 5., "Shrink Wrap (Rolls)" -> 5., 
             "Gloves (boxes)" -> 5., "Extra Pallets" -> 89., 
             "Dubbler Bag (11x8x6)" -> 38., "Double Bag Box (14x12x10)" -> 35.,
-             "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+             "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 7, 26, 16, 45, 46.93499994277954}, "Instant", 
@@ -331,9 +333,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 4., "Shrink Wrap (Rolls)" -> 8., 
             "Gloves (boxes)" -> 5., "Extra Pallets" -> 83., 
             "Dubbler Bag (11x8x6)" -> 88., "Double Bag Box (14x12x10)" -> 82.,
-             "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+             "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 8, 1, 16, 52, 2.558000087738037}, "Instant", 
@@ -346,9 +348,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 5., "Shrink Wrap (Rolls)" -> 5., 
             "Gloves (boxes)" -> 6., "Extra Pallets" -> 176., 
             "Dubbler Bag (11x8x6)" -> 80., "Double Bag Box (14x12x10)" -> 78.,
-             "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+             "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 8, 5, 20, 39, 17.478000164031982`}, "Instant", 
@@ -361,9 +363,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 4., "Shrink Wrap (Rolls)" -> 3., 
             "Gloves (boxes)" -> 5., "Extra Pallets" -> 175., 
             "Dubbler Bag (11x8x6)" -> 73., "Double Bag Box (14x12x10)" -> 78.,
-             "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+             "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 8, 16, 20, 46, 21.99399995803833}, "Instant", 
@@ -376,9 +378,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 3., "Shrink Wrap (Rolls)" -> 18., 
             "Gloves (boxes)" -> 8., "Extra Pallets" -> 132., 
             "Dubbler Bag (11x8x6)" -> 61., "Double Bag Box (14x12x10)" -> 75.,
-             "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+             "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 8, 23, 16, 55, 53.5310001373291}, "Instant", 
@@ -391,9 +393,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 13., "Shrink Wrap (Rolls)" -> 18., 
             "Gloves (boxes)" -> 5., "Extra Pallets" -> 115., 
             "Dubbler Bag (11x8x6)" -> 54., "Double Bag Box (14x12x10)" -> 51.,
-             "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+             "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 9, 3, 13, 56, 1.136000156402588}, "Instant", 
@@ -406,9 +408,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 23., "Shrink Wrap (Rolls)" -> 17., 
             "Gloves (boxes)" -> 5., "Extra Pallets" -> 111., 
             "Dubbler Bag (11x8x6)" -> 51., "Double Bag Box (14x12x10)" -> 69.,
-             "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+             "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 9, 5, 18, 15, 29.032000064849854`}, "Instant", 
@@ -421,9 +423,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 22., "Shrink Wrap (Rolls)" -> 17., 
             "Gloves (boxes)" -> 5., "Extra Pallets" -> 110., 
             "Dubbler Bag (11x8x6)" -> 47., "Double Bag Box (14x12x10)" -> 72.,
-             "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+             "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 9, 23, 19, 35, 51.282999992370605`}, "Instant", 
@@ -436,9 +438,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 12., "Shrink Wrap (Rolls)" -> 15., 
             "Gloves (boxes)" -> 5., "Extra Pallets" -> 101., 
             "Dubbler Bag (11x8x6)" -> 71., "Double Bag Box (14x12x10)" -> 41.,
-             "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+             "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 10, 2, 18, 50, 51.33500003814697}, "Instant", 
@@ -451,9 +453,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 20., "Shrink Wrap (Rolls)" -> 13., 
             "Gloves (boxes)" -> 5., "Extra Pallets" -> 105., 
             "Dubbler Bag (11x8x6)" -> 52., "Double Bag Box (14x12x10)" -> 82.,
-             "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+             "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 10, 14, 20, 54, 3.5840001106262207`}, "Instant",
@@ -466,9 +468,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 25., "Shrink Wrap (Rolls)" -> 12., 
             "Gloves (boxes)" -> 5., "Extra Pallets" -> 104., 
             "Dubbler Bag (11x8x6)" -> 92., "Double Bag Box (14x12x10)" -> 
-            132., "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            132., "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 10, 28, 20, 55, 35.11399984359741}, "Instant", 
@@ -481,9 +483,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 20., "Shrink Wrap (Rolls)" -> 12., 
             "Gloves (boxes)" -> 5., "Extra Pallets" -> 100., 
             "Dubbler Bag (11x8x6)" -> 78., "Double Bag Box (14x12x10)" -> 75.,
-             "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+             "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 11, 1, 16, 51, 55.751999855041504`}, "Instant", 
@@ -496,9 +498,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 22., "Shrink Wrap (Rolls)" -> 12., 
             "Gloves (boxes)" -> 5., "Extra Pallets" -> 110., 
             "Dubbler Bag (11x8x6)" -> 81., "Double Bag Box (14x12x10)" -> 85.,
-             "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+             "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 11, 25, 21, 51, 44.361000061035156`}, "Instant",
@@ -507,13 +509,13 @@ xlsx\"\>"},
             75., "Dubble Bag Box (16x14x12)" -> 61., 
             "Large Full Case Box (26x15x22)" -> 168., 
             "Brown Craft Tape (rolls)" -> 21., "Loge Poly Bags (15x12x1) " -> 
-            "01", "Small Poly Bags (9x6x1)" -> 0., "FedEx Express Bags" -> 1.,
-             "Sample Ziplock Bags" -> 22., "Shrink Wrap (Rolls)" -> 10., 
+            1., "Small Poly Bags (9x6x1)" -> 0., "FedEx Express Bags" -> 1., 
+            "Sample Ziplock Bags" -> 22., "Shrink Wrap (Rolls)" -> 10., 
             "Gloves (boxes)" -> 5., "Extra Pallets" -> 35., 
             "Dubbler Bag (11x8x6)" -> 45., "Double Bag Box (14x12x10)" -> 
-            128., "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            128., "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 12, 17, 17, 38, 48.32600021362305}, "Instant", 
@@ -526,9 +528,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 19., "Shrink Wrap (Rolls)" -> 22., 
             "Gloves (boxes)" -> 5., "Extra Pallets" -> 160., 
             "Dubbler Bag (11x8x6)" -> 0., "Double Bag Box (14x12x10)" -> 104.,
-             "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+             "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2019, 12, 23, 19, 13, 51.43900012969971}, "Instant", 
@@ -541,9 +543,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 20., "Shrink Wrap (Rolls)" -> 21., 
             "Gloves (boxes)" -> 5., "Extra Pallets" -> 135., 
             "Dubbler Bag (11x8x6)" -> 0., "Double Bag Box (14x12x10)" -> 50., 
-            "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 1, 23, 19, 8, 8.998000144958496}, "Instant", 
@@ -556,9 +558,9 @@ xlsx\"\>"},
             "Sample Ziplock Bags" -> 13., "Shrink Wrap (Rolls)" -> 20., 
             "Gloves (boxes)" -> 5., "Extra Pallets" -> 165., 
             "Dubbler Bag (11x8x6)" -> 209., "Double Bag Box (14x12x10)" -> 
-            75., "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            75., "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 2, 11, 19, 54, 29.472000122070312`}, "Instant", 
@@ -569,11 +571,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 32., "Loge Poly Bags (15x12x1) " -> 
             3., "Small Poly Bags (9x6x1)" -> 3., "FedEx Express Bags" -> 4., 
             "Sample Ziplock Bags" -> 8., "Shrink Wrap (Rolls)" -> 16., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 91., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 91., 
             "Dubbler Bag (11x8x6)" -> 79., "Double Bag Box (14x12x10)" -> 74.,
              "Triple Bag Box (24x14x12)" -> 27., 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 2, 20, 18, 30, 32.367000102996826`}, "Instant", 
@@ -584,11 +586,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 27., "Loge Poly Bags (15x12x1) " -> 
             3., "Small Poly Bags (9x6x1)" -> 3., "FedEx Express Bags" -> 3., 
             "Sample Ziplock Bags" -> 8., "Shrink Wrap (Rolls)" -> 17., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 130., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 130., 
             "Dubbler Bag (11x8x6)" -> 161., "Double Bag Box (14x12x10)" -> 
             85., "Triple Bag Box (24x14x12)" -> 20., 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 2, 21, 18, 57, 19.756999969482422`}, "Instant", 
@@ -599,11 +601,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 27., "Loge Poly Bags (15x12x1) " -> 
             3., "Small Poly Bags (9x6x1)" -> 3., "FedEx Express Bags" -> 3., 
             "Sample Ziplock Bags" -> 7., "Shrink Wrap (Rolls)" -> 17., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 125., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 125., 
             "Dubbler Bag (11x8x6)" -> 155., "Double Bag Box (14x12x10)" -> 
             48., "Triple Bag Box (24x14x12)" -> 16., 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 3, 2, 21, 17, 56.86899995803833}, "Instant", 
@@ -614,11 +616,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 23., "Loge Poly Bags (15x12x1) " -> 
             2., "Small Poly Bags (9x6x1)" -> 3., "FedEx Express Bags" -> 3., 
             "Sample Ziplock Bags" -> 7., "Shrink Wrap (Rolls)" -> 16., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 115., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 115., 
             "Dubbler Bag (11x8x6)" -> 105., "Double Bag Box (14x12x10)" -> 
             57., "Triple Bag Box (24x14x12)" -> 20., 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 3, 19, 19, 13, 8.80299997329712}, "Instant", 
@@ -629,11 +631,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 6., "Loge Poly Bags (15x12x1) " -> 
             150., "Small Poly Bags (9x6x1)" -> 200., "FedEx Express Bags" -> 
             100., "Sample Ziplock Bags" -> 50., "Shrink Wrap (Rolls)" -> 16., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 70., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 70., 
             "Dubbler Bag (11x8x6)" -> 125., "Double Bag Box (14x12x10)" -> 
             90., "Triple Bag Box (24x14x12)" -> 90., 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 4, 10, 17, 23, 42.7979998588562}, "Instant", 
@@ -644,11 +646,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 31., "Loge Poly Bags (15x12x1) " -> 
             4., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 1., 
             "Sample Ziplock Bags" -> 14., "Shrink Wrap (Rolls)" -> 10., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 62., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 62., 
             "Dubbler Bag (11x8x6)" -> 86., "Double Bag Box (14x12x10)" -> 
             105., "Triple Bag Box (24x14x12)" -> 36., 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 4, 14, 19, 2, 18.876999855041504`}, "Instant", 
@@ -656,14 +658,14 @@ xlsx\"\>"},
             "Single Bag Box (12x16x8)" -> 310., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 62., 
             "Large Full Case Box (26x15x22)" -> 525., 
-            "Brown Craft Tape (rolls)" -> "", "Loge Poly Bags (15x12x1) " -> 
-            "", "Small Poly Bags (9x6x1)" -> "", "FedEx Express Bags" -> "", 
-            "Sample Ziplock Bags" -> "", "Shrink Wrap (Rolls)" -> "", 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 56., 
+            "Brown Craft Tape (rolls)" -> 0., "Loge Poly Bags (15x12x1) " -> 
+            0., "Small Poly Bags (9x6x1)" -> 0., "FedEx Express Bags" -> 0., 
+            "Sample Ziplock Bags" -> 0., "Shrink Wrap (Rolls)" -> 0., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 56., 
             "Dubbler Bag (11x8x6)" -> 84., "Double Bag Box (14x12x10)" -> 
             130., "Triple Bag Box (24x14x12)" -> 85., 
             "Medium Full Case Box (26x15x19)" -> 515., 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 4, 15, 21, 45, 40.46299982070923}, "Instant", 
@@ -674,11 +676,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 16., "Loge Poly Bags (15x12x1) " -> 
             350., "Small Poly Bags (9x6x1)" -> 100., "FedEx Express Bags" -> 
             50., "Sample Ziplock Bags" -> 500., "Shrink Wrap (Rolls)" -> 16., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 180., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 180., 
             "Dubbler Bag (11x8x6)" -> 87., "Double Bag Box (14x12x10)" -> 
             104., "Triple Bag Box (24x14x12)" -> 84., 
             "Medium Full Case Box (26x15x19)" -> 525., 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 5, 8, 19, 58, 34.866000175476074`}, "Instant", 
@@ -689,11 +691,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 14., "Loge Poly Bags (15x12x1) " -> 
             200., "Small Poly Bags (9x6x1)" -> 100., "FedEx Express Bags" -> 
             30., "Sample Ziplock Bags" -> 400., "Shrink Wrap (Rolls)" -> 2., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 130., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 130., 
             "Dubbler Bag (11x8x6)" -> 55., "Double Bag Box (14x12x10)" -> 
             170., "Triple Bag Box (24x14x12)" -> 75., 
             "Medium Full Case Box (26x15x19)" -> 325., 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 5, 14, 17, 53, 0.25799989700317383`}, "Instant",
@@ -704,11 +706,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 10., "Loge Poly Bags (15x12x1) " -> 
             1., "Small Poly Bags (9x6x1)" -> 3., "FedEx Express Bags" -> 0., 
             "Sample Ziplock Bags" -> 9., "Shrink Wrap (Rolls)" -> 6., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 195., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 195., 
             "Dubbler Bag (11x8x6)" -> 48., "Double Bag Box (14x12x10)" -> 
             122., "Triple Bag Box (24x14x12)" -> 74., 
             "Medium Full Case Box (26x15x19)" -> 258., 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 5, 21, 16, 47, 10.97700023651123}, "Instant", 
@@ -719,11 +721,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 55., "Loge Poly Bags (15x12x1) " -> 
             5., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 0., 
             "Sample Ziplock Bags" -> 12., "Shrink Wrap (Rolls)" -> 21., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 185., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 185., 
             "Dubbler Bag (11x8x6)" -> 35., "Double Bag Box (14x12x10)" -> 
             150., "Triple Bag Box (24x14x12)" -> 75., 
             "Medium Full Case Box (26x15x19)" -> 257., 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 5, 27, 15, 47, 56.388999938964844`}, "Instant", 
@@ -734,11 +736,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 21., "Loge Poly Bags (15x12x1) " -> 
             3., "Small Poly Bags (9x6x1)" -> 1., "FedEx Express Bags" -> 0., 
             "Sample Ziplock Bags" -> 10., "Shrink Wrap (Rolls)" -> 21., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 185., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 185., 
             "Dubbler Bag (11x8x6)" -> 29., "Double Bag Box (14x12x10)" -> 
             115., "Triple Bag Box (24x14x12)" -> 74., 
             "Medium Full Case Box (26x15x19)" -> 223., 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 6, 2, 18, 45, 18.0939998626709}, "Instant", 
@@ -749,11 +751,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 50., "Loge Poly Bags (15x12x1) " -> 
             3., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 0., 
             "Sample Ziplock Bags" -> 5., "Shrink Wrap (Rolls)" -> 21., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 185., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 185., 
             "Dubbler Bag (11x8x6)" -> 75., "Double Bag Box (14x12x10)" -> 
             175., "Triple Bag Box (24x14x12)" -> 73., 
             "Medium Full Case Box (26x15x19)" -> 135., 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 6, 16, 19, 41, 37.83500003814697}, "Instant", 
@@ -764,11 +766,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 34., "Loge Poly Bags (15x12x1) " -> 
             2., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 0., 
             "Sample Ziplock Bags" -> 4., "Shrink Wrap (Rolls)" -> 19., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 145., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 145., 
             "Dubbler Bag (11x8x6)" -> 4., "Double Bag Box (14x12x10)" -> 115.,
              "Triple Bag Box (24x14x12)" -> 64., 
             "Medium Full Case Box (26x15x19)" -> 665., 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 6, 18, 17, 40, 31.81599998474121}, "Instant", 
@@ -779,11 +781,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 34., "Loge Poly Bags (15x12x1) " -> 
             0., "Small Poly Bags (9x6x1)" -> 0., "FedEx Express Bags" -> 0., 
             "Sample Ziplock Bags" -> 3., "Shrink Wrap (Rolls)" -> 19., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 132., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 132., 
             "Dubbler Bag (11x8x6)" -> 11., "Double Bag Box (14x12x10)" -> 
             107., "Triple Bag Box (24x14x12)" -> 46., 
             "Medium Full Case Box (26x15x19)" -> 650., 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 6, 26, 19, 35, 31.93400001525879}, "Instant", 
@@ -794,11 +796,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 34., "Loge Poly Bags (15x12x1) " -> 
             200., "Small Poly Bags (9x6x1)" -> 100., "FedEx Express Bags" -> 
             0., "Sample Ziplock Bags" -> 0., "Shrink Wrap (Rolls)" -> 18., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 80., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 80., 
             "Dubbler Bag (11x8x6)" -> 3., "Double Bag Box (14x12x10)" -> 122.,
              "Triple Bag Box (24x14x12)" -> 58., 
             "Medium Full Case Box (26x15x19)" -> 525., 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 7, 6, 20, 9, 24.79099988937378}, "Instant", 
@@ -809,11 +811,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 22., "Loge Poly Bags (15x12x1) " -> 
             0., "Small Poly Bags (9x6x1)" -> 1., "FedEx Express Bags" -> 0., 
             "Sample Ziplock Bags" -> 5., "Shrink Wrap (Rolls)" -> 17., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 60., 
-            "Dubbler Bag (11x8x6)" -> 0., "Double Bag Box (14x12x10)" -> "", 
-            "Triple Bag Box (24x14x12)" -> "", 
-            "Medium Full Case Box (26x15x19)" -> "", 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 60., 
+            "Dubbler Bag (11x8x6)" -> 0., "Double Bag Box (14x12x10)" -> 0., 
+            "Triple Bag Box (24x14x12)" -> 0., 
+            "Medium Full Case Box (26x15x19)" -> 0., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 7, 21, 18, 33, 19.063000202178955`}, "Instant", 
@@ -824,11 +826,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 13., "Loge Poly Bags (15x12x1) " -> 
             3., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 0., 
             "Sample Ziplock Bags" -> 20., "Shrink Wrap (Rolls)" -> 16., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 245., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 245., 
             "Dubbler Bag (11x8x6)" -> 0., "Double Bag Box (14x12x10)" -> 162.,
              "Triple Bag Box (24x14x12)" -> 29., 
             "Medium Full Case Box (26x15x19)" -> 384., 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 7, 28, 18, 37, 40.69500017166138}, "Instant", 
@@ -839,11 +841,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 68., "Loge Poly Bags (15x12x1) " -> 
             2., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 0., 
             "Sample Ziplock Bags" -> 40., "Shrink Wrap (Rolls)" -> 13., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 180., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 180., 
             "Dubbler Bag (11x8x6)" -> 145., "Double Bag Box (14x12x10)" -> 
             35., "Triple Bag Box (24x14x12)" -> 128., 
             "Medium Full Case Box (26x15x19)" -> 365., 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 8, 11, 18, 42, 21.301000118255615`}, "Instant", 
@@ -854,11 +856,11 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 32., "Loge Poly Bags (15x12x1) " -> 
             0., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 0., 
             "Sample Ziplock Bags" -> 25., "Shrink Wrap (Rolls)" -> 13., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 250., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 250., 
             "Dubbler Bag (11x8x6)" -> 120., "Double Bag Box (14x12x10)" -> 
             154., "Triple Bag Box (24x14x12)" -> 111., 
             "Medium Full Case Box (26x15x19)" -> 225., 
-            "Large Single Bag with Dubbler (22x12x8)" -> ""], 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
            Association[
            "Timestamp" -> 
             DateObject[{2020, 9, 3, 14, 54, 10.750999927520752`}, "Instant", 
@@ -869,7 +871,7 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 37., "Loge Poly Bags (15x12x1) " -> 
             10., "Small Poly Bags (9x6x1)" -> 3., "FedEx Express Bags" -> 0., 
             "Sample Ziplock Bags" -> 30., "Shrink Wrap (Rolls)" -> 11., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 245., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 245., 
             "Dubbler Bag (11x8x6)" -> 75., "Double Bag Box (14x12x10)" -> 
             138., "Triple Bag Box (24x14x12)" -> 108., 
             "Medium Full Case Box (26x15x19)" -> 325., 
@@ -884,7 +886,7 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 12., "Loge Poly Bags (15x12x1) " -> 
             1., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 0., 
             "Sample Ziplock Bags" -> 20., "Shrink Wrap (Rolls)" -> 7., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 175., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 175., 
             "Dubbler Bag (11x8x6)" -> 58., "Double Bag Box (14x12x10)" -> 
             111., "Triple Bag Box (24x14x12)" -> 68., 
             "Medium Full Case Box (26x15x19)" -> 385., 
@@ -899,7 +901,7 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 56., "Loge Poly Bags (15x12x1) " -> 
             5., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 0., 
             "Sample Ziplock Bags" -> 50., "Shrink Wrap (Rolls)" -> 29., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 165., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 165., 
             "Dubbler Bag (11x8x6)" -> 24., "Double Bag Box (14x12x10)" -> 
             145., "Triple Bag Box (24x14x12)" -> 72., 
             "Medium Full Case Box (26x15x19)" -> 328., 
@@ -914,7 +916,7 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 26., "Loge Poly Bags (15x12x1) " -> 
             20., "Small Poly Bags (9x6x1)" -> 2., "FedEx Express Bags" -> 0., 
             "Sample Ziplock Bags" -> 20., "Shrink Wrap (Rolls)" -> 25., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 300., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 300., 
             "Dubbler Bag (11x8x6)" -> 8., "Double Bag Box (14x12x10)" -> 150.,
              "Triple Bag Box (24x14x12)" -> 11., 
             "Medium Full Case Box (26x15x19)" -> 86., 
@@ -929,11 +931,87 @@ xlsx\"\>"},
             "Brown Craft Tape (rolls)" -> 16., "Loge Poly Bags (15x12x1) " -> 
             200., "Small Poly Bags (9x6x1)" -> 50., "FedEx Express Bags" -> 
             0., "Sample Ziplock Bags" -> 0., "Shrink Wrap (Rolls)" -> 0., 
-            "Gloves (boxes)" -> "", "Extra Pallets" -> 0., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 0., 
             "Dubbler Bag (11x8x6)" -> 52., "Double Bag Box (14x12x10)" -> 
             120., "Triple Bag Box (24x14x12)" -> 50., 
             "Medium Full Case Box (26x15x19)" -> 500., 
-            "Large Single Bag with Dubbler (22x12x8)" -> 0.]}, "InitialShape" -> 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
+           Association[
+           "Timestamp" -> 
+            DateObject[{2020, 12, 8, 20, 28, 42.06899976730347}, "Instant", 
+              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 235., 
+            "Single Bag Box (12x16x8)" -> 145., "Dubble Bag Box (16x12x12)" -> 
+            0., "Dubble Bag Box (16x14x12)" -> 73., 
+            "Large Full Case Box (26x15x22)" -> 425., 
+            "Brown Craft Tape (rolls)" -> 2., "Loge Poly Bags (15x12x1) " -> 
+            4., "Small Poly Bags (9x6x1)" -> 1., "FedEx Express Bags" -> 0., 
+            "Sample Ziplock Bags" -> 10., "Shrink Wrap (Rolls)" -> 18., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 300., 
+            "Dubbler Bag (11x8x6)" -> 79., "Double Bag Box (14x12x10)" -> 50.,
+             "Triple Bag Box (24x14x12)" -> 80., 
+            "Medium Full Case Box (26x15x19)" -> 350., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
+           Association[
+           "Timestamp" -> 
+            DateObject[{2020, 12, 22, 19, 42, 36.23899984359741}, "Instant", 
+              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 77., 
+            "Single Bag Box (12x16x8)" -> 115., "Dubble Bag Box (16x12x12)" -> 
+            0., "Dubble Bag Box (16x14x12)" -> 52., 
+            "Large Full Case Box (26x15x22)" -> 410., 
+            "Brown Craft Tape (rolls)" -> 31., "Loge Poly Bags (15x12x1) " -> 
+            10., "Small Poly Bags (9x6x1)" -> 10., "FedEx Express Bags" -> 0.,
+             "Sample Ziplock Bags" -> 10., "Shrink Wrap (Rolls)" -> 18., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 300., 
+            "Dubbler Bag (11x8x6)" -> 58., "Double Bag Box (14x12x10)" -> 
+            100., "Triple Bag Box (24x14x12)" -> 58., 
+            "Medium Full Case Box (26x15x19)" -> 315., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
+           Association[
+           "Timestamp" -> 
+            DateObject[{2020, 12, 29, 21, 3, 21.868000030517578`}, "Instant", 
+              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 0., 
+            "Single Bag Box (12x16x8)" -> 75., "Dubble Bag Box (16x12x12)" -> 
+            0., "Dubble Bag Box (16x14x12)" -> 10., 
+            "Large Full Case Box (26x15x22)" -> 275., 
+            "Brown Craft Tape (rolls)" -> 25., "Loge Poly Bags (15x12x1) " -> 
+            10., "Small Poly Bags (9x6x1)" -> 10., "FedEx Express Bags" -> 0.,
+             "Sample Ziplock Bags" -> 10., "Shrink Wrap (Rolls)" -> 16., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 200., 
+            "Dubbler Bag (11x8x6)" -> 49., "Double Bag Box (14x12x10)" -> 
+            200., "Triple Bag Box (24x14x12)" -> 62., 
+            "Medium Full Case Box (26x15x19)" -> 195., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
+           Association[
+           "Timestamp" -> 
+            DateObject[{2021, 1, 11, 20, 54, 52.71799993515015}, "Instant", 
+              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 110., 
+            "Single Bag Box (12x16x8)" -> 80., "Dubble Bag Box (16x12x12)" -> 
+            0., "Dubble Bag Box (16x14x12)" -> 0., 
+            "Large Full Case Box (26x15x22)" -> 135., 
+            "Brown Craft Tape (rolls)" -> 22., "Loge Poly Bags (15x12x1) " -> 
+            10., "Small Poly Bags (9x6x1)" -> 10., "FedEx Express Bags" -> 0.,
+             "Sample Ziplock Bags" -> 10., "Shrink Wrap (Rolls)" -> 14., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 300., 
+            "Dubbler Bag (11x8x6)" -> 45., "Double Bag Box (14x12x10)" -> 
+            125., "Triple Bag Box (24x14x12)" -> 60., 
+            "Medium Full Case Box (26x15x19)" -> 75., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
+           Association[
+           "Timestamp" -> 
+            DateObject[{2021, 3, 4, 17, 32, 31.080999851226807`}, "Instant", 
+              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 68., 
+            "Single Bag Box (12x16x8)" -> 335., "Dubble Bag Box (16x12x12)" -> 
+            0., "Dubble Bag Box (16x14x12)" -> 145., 
+            "Large Full Case Box (26x15x22)" -> 345., 
+            "Brown Craft Tape (rolls)" -> 63., "Loge Poly Bags (15x12x1) " -> 
+            10., "Small Poly Bags (9x6x1)" -> 3., "FedEx Express Bags" -> 0., 
+            "Sample Ziplock Bags" -> 100., "Shrink Wrap (Rolls)" -> 13., 
+            "Gloves (boxes)" -> 0., "Extra Pallets" -> 210., 
+            "Dubbler Bag (11x8x6)" -> 28., "Double Bag Box (14x12x10)" -> 
+            120., "Triple Bag Box (24x14x12)" -> 25., 
+            "Medium Full Case Box (26x15x19)" -> 370., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.]}, 
+         "AllowEmbedding" -> True, "InitialShape" -> 
          TypeSystem`PackageScope`HeaderShape[
            
            Association[{All, "Timestamp"} -> 
@@ -967,30 +1045,27 @@ xlsx\"\>"},
                 "Dubble Bag Box (16x14x12)" -> 
                 TypeSystem`PackageScope`AtomShape[60], 
                 "Large Full Case Box (26x15x22)" -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
+                TypeSystem`PackageScope`AtomShape[60], 
                 "Brown Craft Tape (rolls)" -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
+                TypeSystem`PackageScope`AtomShape[60], 
                 "Loge Poly Bags (15x12x1) " -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
+                TypeSystem`PackageScope`AtomShape[60], 
                 "Small Poly Bags (9x6x1)" -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
-                "FedEx Express Bags" -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
-                "Sample Ziplock Bags" -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
-                "Shrink Wrap (Rolls)" -> 
-                TypeSystem`PackageScope`UnknownShape[False], "Gloves (boxes)" -> 
-                TypeSystem`PackageScope`UnknownShape[False], "Extra Pallets" -> 
+                TypeSystem`PackageScope`AtomShape[60], "FedEx Express Bags" -> 
+                TypeSystem`PackageScope`AtomShape[60], "Sample Ziplock Bags" -> 
+                TypeSystem`PackageScope`AtomShape[60], "Shrink Wrap (Rolls)" -> 
+                TypeSystem`PackageScope`AtomShape[60], "Gloves (boxes)" -> 
+                TypeSystem`PackageScope`AtomShape[60], "Extra Pallets" -> 
                 TypeSystem`PackageScope`AtomShape[60], "Dubbler Bag (11x8x6)" -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
+                TypeSystem`PackageScope`AtomShape[60], 
                 "Double Bag Box (14x12x10)" -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
+                TypeSystem`PackageScope`AtomShape[60], 
                 "Triple Bag Box (24x14x12)" -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
+                TypeSystem`PackageScope`AtomShape[60], 
                 "Medium Full Case Box (26x15x19)" -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
+                TypeSystem`PackageScope`AtomShape[60], 
                 "Large Single Bag with Dubbler (22x12x8)" -> 
-                TypeSystem`PackageScope`UnknownShape[False]]], 
+                TypeSystem`PackageScope`AtomShape[60]]], 
               DirectedInfinity[1], 10, {All}]], 20, 
             DirectedInfinity[1], {}]], "InitialType" -> TypeSystem`Vector[
            
@@ -1009,13 +1084,22 @@ xlsx\"\>"},
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
-             TypeSystem`Atom[Real], TypeSystem`AnyType, TypeSystem`AnyType, 
-             TypeSystem`AnyType, TypeSystem`AnyType, TypeSystem`AnyType, 
-             TypeSystem`AnyType, TypeSystem`AnyType, TypeSystem`AnyType, 
-             TypeSystem`Atom[Real], TypeSystem`AnyType, TypeSystem`AnyType, 
-             TypeSystem`AnyType, TypeSystem`AnyType, TypeSystem`AnyType}], 
-           55], "Meta" -> Association["ID" -> 23802926797265], "RowTarget" -> 
-         20, "ColumnTarget" -> 10, "Shape" -> 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real]}], 60], "Meta" -> Association[], 
+         "RowTarget" -> 20, "ColumnTarget" -> 10, "Shape" -> 
          TypeSystem`PackageScope`HeaderShape[
            
            Association[{All, "Timestamp"} -> 
@@ -1049,30 +1133,27 @@ xlsx\"\>"},
                 "Dubble Bag Box (16x14x12)" -> 
                 TypeSystem`PackageScope`AtomShape[60], 
                 "Large Full Case Box (26x15x22)" -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
+                TypeSystem`PackageScope`AtomShape[60], 
                 "Brown Craft Tape (rolls)" -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
+                TypeSystem`PackageScope`AtomShape[60], 
                 "Loge Poly Bags (15x12x1) " -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
+                TypeSystem`PackageScope`AtomShape[60], 
                 "Small Poly Bags (9x6x1)" -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
-                "FedEx Express Bags" -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
-                "Sample Ziplock Bags" -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
-                "Shrink Wrap (Rolls)" -> 
-                TypeSystem`PackageScope`UnknownShape[False], "Gloves (boxes)" -> 
-                TypeSystem`PackageScope`UnknownShape[False], "Extra Pallets" -> 
+                TypeSystem`PackageScope`AtomShape[60], "FedEx Express Bags" -> 
+                TypeSystem`PackageScope`AtomShape[60], "Sample Ziplock Bags" -> 
+                TypeSystem`PackageScope`AtomShape[60], "Shrink Wrap (Rolls)" -> 
+                TypeSystem`PackageScope`AtomShape[60], "Gloves (boxes)" -> 
+                TypeSystem`PackageScope`AtomShape[60], "Extra Pallets" -> 
                 TypeSystem`PackageScope`AtomShape[60], "Dubbler Bag (11x8x6)" -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
+                TypeSystem`PackageScope`AtomShape[60], 
                 "Double Bag Box (14x12x10)" -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
+                TypeSystem`PackageScope`AtomShape[60], 
                 "Triple Bag Box (24x14x12)" -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
+                TypeSystem`PackageScope`AtomShape[60], 
                 "Medium Full Case Box (26x15x19)" -> 
-                TypeSystem`PackageScope`UnknownShape[False], 
+                TypeSystem`PackageScope`AtomShape[60], 
                 "Large Single Bag with Dubbler (22x12x8)" -> 
-                TypeSystem`PackageScope`UnknownShape[False]]], 
+                TypeSystem`PackageScope`AtomShape[60]]], 
               DirectedInfinity[1], 10, {All}]], 20, 
             DirectedInfinity[1], {}]], "Type" -> TypeSystem`Vector[
            
@@ -1091,16 +1172,25 @@ xlsx\"\>"},
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
-             TypeSystem`Atom[Real], TypeSystem`AnyType, TypeSystem`AnyType, 
-             TypeSystem`AnyType, TypeSystem`AnyType, TypeSystem`AnyType, 
-             TypeSystem`AnyType, TypeSystem`AnyType, TypeSystem`AnyType, 
-             TypeSystem`Atom[Real], TypeSystem`AnyType, TypeSystem`AnyType, 
-             TypeSystem`AnyType, TypeSystem`AnyType, TypeSystem`AnyType}], 
-           55], "Path" -> {}, "BaseIndices" -> {}, "DisplayedRowCount" -> 20, 
-         "DisplayedColumnCount" -> 10, "DataRowCount" -> 55, 
-         "DataColumnCount" -> 19, "SortPaths" -> {}, "SortDirections" -> {}, 
-         "HiddenItemsMap" -> Null, "UpdateType" -> 1], 
-        TypeSystem`NestedGrid`PackagePrivate`$outputID$$, 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real]}], 60], "Path" -> {}, "BaseIndices" -> {}, 
+         "DisplayedRowCount" -> 20, "DisplayedColumnCount" -> 10, 
+         "DataRowCount" -> 60, "DataColumnCount" -> 19, "SortPaths" -> {}, 
+         "SortDirections" -> {}, "HiddenItemsMap" -> Null, "UpdateType" -> 1],
+         TypeSystem`NestedGrid`PackagePrivate`$outputID$$, 
         TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
         TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 1, 
         TypeSystem`NestedGrid`PackagePrivate`$hPos$$ = 1, 
@@ -1120,6 +1210,9 @@ xlsx\"\>"},
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -1129,7 +1222,7 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Timestamp"}, 1]], 
+                    All, "Timestamp"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -1148,6 +1241,9 @@ xlsx\"\>"},
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -1157,7 +1253,7 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Single Bag Box (12x14x8)"}, 1]], 
+                    All, "Single Bag Box (12x14x8)"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -1176,6 +1272,9 @@ xlsx\"\>"},
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -1185,7 +1284,7 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Single Bag Box (12x16x8)"}, 1]], 
+                    All, "Single Bag Box (12x16x8)"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -1204,6 +1303,9 @@ xlsx\"\>"},
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -1213,7 +1315,7 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Dubble Bag Box (16x12x12)"}, 1]], 
+                    All, "Dubble Bag Box (16x12x12)"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -1232,6 +1334,9 @@ xlsx\"\>"},
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -1241,7 +1346,7 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Dubble Bag Box (16x14x12)"}, 1]], 
+                    All, "Dubble Bag Box (16x14x12)"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -1260,6 +1365,9 @@ xlsx\"\>"},
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -1269,7 +1377,7 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Large Full Case Box (26x15x22)"}, 1]], 
+                    All, "Large Full Case Box (26x15x22)"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -1288,6 +1396,9 @@ xlsx\"\>"},
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -1297,7 +1408,7 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Brown Craft Tape (rolls)"}, 1]], 
+                    All, "Brown Craft Tape (rolls)"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -1316,6 +1427,9 @@ xlsx\"\>"},
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -1325,7 +1439,7 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Loge Poly Bags (15x12x1) "}, 1]], 
+                    All, "Loge Poly Bags (15x12x1) "}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -1344,6 +1458,9 @@ xlsx\"\>"},
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -1353,7 +1470,7 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Small Poly Bags (9x6x1)"}, 1]], 
+                    All, "Small Poly Bags (9x6x1)"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -1372,6 +1489,9 @@ xlsx\"\>"},
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -1381,7 +1501,7 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "FedEx Express Bags"}, 1]], 
+                    All, "FedEx Express Bags"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -2020,12 +2140,13 @@ xlsx\"\>"},
                  ItemSize -> {Full, Automatic}], 
                 Item[
                  Pane[
-                  Annotation["", 
+                  Annotation[
+                   RawBoxes["0.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
                     Key["Large Full Case Box (26x15x22)"]}, "Item", False], 
-                   "Mouse"], ImageSize -> {{0., Full}, Automatic}, 
+                   "Mouse"], ImageSize -> {{60, Full}, Automatic}, 
                   ImageMargins -> {{5, 3}, {4, 5}}], 
                  ItemSize -> {Full, Automatic}], 
                 Item[
@@ -3709,9 +3830,12 @@ xlsx\"\>"},
                     Line[{{0, 5}, {8, 5}}]}, {5, 6.5}], 0, {9, 9}]}, 
                     ImageSize -> (1 -> 1), ImagePadding -> {{0, 1}, {1, 0}}, 
                     BaselinePosition -> Scaled[0.35]]], "LinkHand"], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$vPos$$ + (-20) 
-                    If[True, 55, 1], {1, 55 - -20 + 1}]; 
+                    If[True, 60, 1], {1, 60 - -20 + 1}]; 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -3721,8 +3845,8 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]], True][
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$], Appearance -> 
-                    None], 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$]], 
+                    Appearance -> None], 
                     Button[
                     MouseAppearance[
                     Mouseover[
@@ -3733,7 +3857,8 @@ xlsx\"\>"},
                     Rotate[
                     Translate[{
                     CapForm[Round], 
-                    RGBColor[0.5372549019607843, 0.5372549019607843, 
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
                     0.5372549019607843], 
                     Line[{{0, 0}, {4, 5}, {8, 0}}]}, {5, 6.5}], 0, {9, 9}]}, 
                     ImageSize -> (1 -> 1), ImagePadding -> {{0, 1}, {1, 0}}, 
@@ -3754,9 +3879,12 @@ xlsx\"\>"},
                     Line[{{0, 0}, {4, 5}, {8, 0}}]}, {5, 6.5}], 0, {9, 9}]}, 
                     ImageSize -> (1 -> 1), ImagePadding -> {{0, 1}, {1, 0}}, 
                     BaselinePosition -> Scaled[0.35]]], "LinkHand"], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$vPos$$ + (-20) 
-                    If[False, 55, 1], {1, 55 - -20 + 1}]; 
+                    If[False, 60, 1], {1, 60 - -20 + 1}]; 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -3766,20 +3894,20 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]], True][
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$], Appearance -> 
-                    None], " ", 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$]], 
+                    Appearance -> None], " ", 
                     Style[
                     Mouseover[
                     Row[{"rows ", 1, "\[Dash]", 20, " of ", 
                     Style[
-                    55, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
+                    60, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
                     BaseStyle -> {
                     FontSize -> 8., FontColor -> 
                     RGBColor[0.5098039215686274, 0.5098039215686274, 
                     0.5098039215686274]}], 
                     Row[{"rows ", 1, "\[Dash]", 20, " of ", 
                     Style[
-                    55, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
+                    60, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
                     BaseStyle -> {
                     FontSize -> 8., FontColor -> 
                     RGBColor[0.5098039215686274, 0.5098039215686274, 
@@ -3855,8 +3983,7 @@ xlsx\"\>"},
                     Rotate[
                     Translate[{
                     CapForm[Round], 
-                    RGBColor[
-                    0.5372549019607843, 0.5372549019607843, 
+                    RGBColor[0.5372549019607843, 0.5372549019607843, 
                     0.5372549019607843], 
                     Line[{{0, 0}, {4, 5}, {8, 0}}]}, {5, 6.5}], 180 Degree, {
                     9, 9}]}, ImageSize -> (1 -> 1), 
@@ -3879,9 +4006,12 @@ xlsx\"\>"},
                     9, 9}]}, ImageSize -> (1 -> 1), 
                     ImagePadding -> {{0, 1}, {1, 0}}, BaselinePosition -> 
                     Scaled[0.35]]], "LinkHand"], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$vPos$$ + 
-                    20 If[False, 55, 1], {1, 55 - 20 + 1}]; 
+                    20 If[False, 60, 1], {1, 60 - 20 + 1}]; 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -3891,8 +4021,8 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]], True][
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$], Appearance -> 
-                    None], 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$]], 
+                    Appearance -> None], 
                     Button[
                     MouseAppearance[
                     Mouseover[
@@ -3927,9 +4057,12 @@ xlsx\"\>"},
                     Line[{{0, 5}, {8, 5}}]}, {5, 6.5}], 180 Degree, {9, 9}]}, 
                     ImageSize -> (1 -> 1), ImagePadding -> {{0, 1}, {1, 0}}, 
                     BaselinePosition -> Scaled[0.35]]], "LinkHand"], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$vPos$$ + 
-                    20 If[True, 55, 1], {1, 55 - 20 + 1}]; 
+                    20 If[True, 60, 1], {1, 60 - 20 + 1}]; 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -3939,8 +4072,8 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]], True][
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$], Appearance -> 
-                    None]}], ContextMenu -> {}], 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$]], 
+                    Appearance -> None]}], ContextMenu -> {}], 
                     Graphics[{
                     RGBColor[
                     0.8196078431372549, 0.8196078431372549, 
@@ -3985,6 +4118,9 @@ xlsx\"\>"},
                     Line[{{0, 5}, {8, 5}}]}, {5, 6.5}], 90 Degree, {9, 9}]}, 
                     ImageSize -> (1 -> 1), ImagePadding -> {{0, 1}, {1, 0}}, 
                     BaselinePosition -> Scaled[0.35]]], "LinkHand"], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$hPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$hPos$$ + (-10) 
                     If[True, 19, 1], {1, 19 - -10 + 1}]; 
@@ -3997,8 +4133,8 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]], True][
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$], Appearance -> 
-                    None], 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$]], 
+                    Appearance -> None], 
                     Button[
                     MouseAppearance[
                     Mouseover[
@@ -4033,6 +4169,9 @@ xlsx\"\>"},
                      9}]}, ImageSize -> (1 -> 1), 
                     ImagePadding -> {{0, 1}, {1, 0}}, BaselinePosition -> 
                     Scaled[0.35]]], "LinkHand"], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$hPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$hPos$$ + (-10) 
                     If[False, 19, 1], {1, 19 - -10 + 1}]; 
@@ -4045,8 +4184,8 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]], True][
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$], Appearance -> 
-                    None], " ", 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$]], 
+                    Appearance -> None], " ", 
                     Style[
                     Mouseover[
                     Row[{"columns ", 1, "\[Dash]", 10, " of ", 
@@ -4158,6 +4297,9 @@ xlsx\"\>"},
                     Degree, {9, 9}]}, ImageSize -> (1 -> 1), 
                     ImagePadding -> {{0, 1}, {1, 0}}, BaselinePosition -> 
                     Scaled[0.35]]], "LinkHand"], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$hPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$hPos$$ + 
                     10 If[False, 19, 1], {1, 19 - 10 + 1}]; 
@@ -4170,8 +4312,8 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]], True][
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$], Appearance -> 
-                    None], 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$]], 
+                    Appearance -> None], 
                     Button[
                     MouseAppearance[
                     Mouseover[
@@ -4208,6 +4350,9 @@ xlsx\"\>"},
                     9}]}, ImageSize -> (1 -> 1), 
                     ImagePadding -> {{0, 1}, {1, 0}}, BaselinePosition -> 
                     Scaled[0.35]]], "LinkHand"], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$hPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$hPos$$ + 
                     10 If[True, 19, 1], {1, 19 - 10 + 1}]; 
@@ -4220,8 +4365,8 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]], True][
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$], Appearance -> 
-                    None]}], ContextMenu -> {}], 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$]], 
+                    Appearance -> None]}], ContextMenu -> {}], 
                     Graphics[{
                     RGBColor[
                     0.8196078431372549, 0.8196078431372549, 
@@ -4403,23 +4548,25 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`toCurrentPosition[
                     TypeSystem`NestedGrid`PackagePrivate`copyClip]], 
                     MenuEvaluator -> Automatic], 
+                    If[TypeSystem`NestedGrid`PackagePrivate`haveData$, 
                     MenuItem["Copy Data to Clipboard", 
                     KernelExecute[
                     TypeSystem`NestedGrid`PackagePrivate`toCurrentData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`copyClip]], 
-                    MenuEvaluator -> Automatic], Delimiter, 
+                    MenuEvaluator -> Automatic], Nothing], Delimiter, 
                     MenuItem["Paste Position in New Cell", 
                     KernelExecute[
                     TypeSystem`NestedGrid`PackagePrivate`toCurrentPosition[
                     TypeSystem`NestedGrid`PackagePrivate`cellPaste]], 
                     MenuEvaluator -> Automatic], 
+                    If[TypeSystem`NestedGrid`PackagePrivate`haveData$, 
                     MenuItem["Paste Data in New Cell", 
                     KernelExecute[
                     TypeSystem`NestedGrid`PackagePrivate`toCurrentData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`cellPaste]], 
-                    MenuEvaluator -> Automatic]}]]]]], FontFamily -> 
+                    MenuEvaluator -> Automatic], Nothing]}]]]]], FontFamily -> 
                 "Verdana", FontSize -> 12}, Spacings -> {0, 0}, Alignment -> 
               Left, Dividers -> All, FrameStyle -> 
               GrayLevel[0.7490196078431373], 
@@ -4536,14 +4683,14 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
               TypeSystem`NestedGrid`PackagePrivate`localHold[
               TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], 
            StandardForm],
-          ImageSizeCache->{1440., {298.134033203125, 303.865966796875}},
+          ImageSizeCache->{1595., {298.134033203125, 303.865966796875}},
           
           TrackedSymbols:>{
            TypeSystem`NestedGrid`PackagePrivate`$state$$, 
             TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
          TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
          MouseAnnotation[],
-         ImageSizeCache->{1440., {298.134033203125, 303.865966796875}}],
+         ImageSizeCache->{1595., {298.134033203125, 303.865966796875}}],
         BaseStyle->{LineBreakWithin -> False},
         DynamicModuleValues:>{},
         Initialization:>
@@ -4560,18 +4707,18 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
       Selectable->False]},
     {"\<\"As Of\"\>", 
      TemplateBox[{
-       RowBox[{"\"2020-11-28\"", 
+       RowBox[{"\"2021-03-04\"", 
          StyleBox[
           RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
             StyleBox[
-             RowBox[{"-", "6.`"}], NumberMarks -> False, StripOnInput -> 
+             RowBox[{"-", "6"}], NumberMarks -> False, StripOnInput -> 
              False]}], FontColor -> GrayLevel[0.5]]}], 
        RowBox[{"DateObject", "[", 
          RowBox[{
            RowBox[{"{", 
              
-             RowBox[{"2020", ",", "11", ",", "28", ",", "17", ",", "20", ",", 
-               "47.46400022506714`"}], "}"}], ",", "\"Instant\"", ",", 
+             RowBox[{"2021", ",", "3", ",", "4", ",", "17", ",", "32", ",", 
+               "31.080999851226807`"}], "}"}], ",", "\"Instant\"", ",", 
            "\"Gregorian\"", ",", 
            RowBox[{"-", "6.`"}]}], "]"}]},
       "DateObject",
@@ -4946,7 +5093,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             45., "Extra Pallets" -> 35., "FedEx Express Bags" -> 1., 
             "Gloves (boxes)" -> 5., "Large Full Case Box (26x15x22)" -> 168., 
             "Large Single Bag with Dubbler (22x12x8)" -> 0., 
-            "Loge Poly Bags (15x12x1) " -> 1, 
+            "Loge Poly Bags (15x12x1) " -> 1., 
             "Medium Full Case Box (26x15x19)" -> 0., "Sample Ziplock Bags" -> 
             22., "Shrink Wrap (Rolls)" -> 10., "Single Bag Box (12x14x8)" -> 
             178., "Single Bag Box (12x16x8)" -> 78., 
@@ -4981,11 +5128,10 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> 
-            DateObject[{2020, 1, 23}, "Day", "Gregorian", -6., {"ISODate"}], 
-            "Brown Craft Tape (rolls)" -> 24., "Double Bag Box (14x12x10)" -> 
-            75., "Dubble Bag Box (16x12x12)" -> 28., 
-            "Dubble Bag Box (16x14x12)" -> 133., "Dubbler Bag (11x8x6)" -> 
+           "Date" -> DateObject[{2020, 1, 23}, "Day", "Gregorian", -6., {
+              "ISODate"}], "Brown Craft Tape (rolls)" -> 24., 
+            "Double Bag Box (14x12x10)" -> 75., "Dubble Bag Box (16x12x12)" -> 
+            28., "Dubble Bag Box (16x14x12)" -> 133., "Dubbler Bag (11x8x6)" -> 
             209., "Extra Pallets" -> 165., "FedEx Express Bags" -> 5., 
             "Gloves (boxes)" -> 5., "Large Full Case Box (26x15x22)" -> 335., 
             "Large Single Bag with Dubbler (22x12x8)" -> 0., 
@@ -5343,7 +5489,78 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             0., "Shrink Wrap (Rolls)" -> 0., "Single Bag Box (12x14x8)" -> 
             125., "Single Bag Box (12x16x8)" -> 150., 
             "Small Poly Bags (9x6x1)" -> 50., "Triple Bag Box (24x14x12)" -> 
-            50.]}, "InitialShape" -> TypeSystem`PackageScope`HeaderShape[
+            50.], 
+           Association[
+           "Date" -> DateObject[{2020, 12, 8}, "Day", "Gregorian", -6., {
+              "ISODate"}], "Brown Craft Tape (rolls)" -> 2., 
+            "Double Bag Box (14x12x10)" -> 50., "Dubble Bag Box (16x12x12)" -> 
+            0., "Dubble Bag Box (16x14x12)" -> 73., "Dubbler Bag (11x8x6)" -> 
+            79., "Extra Pallets" -> 300., "FedEx Express Bags" -> 0., 
+            "Gloves (boxes)" -> 0., "Large Full Case Box (26x15x22)" -> 425., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0., 
+            "Loge Poly Bags (15x12x1) " -> 4., 
+            "Medium Full Case Box (26x15x19)" -> 350., "Sample Ziplock Bags" -> 
+            10., "Shrink Wrap (Rolls)" -> 18., "Single Bag Box (12x14x8)" -> 
+            235., "Single Bag Box (12x16x8)" -> 145., 
+            "Small Poly Bags (9x6x1)" -> 1., "Triple Bag Box (24x14x12)" -> 
+            80.], 
+           Association[
+           "Date" -> 
+            DateObject[{2020, 12, 22}, "Day", "Gregorian", -6., {"ISODate"}], 
+            "Brown Craft Tape (rolls)" -> 31., "Double Bag Box (14x12x10)" -> 
+            100., "Dubble Bag Box (16x12x12)" -> 0., 
+            "Dubble Bag Box (16x14x12)" -> 52., "Dubbler Bag (11x8x6)" -> 58.,
+             "Extra Pallets" -> 300., "FedEx Express Bags" -> 0., 
+            "Gloves (boxes)" -> 0., "Large Full Case Box (26x15x22)" -> 410., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0., 
+            "Loge Poly Bags (15x12x1) " -> 10., 
+            "Medium Full Case Box (26x15x19)" -> 315., "Sample Ziplock Bags" -> 
+            10., "Shrink Wrap (Rolls)" -> 18., "Single Bag Box (12x14x8)" -> 
+            77., "Single Bag Box (12x16x8)" -> 115., 
+            "Small Poly Bags (9x6x1)" -> 10., "Triple Bag Box (24x14x12)" -> 
+            58.], 
+           Association[
+           "Date" -> DateObject[{2020, 12, 29}, "Day", "Gregorian", -6., {
+              "ISODate"}], "Brown Craft Tape (rolls)" -> 25., 
+            "Double Bag Box (14x12x10)" -> 200., "Dubble Bag Box (16x12x12)" -> 
+            0., "Dubble Bag Box (16x14x12)" -> 10., "Dubbler Bag (11x8x6)" -> 
+            49., "Extra Pallets" -> 200., "FedEx Express Bags" -> 0., 
+            "Gloves (boxes)" -> 0., "Large Full Case Box (26x15x22)" -> 275., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0., 
+            "Loge Poly Bags (15x12x1) " -> 10., 
+            "Medium Full Case Box (26x15x19)" -> 195., "Sample Ziplock Bags" -> 
+            10., "Shrink Wrap (Rolls)" -> 16., "Single Bag Box (12x14x8)" -> 
+            0., "Single Bag Box (12x16x8)" -> 75., "Small Poly Bags (9x6x1)" -> 
+            10., "Triple Bag Box (24x14x12)" -> 62.], 
+           Association[
+           "Date" -> DateObject[{2021, 1, 11}, "Day", "Gregorian", -6., {
+              "ISODate"}], "Brown Craft Tape (rolls)" -> 22., 
+            "Double Bag Box (14x12x10)" -> 125., "Dubble Bag Box (16x12x12)" -> 
+            0., "Dubble Bag Box (16x14x12)" -> 0., "Dubbler Bag (11x8x6)" -> 
+            45., "Extra Pallets" -> 300., "FedEx Express Bags" -> 0., 
+            "Gloves (boxes)" -> 0., "Large Full Case Box (26x15x22)" -> 135., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0., 
+            "Loge Poly Bags (15x12x1) " -> 10., 
+            "Medium Full Case Box (26x15x19)" -> 75., "Sample Ziplock Bags" -> 
+            10., "Shrink Wrap (Rolls)" -> 14., "Single Bag Box (12x14x8)" -> 
+            110., "Single Bag Box (12x16x8)" -> 80., 
+            "Small Poly Bags (9x6x1)" -> 10., "Triple Bag Box (24x14x12)" -> 
+            60.], 
+           Association[
+           "Date" -> DateObject[{2021, 3, 4}, "Day", "Gregorian", -6., {
+              "ISODate"}], "Brown Craft Tape (rolls)" -> 63., 
+            "Double Bag Box (14x12x10)" -> 120., "Dubble Bag Box (16x12x12)" -> 
+            0., "Dubble Bag Box (16x14x12)" -> 145., "Dubbler Bag (11x8x6)" -> 
+            28., "Extra Pallets" -> 210., "FedEx Express Bags" -> 0., 
+            "Gloves (boxes)" -> 0., "Large Full Case Box (26x15x22)" -> 345., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0., 
+            "Loge Poly Bags (15x12x1) " -> 10., 
+            "Medium Full Case Box (26x15x19)" -> 370., "Sample Ziplock Bags" -> 
+            100., "Shrink Wrap (Rolls)" -> 13., "Single Bag Box (12x14x8)" -> 
+            68., "Single Bag Box (12x16x8)" -> 335., 
+            "Small Poly Bags (9x6x1)" -> 3., "Triple Bag Box (24x14x12)" -> 
+            25.]}, "AllowEmbedding" -> True, "InitialShape" -> 
+         TypeSystem`PackageScope`HeaderShape[
            
            Association[{All, "Date"} -> 1, {All, "Brown Craft Tape (rolls)"} -> 
             1, {All, "Double Bag Box (14x12x10)"} -> 
@@ -5428,10 +5645,10 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
-             TypeSystem`Atom[Real]}], 55], "Meta" -> 
-         Association["ID" -> 23880236208593], "RowTarget" -> 20, 
-         "ColumnTarget" -> 10, "Shape" -> 
+             TypeSystem`Atom[Real]}], 60], "Meta" -> Association[], 
+         "RowTarget" -> 20, "ColumnTarget" -> 10, "Shape" -> 
          TypeSystem`PackageScope`HeaderShape[
+           
            Association[{All, "Date"} -> 1, {All, "Brown Craft Tape (rolls)"} -> 
             1, {All, "Double Bag Box (14x12x10)"} -> 
             1, {All, "Dubble Bag Box (16x12x12)"} -> 
@@ -5515,9 +5732,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
-             TypeSystem`Atom[Real]}], 55], "Path" -> {}, "BaseIndices" -> {}, 
+             TypeSystem`Atom[Real]}], 60], "Path" -> {}, "BaseIndices" -> {}, 
          "DisplayedRowCount" -> 20, "DisplayedColumnCount" -> 10, 
-         "DataRowCount" -> 55, "DataColumnCount" -> 19, "SortPaths" -> {}, 
+         "DataRowCount" -> 60, "DataColumnCount" -> 19, "SortPaths" -> {}, 
          "SortDirections" -> {}, "HiddenItemsMap" -> Null, "UpdateType" -> 1],
          TypeSystem`NestedGrid`PackagePrivate`$outputID$$, 
         TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
@@ -5539,6 +5756,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -5548,7 +5768,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Date"}, 1]], 
+                    All, "Date"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -5567,6 +5787,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -5576,7 +5799,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Brown Craft Tape (rolls)"}, 1]], 
+                    All, "Brown Craft Tape (rolls)"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -5595,6 +5818,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -5604,7 +5830,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Double Bag Box (14x12x10)"}, 1]], 
+                    All, "Double Bag Box (14x12x10)"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -5623,6 +5849,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -5632,7 +5861,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Dubble Bag Box (16x12x12)"}, 1]], 
+                    All, "Dubble Bag Box (16x12x12)"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -5651,6 +5880,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -5660,7 +5892,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Dubble Bag Box (16x14x12)"}, 1]], 
+                    All, "Dubble Bag Box (16x14x12)"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -5679,6 +5911,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -5688,7 +5923,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Dubbler Bag (11x8x6)"}, 1]], 
+                    All, "Dubbler Bag (11x8x6)"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -5707,6 +5942,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -5716,7 +5954,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Extra Pallets"}, 1]], 
+                    All, "Extra Pallets"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -5735,6 +5973,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -5744,7 +5985,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "FedEx Express Bags"}, 1]], 
+                    All, "FedEx Express Bags"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -5763,6 +6004,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -5772,7 +6016,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Gloves (boxes)"}, 1]], 
+                    All, "Gloves (boxes)"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -5791,6 +6035,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -5800,7 +6047,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Large Full Case Box (26x15x22)"}, 1]], 
+                    All, "Large Full Case Box (26x15x22)"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -8129,9 +8376,12 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     Line[{{0, 5}, {8, 5}}]}, {5, 6.5}], 0, {9, 9}]}, 
                     ImageSize -> (1 -> 1), ImagePadding -> {{0, 1}, {1, 0}}, 
                     BaselinePosition -> Scaled[0.35]]], "LinkHand"], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$vPos$$ + (-20) 
-                    If[True, 55, 1], {1, 55 - -20 + 1}]; 
+                    If[True, 60, 1], {1, 60 - -20 + 1}]; 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -8141,8 +8391,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]], True][
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$], Appearance -> 
-                    None], 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$]], 
+                    Appearance -> None], 
                     Button[
                     MouseAppearance[
                     Mouseover[
@@ -8175,9 +8425,12 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     Line[{{0, 0}, {4, 5}, {8, 0}}]}, {5, 6.5}], 0, {9, 9}]}, 
                     ImageSize -> (1 -> 1), ImagePadding -> {{0, 1}, {1, 0}}, 
                     BaselinePosition -> Scaled[0.35]]], "LinkHand"], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$vPos$$ + (-20) 
-                    If[False, 55, 1], {1, 55 - -20 + 1}]; 
+                    If[False, 60, 1], {1, 60 - -20 + 1}]; 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -8187,20 +8440,20 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]], True][
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$], Appearance -> 
-                    None], " ", 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$]], 
+                    Appearance -> None], " ", 
                     Style[
                     Mouseover[
                     Row[{"rows ", 1, "\[Dash]", 20, " of ", 
                     Style[
-                    55, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
+                    60, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
                     BaseStyle -> {
                     FontSize -> 8., FontColor -> 
                     RGBColor[0.5098039215686274, 0.5098039215686274, 
                     0.5098039215686274]}], 
                     Row[{"rows ", 1, "\[Dash]", 20, " of ", 
-                    Style[
-                    55, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
+                    Style[60, FontColor -> GrayLevel[0], FontWeight -> 
+                    "Medium"]}, 
                     BaseStyle -> {
                     FontSize -> 8., FontColor -> 
                     RGBColor[0.5098039215686274, 0.5098039215686274, 
@@ -8300,9 +8553,12 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     9, 9}]}, ImageSize -> (1 -> 1), 
                     ImagePadding -> {{0, 1}, {1, 0}}, BaselinePosition -> 
                     Scaled[0.35]]], "LinkHand"], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$vPos$$ + 
-                    20 If[False, 55, 1], {1, 55 - 20 + 1}]; 
+                    20 If[False, 60, 1], {1, 60 - 20 + 1}]; 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -8312,8 +8568,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]], True][
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$], Appearance -> 
-                    None], 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$]], 
+                    Appearance -> None], 
                     Button[
                     MouseAppearance[
                     Mouseover[
@@ -8348,9 +8604,12 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     Line[{{0, 5}, {8, 5}}]}, {5, 6.5}], 180 Degree, {9, 9}]}, 
                     ImageSize -> (1 -> 1), ImagePadding -> {{0, 1}, {1, 0}}, 
                     BaselinePosition -> Scaled[0.35]]], "LinkHand"], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$vPos$$ + 
-                    20 If[True, 55, 1], {1, 55 - 20 + 1}]; 
+                    20 If[True, 60, 1], {1, 60 - 20 + 1}]; 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -8360,8 +8619,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]], True][
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$], Appearance -> 
-                    None]}], ContextMenu -> {}], 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$]], 
+                    Appearance -> None]}], ContextMenu -> {}], 
                     Graphics[{
                     RGBColor[
                     0.8196078431372549, 0.8196078431372549, 
@@ -8406,6 +8665,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     Line[{{0, 5}, {8, 5}}]}, {5, 6.5}], 90 Degree, {9, 9}]}, 
                     ImageSize -> (1 -> 1), ImagePadding -> {{0, 1}, {1, 0}}, 
                     BaselinePosition -> Scaled[0.35]]], "LinkHand"], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$hPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$hPos$$ + (-10) 
                     If[True, 19, 1], {1, 19 - -10 + 1}]; 
@@ -8418,8 +8680,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]], True][
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$], Appearance -> 
-                    None], 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$]], 
+                    Appearance -> None], 
                     Button[
                     MouseAppearance[
                     Mouseover[
@@ -8454,6 +8716,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                      9}]}, ImageSize -> (1 -> 1), 
                     ImagePadding -> {{0, 1}, {1, 0}}, BaselinePosition -> 
                     Scaled[0.35]]], "LinkHand"], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$hPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$hPos$$ + (-10) 
                     If[False, 19, 1], {1, 19 - -10 + 1}]; 
@@ -8466,8 +8731,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]], True][
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$], Appearance -> 
-                    None], " ", 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$]], 
+                    Appearance -> None], " ", 
                     Style[
                     Mouseover[
                     Row[{"columns ", 1, "\[Dash]", 10, " of ", 
@@ -8579,6 +8844,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     Degree, {9, 9}]}, ImageSize -> (1 -> 1), 
                     ImagePadding -> {{0, 1}, {1, 0}}, BaselinePosition -> 
                     Scaled[0.35]]], "LinkHand"], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$hPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$hPos$$ + 
                     10 If[False, 19, 1], {1, 19 - 10 + 1}]; 
@@ -8591,8 +8859,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]], True][
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$], Appearance -> 
-                    None], 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$]], 
+                    Appearance -> None], 
                     Button[
                     MouseAppearance[
                     Mouseover[
@@ -8629,6 +8897,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     9}]}, ImageSize -> (1 -> 1), 
                     ImagePadding -> {{0, 1}, {1, 0}}, BaselinePosition -> 
                     Scaled[0.35]]], "LinkHand"], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$hPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$hPos$$ + 
                     10 If[True, 19, 1], {1, 19 - 10 + 1}]; 
@@ -8641,8 +8912,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]], True][
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$], Appearance -> 
-                    None]}], ContextMenu -> {}], 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$]], 
+                    Appearance -> None]}], ContextMenu -> {}], 
                     Graphics[{
                     RGBColor[
                     0.8196078431372549, 0.8196078431372549, 
@@ -8664,6 +8935,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$], {}, 
                     TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger === 
+                    
                     TypeSystem`NestedGrid`PackagePrivate`$\
 lastContextMenuTrigger, TypeSystem`NestedGrid`PackagePrivate`$lastContextMenu,
                      True, TypeSystem`NestedGrid`PackagePrivate`$\
@@ -8824,23 +9096,25 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`toCurrentPosition[
                     TypeSystem`NestedGrid`PackagePrivate`copyClip]], 
                     MenuEvaluator -> Automatic], 
+                    If[TypeSystem`NestedGrid`PackagePrivate`haveData$, 
                     MenuItem["Copy Data to Clipboard", 
                     KernelExecute[
                     TypeSystem`NestedGrid`PackagePrivate`toCurrentData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`copyClip]], 
-                    MenuEvaluator -> Automatic], Delimiter, 
+                    MenuEvaluator -> Automatic], Nothing], Delimiter, 
                     MenuItem["Paste Position in New Cell", 
                     KernelExecute[
                     TypeSystem`NestedGrid`PackagePrivate`toCurrentPosition[
                     TypeSystem`NestedGrid`PackagePrivate`cellPaste]], 
                     MenuEvaluator -> Automatic], 
+                    If[TypeSystem`NestedGrid`PackagePrivate`haveData$, 
                     MenuItem["Paste Data in New Cell", 
                     KernelExecute[
                     TypeSystem`NestedGrid`PackagePrivate`toCurrentData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`cellPaste]], 
-                    MenuEvaluator -> Automatic]}]]]]], FontFamily -> 
+                    MenuEvaluator -> Automatic], Nothing]}]]]]], FontFamily -> 
                 "Verdana", FontSize -> 12}, Spacings -> {0, 0}, Alignment -> 
               Left, Dividers -> All, FrameStyle -> 
               GrayLevel[0.7490196078431373], 
@@ -8957,14 +9231,14 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
               TypeSystem`NestedGrid`PackagePrivate`localHold[
               TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], 
            StandardForm],
-          ImageSizeCache->{1410., {298.134033203125, 303.865966796875}},
+          ImageSizeCache->{1441., {298.134033203125, 303.865966796875}},
           
           TrackedSymbols:>{
            TypeSystem`NestedGrid`PackagePrivate`$state$$, 
             TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
          TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
          MouseAnnotation[],
-         ImageSizeCache->{1410., {298.134033203125, 303.865966796875}}],
+         ImageSizeCache->{1441., {299., 304.}}],
         BaseStyle->{LineBreakWithin -> False},
         DynamicModuleValues:>{},
         Initialization:>
@@ -8985,12 +9259,12 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
        DynamicModuleBox[{TypeSystem`NestedGrid`PackagePrivate`$state$$ = 
         Association["InitialData" -> {
            Association[
-           "Supply" -> "Brown Craft Tape (rolls)", "On Hand" -> 16., 
-            "Velocity" -> 0.91, "Days Remaining" -> 17., "Need 7 Days" -> 0, 
-            "Need 14 Days" -> 0, "Need 30 Days" -> 12.], 
+           "Supply" -> "Brown Craft Tape (rolls)", "On Hand" -> 63., 
+            "Velocity" -> 0.9, "Days Remaining" -> 70., "Need 7 Days" -> 0, 
+            "Need 14 Days" -> 0, "Need 30 Days" -> 0], 
            Association[
            "Supply" -> "Double Bag Box (14x12x10)", "On Hand" -> 120., 
-            "Velocity" -> 3.22, "Days Remaining" -> 37., "Need 7 Days" -> 0, 
+            "Velocity" -> 2.92, "Days Remaining" -> 41., "Need 7 Days" -> 0, 
             "Need 14 Days" -> 0, "Need 30 Days" -> 0], 
            Association[
            "Supply" -> "Dubble Bag Box (16x12x12)", "On Hand" -> 0., 
@@ -8998,17 +9272,17 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Need 7 Days" -> 10., "Need 14 Days" -> 20., "Need 30 Days" -> 
             42.], 
            Association[
-           "Supply" -> "Dubble Bag Box (16x14x12)", "On Hand" -> 25., 
-            "Velocity" -> 2.25, "Days Remaining" -> 11., "Need 7 Days" -> 0, 
-            "Need 14 Days" -> 7., "Need 30 Days" -> 43.], 
+           "Supply" -> "Dubble Bag Box (16x14x12)", "On Hand" -> 145., 
+            "Velocity" -> 2.24, "Days Remaining" -> 64., "Need 7 Days" -> 0, 
+            "Need 14 Days" -> 0, "Need 30 Days" -> 0], 
            Association[
-           "Supply" -> "Dubbler Bag (11x8x6)", "On Hand" -> 52., "Velocity" -> 
-            1.8800000000000001`, "Days Remaining" -> 27., "Need 7 Days" -> 0, 
-            "Need 14 Days" -> 0, "Need 30 Days" -> 5.], 
+           "Supply" -> "Dubbler Bag (11x8x6)", "On Hand" -> 28., "Velocity" -> 
+            1.6300000000000001`, "Days Remaining" -> 17., "Need 7 Days" -> 0, 
+            "Need 14 Days" -> 0, "Need 30 Days" -> 22.], 
            Association[
-           "Supply" -> "Extra Pallets", "On Hand" -> 0., "Velocity" -> 2.87, 
-            "Days Remaining" -> 0., "Need 7 Days" -> 21., "Need 14 Days" -> 
-            41., "Need 30 Days" -> 87.], 
+           "Supply" -> "Extra Pallets", "On Hand" -> 210., "Velocity" -> 2.92,
+             "Days Remaining" -> 71., "Need 7 Days" -> 0, "Need 14 Days" -> 0,
+             "Need 30 Days" -> 0], 
            Association[
            "Supply" -> "FedEx Express Bags", "On Hand" -> 0., "Velocity" -> 
             1.12, "Days Remaining" -> 0., "Need 7 Days" -> 8., "Need 14 Days" -> 
@@ -9018,46 +9292,46 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Days Remaining" -> 0., "Need 7 Days" -> 3., "Need 14 Days" -> 5.,
              "Need 30 Days" -> 10.], 
            Association[
-           "Supply" -> "Large Full Case Box (26x15x22)", "On Hand" -> 500., 
-            "Velocity" -> 11.94, "Days Remaining" -> 41., "Need 7 Days" -> 0, 
-            "Need 14 Days" -> 0, "Need 30 Days" -> 0], 
+           "Supply" -> "Large Full Case Box (26x15x22)", "On Hand" -> 345., 
+            "Velocity" -> 11.55, "Days Remaining" -> 29., "Need 7 Days" -> 0, 
+            "Need 14 Days" -> 0, "Need 30 Days" -> 2.], 
            Association[
            "Supply" -> "Large Single Bag with Dubbler (22x12x8)", "On Hand" -> 
             0., "Velocity" -> 2., "Days Remaining" -> 0., "Need 7 Days" -> 
             14., "Need 14 Days" -> 28., "Need 30 Days" -> 60.], 
            Association[
-           "Supply" -> "Loge Poly Bags (15x12x1) ", "On Hand" -> 200., 
-            "Velocity" -> 2.72, "Days Remaining" -> 73., "Need 7 Days" -> 0, 
+           "Supply" -> "Loge Poly Bags (15x12x1) ", "On Hand" -> 10., 
+            "Velocity" -> 3.33, "Days Remaining" -> 3., "Need 7 Days" -> 14., 
+            "Need 14 Days" -> 37., "Need 30 Days" -> 90.], 
+           Association[
+           "Supply" -> "Medium Full Case Box (26x15x19)", "On Hand" -> 370., 
+            "Velocity" -> 11.14, "Days Remaining" -> 33., "Need 7 Days" -> 0, 
             "Need 14 Days" -> 0, "Need 30 Days" -> 0], 
            Association[
-           "Supply" -> "Medium Full Case Box (26x15x19)", "On Hand" -> 500., 
-            "Velocity" -> 11.64, "Days Remaining" -> 42., "Need 7 Days" -> 0, 
+           "Supply" -> "Sample Ziplock Bags", "On Hand" -> 100., "Velocity" -> 
+            2.07, "Days Remaining" -> 48., "Need 7 Days" -> 0, "Need 14 Days" -> 
+            0, "Need 30 Days" -> 0], 
+           Association[
+           "Supply" -> "Shrink Wrap (Rolls)", "On Hand" -> 13., "Velocity" -> 
+            0.24, "Days Remaining" -> 54., "Need 7 Days" -> 0, "Need 14 Days" -> 
+            0, "Need 30 Days" -> 0], 
+           Association[
+           "Supply" -> "Single Bag Box (12x14x8)", "On Hand" -> 68., 
+            "Velocity" -> 10.43, "Days Remaining" -> 6., "Need 7 Days" -> 5., 
+            "Need 14 Days" -> 78., "Need 30 Days" -> 245.], 
+           Association[
+           "Supply" -> "Single Bag Box (12x16x8)", "On Hand" -> 335., 
+            "Velocity" -> 3.37, "Days Remaining" -> 99., "Need 7 Days" -> 0, 
             "Need 14 Days" -> 0, "Need 30 Days" -> 0], 
            Association[
-           "Supply" -> "Sample Ziplock Bags", "On Hand" -> 0., "Velocity" -> 
-            2.07, "Days Remaining" -> 0., "Need 7 Days" -> 15., 
-            "Need 14 Days" -> 29., "Need 30 Days" -> 63.], 
+           "Supply" -> "Small Poly Bags (9x6x1)", "On Hand" -> 3., "Velocity" -> 
+            2.27, "Days Remaining" -> 1., "Need 7 Days" -> 13., 
+            "Need 14 Days" -> 29., "Need 30 Days" -> 66.], 
            Association[
-           "Supply" -> "Shrink Wrap (Rolls)", "On Hand" -> 0., "Velocity" -> 
-            0.27, "Days Remaining" -> 0., "Need 7 Days" -> 2., "Need 14 Days" -> 
-            4., "Need 30 Days" -> 9.], 
-           Association[
-           "Supply" -> "Single Bag Box (12x14x8)", "On Hand" -> 125., 
-            "Velocity" -> 11.96, "Days Remaining" -> 10., "Need 7 Days" -> 0, 
-            "Need 14 Days" -> 43., "Need 30 Days" -> 234.], 
-           Association[
-           "Supply" -> "Single Bag Box (12x16x8)", "On Hand" -> 150., 
-            "Velocity" -> 3.47, "Days Remaining" -> 43., "Need 7 Days" -> 0, 
-            "Need 14 Days" -> 0, "Need 30 Days" -> 0], 
-           Association[
-           "Supply" -> "Small Poly Bags (9x6x1)", "On Hand" -> 50., 
-            "Velocity" -> 2.87, "Days Remaining" -> 17., "Need 7 Days" -> 0, 
-            "Need 14 Days" -> 0, "Need 30 Days" -> 36.], 
-           Association[
-           "Supply" -> "Triple Bag Box (24x14x12)", "On Hand" -> 50., 
-            "Velocity" -> 1.46, "Days Remaining" -> 34., "Need 7 Days" -> 0, 
-            "Need 14 Days" -> 0, "Need 30 Days" -> 0]}, "InitialShape" -> 
-         TypeSystem`PackageScope`HeaderShape[
+           "Supply" -> "Triple Bag Box (24x14x12)", "On Hand" -> 25., 
+            "Velocity" -> 1.25, "Days Remaining" -> 19., "Need 7 Days" -> 0, 
+            "Need 14 Days" -> 0, "Need 30 Days" -> 13.]}, "AllowEmbedding" -> 
+         True, "InitialShape" -> TypeSystem`PackageScope`HeaderShape[
            
            Association[{All, "Supply"} -> 1, {All, "On Hand"} -> 
             1, {All, "Velocity"} -> 1, {All, "Days Remaining"} -> 
@@ -9088,9 +9362,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
-             TypeSystem`Atom[Real]}], 18], "Meta" -> 
-         Association["ID" -> 24249603396050], "RowTarget" -> 20, 
-         "ColumnTarget" -> 10, "Shape" -> 
+             TypeSystem`Atom[Real]}], 18], "Meta" -> Association[], 
+         "RowTarget" -> 20, "ColumnTarget" -> 10, "Shape" -> 
          TypeSystem`PackageScope`HeaderShape[
            
            Association[{All, "Supply"} -> 1, {All, "On Hand"} -> 
@@ -9146,6 +9419,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -9155,7 +9431,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Supply"}, 1]], 
+                    All, "Supply"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -9174,6 +9450,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -9183,7 +9462,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "On Hand"}, 1]], 
+                    All, "On Hand"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -9202,6 +9481,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -9211,7 +9493,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Velocity"}, 1]], 
+                    All, "Velocity"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -9230,6 +9512,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -9239,7 +9524,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Days Remaining"}, 1]], 
+                    All, "Days Remaining"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -9258,6 +9543,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -9267,7 +9555,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Need 7 Days"}, 1]], 
+                    All, "Need 7 Days"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -9286,6 +9574,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -9295,7 +9586,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Need 14 Days"}, 1]], 
+                    All, "Need 14 Days"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -9314,6 +9605,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -9323,7 +9617,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
-                    All, "Need 30 Days"}, 1]], 
+                    All, "Need 30 Days"}, 1]]], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -9344,7 +9638,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["16.0"], 
+                   RawBoxes["63.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
@@ -9355,7 +9649,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0.91"], 
+                   RawBoxes["0.9"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
@@ -9366,7 +9660,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["17.0"], 
+                   RawBoxes["70.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
@@ -9399,7 +9693,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["12.0"], 
+                   RawBoxes["0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
@@ -9431,7 +9725,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["3.22"], 
+                   RawBoxes["2.92"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
@@ -9442,7 +9736,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["37.0"], 
+                   RawBoxes["41.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
@@ -9572,7 +9866,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["25.0"], 
+                   RawBoxes["145.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
@@ -9583,7 +9877,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["2.25"], 
+                   RawBoxes["2.24"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
@@ -9594,7 +9888,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["11.0"], 
+                   RawBoxes["64.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
@@ -9616,7 +9910,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["7.0"], 
+                   RawBoxes["0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
@@ -9627,7 +9921,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["43.0"], 
+                   RawBoxes["0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
@@ -9648,7 +9942,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["52.0"], 
+                   RawBoxes["28.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
@@ -9659,7 +9953,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["1.88"], 
+                   RawBoxes["1.63"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
@@ -9670,7 +9964,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["27.0"], 
+                   RawBoxes["17.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
@@ -9703,7 +9997,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["5.0"], 
+                   RawBoxes["22.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
@@ -9724,7 +10018,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0.0"], 
+                   RawBoxes["210.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
@@ -9735,7 +10029,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["2.87"], 
+                   RawBoxes["2.92"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
@@ -9746,7 +10040,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0.0"], 
+                   RawBoxes["71.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
@@ -9757,7 +10051,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["21.0"], 
+                   RawBoxes["0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
@@ -9768,7 +10062,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["41.0"], 
+                   RawBoxes["0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
@@ -9779,7 +10073,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["87.0"], 
+                   RawBoxes["0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
@@ -9952,7 +10246,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["500.0"], 
+                   RawBoxes["345.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{9, 
@@ -9963,7 +10257,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["11.94"], 
+                   RawBoxes["11.55"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{9, 
@@ -9974,7 +10268,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["41.0"], 
+                   RawBoxes["29.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{9, 
@@ -10007,7 +10301,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0"], 
+                   RawBoxes["2.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{9, 
@@ -10104,7 +10398,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["200.0"], 
+                   RawBoxes["10.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{11, 
@@ -10115,7 +10409,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["2.72"], 
+                   RawBoxes["3.33"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{11, 
@@ -10126,7 +10420,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["73.0"], 
+                   RawBoxes["3.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{11, 
@@ -10137,7 +10431,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0"], 
+                   RawBoxes["14.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{11, 
@@ -10148,7 +10442,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0"], 
+                   RawBoxes["37.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{11, 
@@ -10159,7 +10453,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0"], 
+                   RawBoxes["90.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{11, 
@@ -10180,7 +10474,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["500.0"], 
+                   RawBoxes["370.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{12, 
@@ -10191,7 +10485,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["11.64"], 
+                   RawBoxes["11.14"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{12, 
@@ -10202,7 +10496,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["42.0"], 
+                   RawBoxes["33.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{12, 
@@ -10256,7 +10550,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0.0"], 
+                   RawBoxes["100.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
@@ -10278,7 +10572,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0.0"], 
+                   RawBoxes["48.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
@@ -10289,7 +10583,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["15.0"], 
+                   RawBoxes["0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
@@ -10300,7 +10594,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["29.0"], 
+                   RawBoxes["0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
@@ -10311,7 +10605,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["63.0"], 
+                   RawBoxes["0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
@@ -10332,7 +10626,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0.0"], 
+                   RawBoxes["13.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{14, 
@@ -10343,7 +10637,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0.27"], 
+                   RawBoxes["0.24"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{14, 
@@ -10354,7 +10648,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0.0"], 
+                   RawBoxes["54.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{14, 
@@ -10365,7 +10659,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["2.0"], 
+                   RawBoxes["0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{14, 
@@ -10376,7 +10670,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["4.0"], 
+                   RawBoxes["0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{14, 
@@ -10387,7 +10681,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["9.0"], 
+                   RawBoxes["0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{14, 
@@ -10408,7 +10702,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["125.0"], 
+                   RawBoxes["68.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
@@ -10419,7 +10713,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["11.96"], 
+                   RawBoxes["10.43"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
@@ -10430,7 +10724,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["10.0"], 
+                   RawBoxes["6.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
@@ -10441,7 +10735,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0"], 
+                   RawBoxes["5.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
@@ -10452,7 +10746,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["43.0"], 
+                   RawBoxes["78.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
@@ -10463,7 +10757,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["234.0"], 
+                   RawBoxes["245.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
@@ -10484,7 +10778,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["150.0"], 
+                   RawBoxes["335.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{16, 
@@ -10495,7 +10789,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["3.47"], 
+                   RawBoxes["3.37"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{16, 
@@ -10506,7 +10800,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["43.0"], 
+                   RawBoxes["99.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{16, 
@@ -10560,7 +10854,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["50.0"], 
+                   RawBoxes["3.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{17, 
@@ -10571,7 +10865,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["2.87"], 
+                   RawBoxes["2.27"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{17, 
@@ -10582,7 +10876,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["17.0"], 
+                   RawBoxes["1.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{17, 
@@ -10593,7 +10887,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0"], 
+                   RawBoxes["13.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{17, 
@@ -10604,7 +10898,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0"], 
+                   RawBoxes["29.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{17, 
@@ -10615,7 +10909,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["36.0"], 
+                   RawBoxes["66.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{17, 
@@ -10636,7 +10930,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["50.0"], 
+                   RawBoxes["25.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{18, 
@@ -10647,7 +10941,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["1.46"], 
+                   RawBoxes["1.25"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{18, 
@@ -10658,7 +10952,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["34.0"], 
+                   RawBoxes["19.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{18, 
@@ -10691,7 +10985,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0"], 
+                   RawBoxes["13.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{18, 
@@ -10867,23 +11161,25 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`toCurrentPosition[
                     TypeSystem`NestedGrid`PackagePrivate`copyClip]], 
                     MenuEvaluator -> Automatic], 
+                    If[TypeSystem`NestedGrid`PackagePrivate`haveData$, 
                     MenuItem["Copy Data to Clipboard", 
                     KernelExecute[
                     TypeSystem`NestedGrid`PackagePrivate`toCurrentData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`copyClip]], 
-                    MenuEvaluator -> Automatic], Delimiter, 
+                    MenuEvaluator -> Automatic], Nothing], Delimiter, 
                     MenuItem["Paste Position in New Cell", 
                     KernelExecute[
                     TypeSystem`NestedGrid`PackagePrivate`toCurrentPosition[
                     TypeSystem`NestedGrid`PackagePrivate`cellPaste]], 
                     MenuEvaluator -> Automatic], 
+                    If[TypeSystem`NestedGrid`PackagePrivate`haveData$, 
                     MenuItem["Paste Data in New Cell", 
                     KernelExecute[
                     TypeSystem`NestedGrid`PackagePrivate`toCurrentData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`cellPaste]], 
-                    MenuEvaluator -> Automatic]}]]]]], FontFamily -> 
+                    MenuEvaluator -> Automatic], Nothing]}]]]]], FontFamily -> 
                 "Verdana", FontSize -> 12}, Spacings -> {0, 0}, Alignment -> 
               Left, Dividers -> All, FrameStyle -> 
               GrayLevel[0.7490196078431373], 
@@ -11007,7 +11303,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
          TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
          MouseAnnotation[],
-         ImageSizeCache->{829., {253.134033203125, 258.865966796875}}],
+         ImageSizeCache->{829., {254., 259.}}],
         BaseStyle->{LineBreakWithin -> False},
         DynamicModuleValues:>{},
         Initialization:>
@@ -11026,8 +11322,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
      TagBox[GridBox[{
         {"\<\" \"\>"},
         {"\<\"Warehouse Supplies Inventory Report\"\>"},
-        {"\<\"The table below was generated on Sat 28 Nov 2020 with inventory \
-counts as of 2020-11-28.\"\>"},
+        {"\<\"The table below was generated on Thu 4 Mar 2021 with inventory \
+counts as of 2021-03-04.\"\>"},
         {
          TagBox[GridBox[{
             {
@@ -11035,68 +11331,68 @@ counts as of 2020-11-28.\"\>"},
                 {
                  InterpretationBox[Cell[BoxData[
                    FormBox["\<\"Supply\"\>", TextForm]], "InlineText",
-                   ExpressionUUID->"1ee8b5e4-9a8f-467d-850c-504529e534d3"],
+                   ExpressionUUID->"7080975a-3bac-48cc-b44a-90e96ebbcf88"],
                   Text["Supply"]], 
                  InterpretationBox[Cell[BoxData[
                    FormBox["\<\"On Hand\"\>", TextForm]], "InlineText",
-                   ExpressionUUID->"2dad9e1b-3d85-4b90-9343-8319099834bf"],
+                   ExpressionUUID->"da0dfb93-fb6e-46b7-b411-00c9ea99c2a3"],
                   Text["On Hand"]], 
                  InterpretationBox[Cell[BoxData[
                    FormBox["\<\"Velocity\"\>", TextForm]], "InlineText",
-                   ExpressionUUID->"68881f1d-0d12-4bba-9724-adc2638c9c73"],
+                   ExpressionUUID->"273e3870-9ff5-4dd7-99ee-48c4307c8667"],
                   Text["Velocity"]], 
                  InterpretationBox[Cell[BoxData[
                    FormBox["\<\"Days Remaining\"\>", TextForm]], "InlineText",
-                   ExpressionUUID->"8c334832-0d0a-4597-adcf-95ca7dbae8e1"],
+                   ExpressionUUID->"b9fa47d2-7436-4166-8e52-371ccf8434d8"],
                   Text["Days Remaining"]], 
                  InterpretationBox[Cell[BoxData[
                    FormBox["\<\"Need 7 Days\"\>", TextForm]], "InlineText",
-                   ExpressionUUID->"4343ed8e-a536-42f4-b0a1-1e3ae753e9d5"],
+                   ExpressionUUID->"f1ae8ddb-c821-451e-b892-368cdddf1044"],
                   Text["Need 7 Days"]], 
                  InterpretationBox[Cell[BoxData[
                    FormBox["\<\"Need 14 Days\"\>", TextForm]], "InlineText",
-                   ExpressionUUID->"040c19b4-0d0b-4bbf-8ec7-3b91f82868f4"],
+                   ExpressionUUID->"75c24b2e-f6f1-4666-a6d7-bdcdcd4d90e9"],
                   Text["Need 14 Days"]], 
                  InterpretationBox[Cell[BoxData[
                    FormBox["\<\"Need 30 Days\"\>", TextForm]], "InlineText",
-                   ExpressionUUID->"e3b936f8-166e-44b4-bf6e-a1d7e9501220"],
+                   ExpressionUUID->"5f844d58-3e62-4a45-8ec4-103537d97df0"],
                   Text["Need 30 Days"]]},
-                {"\<\"Brown Craft Tape (rolls)\"\>", "16.`", "0.91`", "17.`", 
-                 "0", "0", "12.`"},
-                {"\<\"Double Bag Box (14x12x10)\"\>", "120.`", "3.22`", 
-                 "37.`", "0", "0", "0"},
+                {"\<\"Brown Craft Tape (rolls)\"\>", "63.`", "0.9`", "70.`", 
+                 "0", "0", "0"},
+                {"\<\"Double Bag Box (14x12x10)\"\>", "120.`", "2.92`", 
+                 "41.`", "0", "0", "0"},
                 {"\<\"Dubble Bag Box (16x12x12)\"\>", "0.`", 
                  "1.4000000000000001`", "0.`", "10.`", "20.`", "42.`"},
-                {"\<\"Dubble Bag Box (16x14x12)\"\>", "25.`", "2.25`", "11.`",
-                  "0", "7.`", "43.`"},
-                {"\<\"Dubbler Bag (11x8x6)\"\>", "52.`", 
-                 "1.8800000000000001`", "27.`", "0", "0", "5.`"},
-                {"\<\"Extra Pallets\"\>", "0.`", "2.87`", "0.`", "21.`", 
-                 "41.`", "87.`"},
+                {"\<\"Dubble Bag Box (16x14x12)\"\>", "145.`", "2.24`", 
+                 "64.`", "0", "0", "0"},
+                {"\<\"Dubbler Bag (11x8x6)\"\>", "28.`", 
+                 "1.6300000000000001`", "17.`", "0", "0", "22.`"},
+                {"\<\"Extra Pallets\"\>", "210.`", "2.92`", "71.`", "0", "0", 
+                 "0"},
                 {"\<\"FedEx Express Bags\"\>", "0.`", "1.12`", "0.`", "8.`", 
                  "16.`", "34.`"},
                 {"\<\"Gloves (boxes)\"\>", "0.`", "0.3`", "0.`", "3.`", "5.`",
                   "10.`"},
-                {"\<\"Large Full Case Box (26x15x22)\"\>", "500.`", "11.94`", 
-                 "41.`", "0", "0", "0"},
+                {"\<\"Large Full Case Box (26x15x22)\"\>", "345.`", "11.55`", 
+                 "29.`", "0", "0", "2.`"},
                 {"\<\"Large Single Bag with Dubbler (22x12x8)\"\>", "0.`", 
                  "2.`", "0.`", "14.`", "28.`", "60.`"},
-                {"\<\"Loge Poly Bags (15x12x1) \"\>", "200.`", "2.72`", 
-                 "73.`", "0", "0", "0"},
-                {"\<\"Medium Full Case Box (26x15x19)\"\>", "500.`", "11.64`",
-                  "42.`", "0", "0", "0"},
-                {"\<\"Sample Ziplock Bags\"\>", "0.`", "2.07`", "0.`", "15.`",
-                  "29.`", "63.`"},
-                {"\<\"Shrink Wrap (Rolls)\"\>", "0.`", "0.27`", "0.`", "2.`", 
-                 "4.`", "9.`"},
-                {"\<\"Single Bag Box (12x14x8)\"\>", "125.`", "11.96`", 
-                 "10.`", "0", "43.`", "234.`"},
-                {"\<\"Single Bag Box (12x16x8)\"\>", "150.`", "3.47`", "43.`",
+                {"\<\"Loge Poly Bags (15x12x1) \"\>", "10.`", "3.33`", "3.`", 
+                 "14.`", "37.`", "90.`"},
+                {"\<\"Medium Full Case Box (26x15x19)\"\>", "370.`", "11.14`",
+                  "33.`", "0", "0", "0"},
+                {"\<\"Sample Ziplock Bags\"\>", "100.`", "2.07`", "48.`", "0",
+                  "0", "0"},
+                {"\<\"Shrink Wrap (Rolls)\"\>", "13.`", "0.24`", "54.`", "0", 
+                 "0", "0"},
+                {"\<\"Single Bag Box (12x14x8)\"\>", "68.`", "10.43`", "6.`", 
+                 "5.`", "78.`", "245.`"},
+                {"\<\"Single Bag Box (12x16x8)\"\>", "335.`", "3.37`", "99.`",
                   "0", "0", "0"},
-                {"\<\"Small Poly Bags (9x6x1)\"\>", "50.`", "2.87`", "17.`", 
-                 "0", "0", "36.`"},
-                {"\<\"Triple Bag Box (24x14x12)\"\>", "50.`", "1.46`", "34.`",
-                  "0", "0", "0"}
+                {"\<\"Small Poly Bags (9x6x1)\"\>", "3.`", "2.27`", "1.`", 
+                 "13.`", "29.`", "66.`"},
+                {"\<\"Triple Bag Box (24x14x12)\"\>", "25.`", "1.25`", "19.`",
+                  "0", "0", "13.`"}
                },
                AutoDelete->False,
                GridBoxAlignment->{"Columns" -> {{Right}}},
@@ -11127,14 +11423,11 @@ counts as of 2020-11-28.\"\>"},
       "Column"]},
     {"\<\"Previous Report Date\"\>", 
      TemplateBox[{
-       RowBox[{
-         StyleBox[
-         "\"Day: \"", FontColor -> GrayLevel[0.5], FontWeight -> Plain], 
-         "\"2020-11-09\""}], 
+       RowBox[{"\"2020-12-22\""}], 
        RowBox[{"DateObject", "[", 
          RowBox[{
            RowBox[{"{", 
-             RowBox[{"2020", ",", "11", ",", "9"}], "}"}], ",", "\"Day\"", 
+             RowBox[{"2020", ",", "12", ",", "22"}], "}"}], ",", "\"Day\"", 
            ",", "\"Gregorian\"", ",", 
            RowBox[{"-", "6.`"}], ",", 
            RowBox[{"{", "\"ISODate\"", "}"}]}], "]"}]},
@@ -11149,13 +11442,14 @@ counts as of 2020-11-28.\"\>"},
   "Grid"]], "Output",
  CellChangeTimes->{3.8017596101774797`*^9, 3.80218800689008*^9, 
   3.802190143204114*^9, 3.8021909313273907`*^9, 3.813953066871357*^9, 
-  3.815587635057816*^9},
- CellLabel->"Out[9]=",ExpressionUUID->"d8b584d1-1011-4f65-964a-81832f770774"]
+  3.815587635057816*^9, 3.82388159411712*^9, 3.8238820811530943`*^9, 
+  3.823882239450818*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"fe6333ee-4741-4b07-aeb9-c6ca614f2bdb"]
 }, Open  ]]
 },
-WindowSize->{1426, 905},
-WindowMargins->{{-1973, Automatic}, {Automatic, -543}},
-FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (June 9, 2020)",
+WindowSize->{1865, 905},
+WindowMargins->{{Automatic, 2044}, {Automatic, -668}},
+FrontEndVersion->"12.2 for Mac OS X x86 (64-bit) (December 12, 2020)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"24d50d93-82f0-4fc3-b055-c11d232a22f4"
 ]
@@ -11171,12 +11465,12 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 569, 11, 115, "Input",ExpressionUUID->"fe30c873-a910-4e5c-947a-7c23c0b04054"],
-Cell[1152, 35, 1752, 38, 122, "Output",ExpressionUUID->"c526a19d-f19d-4507-85bb-3af3dc73d48a"]
+Cell[580, 22, 609, 12, 115, "Input",ExpressionUUID->"fe30c873-a910-4e5c-947a-7c23c0b04054"],
+Cell[1192, 36, 1823, 39, 122, "Output",ExpressionUUID->"c7c586c3-0a1a-4714-a3c3-27a2ab0c4ee6"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2941, 78, 151, 2, 30, "Input",ExpressionUUID->"ac16d51b-384c-481e-8f28-070a605352e2"],
-Cell[3095, 82, 601359, 11070, 2639, "Output",ExpressionUUID->"d8b584d1-1011-4f65-964a-81832f770774"]
+Cell[3052, 80, 151, 2, 30, "Input",ExpressionUUID->"ac16d51b-384c-481e-8f28-070a605352e2"],
+Cell[3206, 84, 618336, 11362, 2639, "Output",ExpressionUUID->"fe6333ee-4741-4b07-aeb9-c6ca614f2bdb"]
 }, Open  ]]
 }
 ]
