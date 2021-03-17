@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    192022,       3789]
-NotebookOptionsPosition[    191130,       3767]
-NotebookOutlinePosition[    191563,       3784]
-CellTagsIndexPosition[    191520,       3781]
+NotebookDataLength[    191882,       3787]
+NotebookOptionsPosition[    190990,       3765]
+NotebookOutlinePosition[    191423,       3782]
+CellTagsIndexPosition[    191380,       3779]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -43,8 +43,7 @@ Cell[BoxData[{
  CellChangeTimes->{{3.824738676602597*^9, 3.8247386811743097`*^9}, {
   3.824741584488793*^9, 3.824741600382018*^9}, {3.824742879769285*^9, 
   3.824742881397744*^9}, {3.8247500005709457`*^9, 3.8247500015705347`*^9}},
- CellLabel->
-  "In[135]:=",ExpressionUUID->"2c1d2ed5-3c9d-4b2d-9b5c-daaa9b16f11e"],
+ CellLabel->"In[14]:=",ExpressionUUID->"2c1d2ed5-3c9d-4b2d-9b5c-daaa9b16f11e"],
 
 Cell[BoxData[
  TagBox[
@@ -55,239 +54,239 @@ Cell[BoxData[
        "Region" -> "us", "Product Key" -> "Dpr-Bellissimo-Full-M", "Category" -> 
         "Diapers", "Product" -> "Bellissimo", "Print Size" -> "Full", "Path" -> 
         "bellissimo-v2", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "M", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
-        324], 
+        322], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Bellissimo-Full-L", "Category" -> 
         "Diapers", "Product" -> "Bellissimo", "Print Size" -> "Full", "Path" -> 
         "bellissimo-v2", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "L", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         224], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Bellissimo-Full-XL", 
         "Category" -> "Diapers", "Product" -> "Bellissimo", "Print Size" -> 
         "Full", "Path" -> "bellissimo-v2", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "XL", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
-        152], 
+        150], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Classico-Full-M", "Category" -> 
         "Diapers", "Product" -> "Classico", "Print Size" -> "Full", "Path" -> 
         "classico-v2", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "M", "Quantity" -> 2, "Available" -> False, "On Hand" -> 0], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Classico-Full-L", "Category" -> 
         "Diapers", "Product" -> "Classico", "Print Size" -> "Full", "Path" -> 
         "classico-v2", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "L", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
-        214], 
+        212], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Cloudee-Full-M", "Category" -> 
         "Diapers", "Product" -> "Cloudee", "Print Size" -> "Full", "Path" -> 
         "cloudee", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "M", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         180], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Cloudee-Full-L", "Category" -> 
         "Diapers", "Product" -> "Cloudee", "Print Size" -> "Full", "Path" -> 
         "cloudee", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "L", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         378], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Cloudee-Full-XL", "Category" -> 
         "Diapers", "Product" -> "Cloudee", "Print Size" -> "Full", "Path" -> 
         "cloudee", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "XL", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
-        106], 
+        102], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Karnevalee-Full-M", "Category" -> 
         "Diapers", "Product" -> "Karnevalee", "Print Size" -> "Full", "Path" -> 
         "karnevalee", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "M", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         506], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Karnevalee-Full-L", "Category" -> 
         "Diapers", "Product" -> "Karnevalee", "Print Size" -> "Full", "Path" -> 
         "karnevalee", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "L", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         406], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Skooldoodle-Full-M", 
         "Category" -> "Diapers", "Product" -> "Skooldoodle", "Print Size" -> 
         "Full", "Path" -> "skooldoodle", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "M", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         526], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Skooldoodle-Full-L", 
         "Category" -> "Diapers", "Product" -> "Skooldoodle", "Print Size" -> 
         "Full", "Path" -> "skooldoodle", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "L", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
-        394], 
+        392], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Teddy-Full-M", "Category" -> 
         "Diapers", "Product" -> "Teddy", "Print Size" -> "Full", "Path" -> 
         "teddy-v2", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "M", "Quantity" -> 2, "Available" -> False, "On Hand" -> 0], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Teddy-Full-L", "Category" -> 
         "Diapers", "Product" -> "Teddy", "Print Size" -> "Full", "Path" -> 
         "teddy-v2", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "L", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         134], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Catstronaught-Full-M", 
         "Category" -> "Diapers", "Product" -> "Catstronaught", "Print Size" -> 
         "Full", "Path" -> "meowter-space-all-over-print-diapers", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "M", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         550], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Catstronaught-Full-L", 
         "Category" -> "Diapers", "Product" -> "Catstronaught", "Print Size" -> 
         "Full", "Path" -> "meowter-space-all-over-print-diapers", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "L", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
-        224], 
+        222], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Catstronaught-Full-XL", 
         "Category" -> "Diapers", "Product" -> "Catstronaught", "Print Size" -> 
         "Full", "Path" -> "meowter-space-all-over-print-diapers", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "XL", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         170], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Bellissimo-LZ-M", "Category" -> 
         "Diapers", "Product" -> "Bellissimo", "Print Size" -> "LZ", "Path" -> 
         "bellissimo", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "M", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         154], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Bellissimo-LZ-L", "Category" -> 
         "Diapers", "Product" -> "Bellissimo", "Print Size" -> "LZ", "Path" -> 
         "bellissimo", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "L", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         264], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Bellissimo-LZ-XL", "Category" -> 
         "Diapers", "Product" -> "Bellissimo", "Print Size" -> "LZ", "Path" -> 
         "bellissimo", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "XL", "Quantity" -> 2, "Available" -> False, "On Hand" -> 
         0], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Classico-LZ-M", "Category" -> 
         "Diapers", "Product" -> "Classico", "Print Size" -> "LZ", "Path" -> 
         "classico", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "M", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
-        282], 
+        276], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Classico-LZ-L", "Category" -> 
         "Diapers", "Product" -> "Classico", "Print Size" -> "LZ", "Path" -> 
         "classico", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "L", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         226], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Teddy-LZ-M", "Category" -> 
         "Diapers", "Product" -> "Teddy", "Print Size" -> "LZ", "Path" -> 
         "teddy", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "M", "Quantity" -> 2, "Available" -> False, "On Hand" -> 0], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Teddy-LZ-L", "Category" -> 
         "Diapers", "Product" -> "Teddy", "Print Size" -> "LZ", "Path" -> 
         "teddy", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "L", "Quantity" -> 2, "Available" -> True, "On Hand" -> 48], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Teddy-LZ-XL", "Category" -> 
         "Diapers", "Product" -> "Teddy", "Print Size" -> "LZ", "Path" -> 
         "teddy", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "XL", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         200], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-SunFun-LZ-S/M", "Category" -> 
         "Diapers", "Product" -> "Sun 'n Fun", "Print Size" -> "LZ", "Path" -> 
         "sun-n-fun", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "S/M", "Quantity" -> 1, "Available" -> True, "On Hand" -> 
         580], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-SunFun-LZ-L/XL", "Category" -> 
         "Diapers", "Product" -> "Sun 'n Fun", "Print Size" -> "LZ", "Path" -> 
         "sun-n-fun", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "L/XL", "Quantity" -> 1, "Available" -> False, "On Hand" -> 
         0], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Bianco-M", "Category" -> 
         "Diapers", "Product" -> "Bianco", "Print Size" -> "None", "Path" -> 
         "bianco-all-white-diapers", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "M", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         282], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Bianco-L", "Category" -> 
         "Diapers", "Product" -> "Bianco", "Print Size" -> "None", "Path" -> 
         "bianco-all-white-diapers", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "L", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         184], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-Bianco-XL", "Category" -> 
         "Diapers", "Product" -> "Bianco", "Print Size" -> "None", "Path" -> 
         "bianco-all-white-diapers", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "XL", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         190], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-TotalDryX-M", "Category" -> 
         "Diapers", "Product" -> "TotalDry X Plus Briefs", "Print Size" -> 
         "None", "Path" -> "totaldry-x-plus-briefs", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "M", "Quantity" -> 2, "Available" -> False, "On Hand" -> 0], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-TotalDryX-L", "Category" -> 
         "Diapers", "Product" -> "TotalDry X Plus Briefs", "Print Size" -> 
         "None", "Path" -> "totaldry-x-plus-briefs", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "L", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         156], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-TotalDryX-XL", "Category" -> 
         "Diapers", "Product" -> "TotalDry X Plus Briefs", "Print Size" -> 
         "None", "Path" -> "totaldry-x-plus-briefs", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "XL", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         136], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-TotalDryOvrNght-M", "Category" -> 
         "Diapers", "Product" -> "TotalDry Overnight Briefs", "Print Size" -> 
         "None", "Path" -> "totaldry-overnight-briefs", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "M", "Quantity" -> 2, "Available" -> False, "On Hand" -> 0], 
        Association[
        "Region" -> "us", "Product Key" -> "Dpr-TotalDryOvrNght-XL", 
         "Category" -> "Diapers", "Product" -> "TotalDry Overnight Briefs", 
         "Print Size" -> "None", "Path" -> "totaldry-overnight-briefs", "Date" -> 
-        DateObject[{2021, 3, 14}, "Day", "Gregorian", -5., {"ISODate"}], 
+        DateObject[{2021, 3, 15}, "Day", "Gregorian", -5., {"ISODate"}], 
         "Size" -> "XL", "Quantity" -> 2, "Available" -> True, "On Hand" -> 
         50]}, "AllowEmbedding" -> True, "InitialShape" -> 
      TypeSystem`PackageScope`HeaderShape[
@@ -380,7 +379,7 @@ Cell[BoxData[
      "HiddenItemsMap" -> Null, "UpdateType" -> 1], 
     TypeSystem`NestedGrid`PackagePrivate`$outputID$$, 
     TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
-    TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 16, 
+    TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 1, 
     TypeSystem`NestedGrid`PackagePrivate`$hPos$$ = 1, 
     TypeSystem`NestedGrid`PackagePrivate`$grid$$ = 
     DynamicModule[{
@@ -702,6 +701,1611 @@ Cell[BoxData[
               Annotation["us", 
                TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                 TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["Region"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{27., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Dpr-Bellissimo-Full-M", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["Product Key"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Diapers", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["Category"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{63., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Bellissimo", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["Product"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Full", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["Print Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["bellissimo-v2", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["Path"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{345.6, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes[
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
+                    Rational[33, 74], 
+                    Rational[27, 74], 
+                    Rational[117, 370]}]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["Date"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{75, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["M", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["Quantity"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["True"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["Available"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation["us", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["Region"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{27., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Dpr-Bellissimo-Full-L", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["Product Key"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Diapers", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["Category"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{63., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Bellissimo", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["Product"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Full", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["Print Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["bellissimo-v2", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["Path"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{345.6, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes[
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
+                    Rational[33, 74], 
+                    Rational[27, 74], 
+                    Rational[117, 370]}]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["Date"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{75, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["L", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["Quantity"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["True"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["Available"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation["us", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["Region"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{27., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Dpr-Bellissimo-Full-XL", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["Product Key"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Diapers", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["Category"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{63., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Bellissimo", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["Product"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Full", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["Print Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["bellissimo-v2", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["Path"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{345.6, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes[
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
+                    Rational[33, 74], 
+                    Rational[27, 74], 
+                    Rational[117, 370]}]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["Date"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{75, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["XL", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["Quantity"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["True"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["Available"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation["us", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["Region"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{27., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Dpr-Classico-Full-M", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["Product Key"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Diapers", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["Category"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{63., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Classico", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["Product"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Full", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["Print Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["classico-v2", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["Path"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{345.6, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes[
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
+                    Rational[33, 74], 
+                    Rational[27, 74], 
+                    Rational[117, 370]}]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["Date"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{75, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["M", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["Quantity"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["False"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["Available"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation["us", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["Region"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{27., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Dpr-Classico-Full-L", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["Product Key"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Diapers", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["Category"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{63., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Classico", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["Product"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Full", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["Print Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["classico-v2", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["Path"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{345.6, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes[
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
+                    Rational[33, 74], 
+                    Rational[27, 74], 
+                    Rational[117, 370]}]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["Date"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{75, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["L", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["Quantity"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["True"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["Available"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation["us", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
+                 Key["Region"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{27., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Dpr-Cloudee-Full-M", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
+                 Key["Product Key"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Diapers", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
+                 Key["Category"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{63., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Cloudee", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
+                 Key["Product"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Full", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
+                 Key["Print Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["cloudee", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
+                 Key["Path"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{345.6, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes[
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
+                    Rational[33, 74], 
+                    Rational[27, 74], 
+                    Rational[117, 370]}]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
+                 Key["Date"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{75, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["M", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
+                 Key["Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
+                 Key["Quantity"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["True"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
+                 Key["Available"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation["us", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{7, 
+                 Key["Region"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{27., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Dpr-Cloudee-Full-L", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{7, 
+                 Key["Product Key"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Diapers", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{7, 
+                 Key["Category"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{63., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Cloudee", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{7, 
+                 Key["Product"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Full", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{7, 
+                 Key["Print Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["cloudee", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{7, 
+                 Key["Path"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{345.6, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes[
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
+                    Rational[33, 74], 
+                    Rational[27, 74], 
+                    Rational[117, 370]}]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{7, 
+                 Key["Date"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{75, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["L", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{7, 
+                 Key["Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{7, 
+                 Key["Quantity"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["True"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{7, 
+                 Key["Available"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation["us", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{8, 
+                 Key["Region"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{27., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Dpr-Cloudee-Full-XL", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{8, 
+                 Key["Product Key"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Diapers", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{8, 
+                 Key["Category"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{63., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Cloudee", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{8, 
+                 Key["Product"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Full", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{8, 
+                 Key["Print Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["cloudee", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{8, 
+                 Key["Path"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{345.6, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes[
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
+                    Rational[33, 74], 
+                    Rational[27, 74], 
+                    Rational[117, 370]}]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{8, 
+                 Key["Date"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{75, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["XL", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{8, 
+                 Key["Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{8, 
+                 Key["Quantity"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["True"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{8, 
+                 Key["Available"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation["us", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{9, 
+                 Key["Region"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{27., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Dpr-Karnevalee-Full-M", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{9, 
+                 Key["Product Key"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Diapers", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{9, 
+                 Key["Category"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{63., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Karnevalee", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{9, 
+                 Key["Product"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Full", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{9, 
+                 Key["Print Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["karnevalee", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{9, 
+                 Key["Path"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{345.6, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes[
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
+                    Rational[33, 74], 
+                    Rational[27, 74], 
+                    Rational[117, 370]}]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{9, 
+                 Key["Date"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{75, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["M", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{9, 
+                 Key["Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{9, 
+                 Key["Quantity"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["True"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{9, 
+                 Key["Available"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation["us", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{10, 
+                 Key["Region"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{27., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Dpr-Karnevalee-Full-L", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{10, 
+                 Key["Product Key"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Diapers", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{10, 
+                 Key["Category"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{63., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Karnevalee", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{10, 
+                 Key["Product"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Full", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{10, 
+                 Key["Print Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["karnevalee", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{10, 
+                 Key["Path"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{345.6, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes[
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
+                    Rational[33, 74], 
+                    Rational[27, 74], 
+                    Rational[117, 370]}]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{10, 
+                 Key["Date"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{75, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["L", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{10, 
+                 Key["Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{10, 
+                 Key["Quantity"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["True"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{10, 
+                 Key["Available"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation["us", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{11, 
+                 Key["Region"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{27., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Dpr-Skooldoodle-Full-M", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{11, 
+                 Key["Product Key"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Diapers", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{11, 
+                 Key["Category"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{63., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Skooldoodle", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{11, 
+                 Key["Product"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Full", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{11, 
+                 Key["Print Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["skooldoodle", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{11, 
+                 Key["Path"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{345.6, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes[
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
+                    Rational[33, 74], 
+                    Rational[27, 74], 
+                    Rational[117, 370]}]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{11, 
+                 Key["Date"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{75, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["M", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{11, 
+                 Key["Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{11, 
+                 Key["Quantity"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["True"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{11, 
+                 Key["Available"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation["us", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{12, 
+                 Key["Region"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{27., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Dpr-Skooldoodle-Full-L", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{12, 
+                 Key["Product Key"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Diapers", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{12, 
+                 Key["Category"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{63., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Skooldoodle", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{12, 
+                 Key["Product"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Full", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{12, 
+                 Key["Print Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["skooldoodle", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{12, 
+                 Key["Path"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{345.6, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes[
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
+                    Rational[33, 74], 
+                    Rational[27, 74], 
+                    Rational[117, 370]}]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{12, 
+                 Key["Date"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{75, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["L", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{12, 
+                 Key["Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{12, 
+                 Key["Quantity"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["True"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{12, 
+                 Key["Available"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation["us", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
+                 Key["Region"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{27., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Dpr-Teddy-Full-M", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
+                 Key["Product Key"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Diapers", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
+                 Key["Category"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{63., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Teddy", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
+                 Key["Product"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Full", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
+                 Key["Print Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["teddy-v2", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
+                 Key["Path"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{345.6, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes[
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
+                    Rational[33, 74], 
+                    Rational[27, 74], 
+                    Rational[117, 370]}]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
+                 Key["Date"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{75, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["M", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
+                 Key["Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
+                 Key["Quantity"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["False"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
+                 Key["Available"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation["us", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{14, 
+                 Key["Region"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{27., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Dpr-Teddy-Full-L", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{14, 
+                 Key["Product Key"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Diapers", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{14, 
+                 Key["Category"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{63., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Teddy", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{14, 
+                 Key["Product"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Full", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{14, 
+                 Key["Print Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["teddy-v2", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{14, 
+                 Key["Path"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{345.6, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes[
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
+                    Rational[33, 74], 
+                    Rational[27, 74], 
+                    Rational[117, 370]}]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{14, 
+                 Key["Date"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{75, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["L", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{14, 
+                 Key["Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{14, 
+                 Key["Quantity"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["True"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{14, 
+                 Key["Available"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation["us", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
+                 Key["Region"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{27., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Dpr-Catstronaught-Full-M", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
+                 Key["Product Key"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Diapers", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
+                 Key["Category"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{63., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Catstronaught", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
+                 Key["Product"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["Full", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
+                 Key["Print Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["meowter-space-all-over-print-diapers", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
+                 Key["Path"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{345.6, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes[
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
+                    Rational[33, 74], 
+                    Rational[27, 74], 
+                    Rational[117, 370]}]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
+                 Key["Date"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{75, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation["M", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
+                 Key["Size"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
+                 Key["Quantity"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["True"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
+                 Key["Available"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{36, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation["us", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
                 TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{16, 
                  Key["Region"]}, "Item", False], "Mouse"], 
               ImageSize -> {{27., Full}, Automatic}, 
@@ -761,7 +2365,7 @@ Cell[BoxData[
              Pane[
               Annotation[
                RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
@@ -868,7 +2472,7 @@ Cell[BoxData[
              Pane[
               Annotation[
                RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
@@ -975,7 +2579,7 @@ Cell[BoxData[
              Pane[
               Annotation[
                RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
@@ -1082,7 +2686,7 @@ Cell[BoxData[
              Pane[
               Annotation[
                RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
@@ -1189,7 +2793,7 @@ Cell[BoxData[
              Pane[
               Annotation[
                RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
+                StyleBox["\"2021-03-15\"", FontColor -> RGBColor[{
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
@@ -1228,1611 +2832,6 @@ Cell[BoxData[
                TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                 TypeSystem`NestedGrid`PackagePrivate`localHold[
                 TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{20, 
-                 Key["Available"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation["us", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["Region"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{27., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Dpr-Classico-LZ-M", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["Product Key"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Diapers", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["Category"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{63., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Classico", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["Product"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["LZ", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["Print Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["classico", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["Path"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{345.6, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
-                    Rational[33, 74], 
-                    Rational[27, 74], 
-                    Rational[117, 370]}]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["Date"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{75, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["M", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["2"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["Quantity"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["True"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["Available"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation["us", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["Region"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{27., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Dpr-Classico-LZ-L", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["Product Key"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Diapers", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["Category"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{63., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Classico", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["Product"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["LZ", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["Print Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["classico", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["Path"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{345.6, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
-                    Rational[33, 74], 
-                    Rational[27, 74], 
-                    Rational[117, 370]}]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["Date"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{75, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["L", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["2"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["Quantity"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["True"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["Available"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation["us", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["Region"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{27., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Dpr-Teddy-LZ-M", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["Product Key"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Diapers", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["Category"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{63., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Teddy", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["Product"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["LZ", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["Print Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["teddy", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["Path"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{345.6, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
-                    Rational[33, 74], 
-                    Rational[27, 74], 
-                    Rational[117, 370]}]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["Date"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{75, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["M", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["2"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["Quantity"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["False"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["Available"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation["us", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["Region"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{27., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Dpr-Teddy-LZ-L", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["Product Key"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Diapers", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["Category"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{63., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Teddy", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["Product"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["LZ", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["Print Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["teddy", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["Path"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{345.6, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
-                    Rational[33, 74], 
-                    Rational[27, 74], 
-                    Rational[117, 370]}]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["Date"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{75, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["L", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["2"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["Quantity"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["True"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["Available"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation["us", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["Region"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{27., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Dpr-Teddy-LZ-XL", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["Product Key"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Diapers", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["Category"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{63., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Teddy", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["Product"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["LZ", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["Print Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["teddy", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["Path"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{345.6, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
-                    Rational[33, 74], 
-                    Rational[27, 74], 
-                    Rational[117, 370]}]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["Date"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{75, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["XL", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["2"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["Quantity"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["True"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["Available"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation["us", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{26, 
-                 Key["Region"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{27., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Dpr-SunFun-LZ-S/M", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{26, 
-                 Key["Product Key"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Diapers", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{26, 
-                 Key["Category"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{63., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Sun 'n Fun", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{26, 
-                 Key["Product"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["LZ", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{26, 
-                 Key["Print Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["sun-n-fun", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{26, 
-                 Key["Path"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{345.6, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
-                    Rational[33, 74], 
-                    Rational[27, 74], 
-                    Rational[117, 370]}]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{26, 
-                 Key["Date"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{75, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["S/M", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{26, 
-                 Key["Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["1"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{26, 
-                 Key["Quantity"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["True"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{26, 
-                 Key["Available"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation["us", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{27, 
-                 Key["Region"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{27., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Dpr-SunFun-LZ-L/XL", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{27, 
-                 Key["Product Key"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Diapers", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{27, 
-                 Key["Category"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{63., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Sun 'n Fun", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{27, 
-                 Key["Product"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["LZ", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{27, 
-                 Key["Print Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["sun-n-fun", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{27, 
-                 Key["Path"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{345.6, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
-                    Rational[33, 74], 
-                    Rational[27, 74], 
-                    Rational[117, 370]}]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{27, 
-                 Key["Date"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{75, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["L/XL", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{27, 
-                 Key["Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["1"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{27, 
-                 Key["Quantity"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["False"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{27, 
-                 Key["Available"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation["us", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{28, 
-                 Key["Region"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{27., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Dpr-Bianco-M", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{28, 
-                 Key["Product Key"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Diapers", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{28, 
-                 Key["Category"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{63., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Bianco", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{28, 
-                 Key["Product"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["None", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{28, 
-                 Key["Print Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["bianco-all-white-diapers", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{28, 
-                 Key["Path"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{345.6, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
-                    Rational[33, 74], 
-                    Rational[27, 74], 
-                    Rational[117, 370]}]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{28, 
-                 Key["Date"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{75, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["M", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{28, 
-                 Key["Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["2"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{28, 
-                 Key["Quantity"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["True"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{28, 
-                 Key["Available"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation["us", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{29, 
-                 Key["Region"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{27., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Dpr-Bianco-L", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{29, 
-                 Key["Product Key"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Diapers", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{29, 
-                 Key["Category"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{63., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Bianco", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{29, 
-                 Key["Product"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["None", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{29, 
-                 Key["Print Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["bianco-all-white-diapers", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{29, 
-                 Key["Path"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{345.6, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
-                    Rational[33, 74], 
-                    Rational[27, 74], 
-                    Rational[117, 370]}]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{29, 
-                 Key["Date"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{75, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["L", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{29, 
-                 Key["Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["2"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{29, 
-                 Key["Quantity"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["True"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{29, 
-                 Key["Available"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation["us", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{30, 
-                 Key["Region"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{27., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Dpr-Bianco-XL", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{30, 
-                 Key["Product Key"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Diapers", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{30, 
-                 Key["Category"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{63., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Bianco", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{30, 
-                 Key["Product"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["None", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{30, 
-                 Key["Print Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["bianco-all-white-diapers", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{30, 
-                 Key["Path"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{345.6, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
-                    Rational[33, 74], 
-                    Rational[27, 74], 
-                    Rational[117, 370]}]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{30, 
-                 Key["Date"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{75, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["XL", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{30, 
-                 Key["Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["2"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{30, 
-                 Key["Quantity"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["True"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{30, 
-                 Key["Available"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation["us", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{31, 
-                 Key["Region"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{27., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Dpr-TotalDryX-M", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{31, 
-                 Key["Product Key"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Diapers", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{31, 
-                 Key["Category"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{63., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["TotalDry X Plus Briefs", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{31, 
-                 Key["Product"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["None", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{31, 
-                 Key["Print Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["totaldry-x-plus-briefs", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{31, 
-                 Key["Path"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{345.6, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
-                    Rational[33, 74], 
-                    Rational[27, 74], 
-                    Rational[117, 370]}]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{31, 
-                 Key["Date"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{75, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["M", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{31, 
-                 Key["Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["2"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{31, 
-                 Key["Quantity"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["False"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{31, 
-                 Key["Available"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation["us", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{32, 
-                 Key["Region"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{27., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Dpr-TotalDryX-L", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{32, 
-                 Key["Product Key"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Diapers", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{32, 
-                 Key["Category"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{63., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["TotalDry X Plus Briefs", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{32, 
-                 Key["Product"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["None", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{32, 
-                 Key["Print Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["totaldry-x-plus-briefs", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{32, 
-                 Key["Path"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{345.6, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
-                    Rational[33, 74], 
-                    Rational[27, 74], 
-                    Rational[117, 370]}]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{32, 
-                 Key["Date"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{75, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["L", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{32, 
-                 Key["Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["2"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{32, 
-                 Key["Quantity"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["True"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{32, 
-                 Key["Available"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation["us", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{33, 
-                 Key["Region"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{27., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Dpr-TotalDryX-XL", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{33, 
-                 Key["Product Key"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Diapers", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{33, 
-                 Key["Category"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{63., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["TotalDry X Plus Briefs", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{33, 
-                 Key["Product"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["None", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{33, 
-                 Key["Print Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["totaldry-x-plus-briefs", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{33, 
-                 Key["Path"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{345.6, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
-                    Rational[33, 74], 
-                    Rational[27, 74], 
-                    Rational[117, 370]}]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{33, 
-                 Key["Date"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{75, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["XL", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{33, 
-                 Key["Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["2"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{33, 
-                 Key["Quantity"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["True"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{33, 
-                 Key["Available"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation["us", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{34, 
-                 Key["Region"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{27., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Dpr-TotalDryOvrNght-M", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{34, 
-                 Key["Product Key"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Diapers", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{34, 
-                 Key["Category"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{63., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["TotalDry Overnight Briefs", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{34, 
-                 Key["Product"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["None", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{34, 
-                 Key["Print Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["totaldry-overnight-briefs", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{34, 
-                 Key["Path"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{345.6, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
-                    Rational[33, 74], 
-                    Rational[27, 74], 
-                    Rational[117, 370]}]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{34, 
-                 Key["Date"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{75, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["M", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{34, 
-                 Key["Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["2"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{34, 
-                 Key["Quantity"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["False"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{34, 
-                 Key["Available"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation["us", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{35, 
-                 Key["Region"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{27., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Dpr-TotalDryOvrNght-XL", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{35, 
-                 Key["Product Key"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["Diapers", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{35, 
-                 Key["Category"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{63., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["TotalDry Overnight Briefs", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{35, 
-                 Key["Product"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{240.00000000000003`, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["None", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{35, 
-                 Key["Print Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["totaldry-overnight-briefs", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{35, 
-                 Key["Path"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{345.6, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes[
-                StyleBox["\"2021-03-14\"", FontColor -> RGBColor[{
-                    Rational[33, 74], 
-                    Rational[27, 74], 
-                    Rational[117, 370]}]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{35, 
-                 Key["Date"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{75, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation["XL", 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{35, 
-                 Key["Size"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{36., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["2"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{35, 
-                 Key["Quantity"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["True"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{35, 
                  Key["Available"]}, "Item", False], "Mouse"], 
               ImageSize -> {{36, Full}, Automatic}, 
               ImageMargins -> {{5, 3}, {4, 5}}], 
@@ -2905,7 +2904,8 @@ Cell[BoxData[
                     Rotate[
                     Translate[{
                     CapForm[Round], 
-                    RGBColor[0.5372549019607843, 0.5372549019607843, 
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
                     0.5372549019607843], 
                     Line[{{0, 0}, {4, 5}, {8, 0}}]}, {5, 6.5}], 0, {9, 9}]}, 
                     ImageSize -> (1 -> 1), ImagePadding -> {{0, 1}, {1, 0}}, 
@@ -2945,7 +2945,7 @@ Cell[BoxData[
                     Appearance -> None], " ", 
                     Style[
                     Mouseover[
-                    Row[{"rows ", 16, "\[Dash]", 35, " of ", 
+                    Row[{"rows ", 1, "\[Dash]", 20, " of ", 
                     Style[
                     35, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
                     BaseStyle -> {
@@ -2953,7 +2953,7 @@ Cell[BoxData[
                     RGBColor[
                     0.5098039215686274, 0.5098039215686274, 
                     0.5098039215686274]}], 
-                    Row[{"rows ", 16, "\[Dash]", 35, " of ", 
+                    Row[{"rows ", 1, "\[Dash]", 20, " of ", 
                     Style[
                     35, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
                     BaseStyle -> {
@@ -3435,8 +3435,7 @@ Cell[BoxData[
           BaseStyle -> {
            ContextMenu -> 
             Dynamic[TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger; 
-              Which[
-               TypeSystem`NestedGrid`PackagePrivate`$lastOutputID =!= 
+              Which[TypeSystem`NestedGrid`PackagePrivate`$lastOutputID =!= 
                 TypeSystem`NestedGrid`PackagePrivate`localHold[
                  TypeSystem`NestedGrid`PackagePrivate`$outputID$$], {}, 
                 TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger === 
@@ -3524,8 +3523,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     Nothing, 
                     MenuItem[
                     StringJoin["Hide ", 
-                    Which[
-                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
+                    Which[TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
                     "Item", "", 
                     TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
                     "RowHeader", "Row", 
@@ -3749,9 +3747,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
- CellChangeTimes->{3.824749977576293*^9, 3.824750014284871*^9},
- CellLabel->
-  "Out[136]=",ExpressionUUID->"1da9da50-f9cc-47b2-a16f-f31df312bcfc"]
+ CellChangeTimes->{3.824749977576293*^9, 3.824750014284871*^9, 
+  3.824828924959475*^9},
+ CellLabel->"Out[15]=",ExpressionUUID->"84ed365e-2165-4e4f-b20f-214028e53833"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -3786,11 +3784,11 @@ Notebook[{
 Cell[558, 20, 623, 9, 37, "Input",ExpressionUUID->"4b3b919e-57a5-42ab-86bc-401ab4dcfea4"],
 Cell[1184, 31, 154, 3, 37, "Input",ExpressionUUID->"004df079-de75-4139-a115-20cfe33cf6d3"],
 Cell[CellGroupData[{
-Cell[1363, 38, 459, 8, 64, "Input",ExpressionUUID->"2c1d2ed5-3c9d-4b2d-9b5c-daaa9b16f11e"],
-Cell[1825, 48, 188925, 3705, 769, "Output",ExpressionUUID->"1da9da50-f9cc-47b2-a16f-f31df312bcfc"]
+Cell[1363, 38, 455, 7, 64, "Input",ExpressionUUID->"2c1d2ed5-3c9d-4b2d-9b5c-daaa9b16f11e"],
+Cell[1821, 47, 188789, 3704, 769, "Output",ExpressionUUID->"84ed365e-2165-4e4f-b20f-214028e53833"]
 }, Open  ]],
-Cell[190765, 3756, 230, 4, 90, "Input",ExpressionUUID->"8f605ec6-adc0-4621-a30a-788f4939fe4c"],
-Cell[190998, 3762, 128, 3, 37, "Input",ExpressionUUID->"d38cfe91-da09-4460-abb1-eca38cec5068"]
+Cell[190625, 3754, 230, 4, 90, "Input",ExpressionUUID->"8f605ec6-adc0-4621-a30a-788f4939fe4c"],
+Cell[190858, 3760, 128, 3, 37, "Input",ExpressionUUID->"d38cfe91-da09-4460-abb1-eca38cec5068"]
 }
 ]
 *)
