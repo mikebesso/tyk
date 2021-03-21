@@ -25,7 +25,11 @@ tykShopifyInit::usage = "tykShopifyInit  "
 
 buildTagUpdates::usage = "buildTagUpdates  "
 
-tagsFromOrder::usage = "tagsFromOrder  ";
+tagsFromOrder::usage = "tagsFromOrder  "
+
+tagsFromSku::usage = "tagsFromSku  "
+
+tagsFromSnappiesSku::usage = "tagsFromSnappiesSku  ";
 
 
 (* Exported symbols added here with SymbolName::usage *) 
@@ -64,95 +68,92 @@ tykShopifyInit[] := Module[
 
 
 
+tagsFromDiaperSku[sku_String] := Lookup[
+	mapSkuToTags, 
+	StringReplace[sku, {"MC" -> "", "HC" -> "", "S" -> ""}], 
+	{}
+];
 
-
-
-tagsFromDiaperSku[sku_String] := Module[
-   {
-    lookup = StringReplace[sku, {"MC" -> "", "HC" -> "", "S" -> ""}]
-    }
-   ,
-   Lookup[mapSkuToTags, lookup, {}]
-   ];
 tagsFromDiaperSku[sku_?NumericQ] := tagsFromDiaperSku[str$Tidy[sku]];
 
+
 tagsFromSnappiesSku[sku_String] := Module[
-  {}
-  ,
-  If[
-   Length[sku] == 9
-   ,
-   Lookup[mapSkuToTags, StringTake[sku, 8], {}]
-   ,
-   {}
-   ]
-  ]
+	{}
+	,
+	If[
+		StringLength[sku] == 9
+		,
+		Lookup[mapSkuToTags, StringTake[sku, 8], {}]
+		,
+		{}
+	]
+];
 
 tagsFromUndiesSku[sku_String] := Module[
-  {}
-  ,
-  If[
-   Length[sku] == 9
-   ,
-   Lookup[mapSkuToTags, StringTake[sku, 8], {}]
-   ,
-   {}
-   ]
-  ]
+	{}
+	,
+	If[
+		Length[sku] == 9
+		,
+		Lookup[mapSkuToTags, StringTake[sku, 8], {}]
+		,
+		{}
+	]
+];
 
 
 tagsFromDenimSku[sku_String]  := Module[
-  {}
-  ,
-  If[
-   Length[sku] == 9
-   ,
-   Lookup[mapSkuToTags, StringTake[sku, 8], {}]
-   ,
-   {}
-   ]
-  ]
+	{}
+	,
+	If[
+		StringLength[sku] == 9
+		,
+		Lookup[mapSkuToTags, StringTake[sku, 8], {}]
+		,
+		{}
+	]
+];
 
 
 tagsFromPlushieSku[sku_String]  := Module[
-  {}
-  ,
-  If[
-   Length[sku] == 9
-   ,
-   Lookup[mapSkuToTags, StringTake[sku, 8], {}]
-   ,
-   {}
-   ]
-  ]
+	{}
+	,
+	If[
+		StringLength[sku] == 9
+		,
+		Lookup[mapSkuToTags, StringTake[sku, 8], {}]
+		,
+		{}
+	]
+]
 
 tagsFromSku[""] = {};
 tagsFromSku[Null] = {};
 tagsFromSku[sku_String] := Module[
-   {
-    tags = {}
-    }
-   ,
+	{
+		tags = {}
+	}
+	,
    
-   tags = Catch[
-     tags = tagsFromDiaperSku[sku];
-     If[Length[tags] > 0, Throw[tags]];
+	tags = Catch[
+		tags = tagsFromDiaperSku[sku];
+		If[Length[tags] > 0, Throw[tags]];
      
-     tags = tagsFromSnappiesSku[sku];
-     If[Length[tags] > 0, Throw[tags]];
+		tags = tagsFromSnappiesSku[sku];
+		If[Length[tags] > 0, Throw[tags]];
      
-     tags = tagsFromUndiesSku[sku];
-     If[Length[tags] > 0, Throw[tags]];
+ 		tags = tagsFromUndiesSku[sku];
+		If[Length[tags] > 0, Throw[tags]];
      
-     tags = tagsFromDenimSku[sku];
-     If[Length[tags] > 0, Throw[tags]];
+		tags = tagsFromDenimSku[sku];
+		If[Length[tags] > 0, Throw[tags]];
      
-     tags = tagsFromPlushieSku[sku];
-     If[Length[tags] > 0, Throw[tags]];
-     ];
+		tags = tagsFromPlushieSku[sku];
+		If[Length[tags] > 0, Throw[tags]];
+	];
    
-   tags
-   ];
+	tags
+];
 
 
 
@@ -196,8 +197,13 @@ cleanTags[tags_List] := Module[
      tagsCleaned
      ];
    
+   
+   tagsCleaned = Select[tagsCleaned,  Not[StringStartsQ[#, "lookup" , IgnoreCase -> True]] &];
+   tagsCleaned = Select[tagsCleaned,  Not[StringStartsQ[#, "{" , IgnoreCase -> True]] &];
+   
    tagsCleaned
    
+    
    
    ];
 
@@ -205,7 +211,8 @@ cleanTags[tags_List] := Module[
 tagsFromOrder[order_Association] := Module[
    {
     customer = order["customer"],
-    number = order["name"]
+    number = order["name"],
+    retVal
     }
    ,
    
@@ -218,8 +225,7 @@ tagsFromOrder[order_Association] := Module[
     
     Module[
      {
-      customerTags = 
-       cleanTags@StringSplit[order["customer"]["tags"], ","],
+      customerTags = cleanTags@StringSplit[order["customer"]["tags"], ","],
       lineItemSkus,
       orderTags ,
       newTags,
@@ -241,15 +247,22 @@ tagsFromOrder[order_Association] := Module[
      overwriteTags = 
       If[Length[newTags] > 0, Union[customerTags, newTags], {}];
      
-     <|
-      	"order_number" -> number,
-      	"customer_id" -> customer["id"],
-      	"current_tags" ->  listToCSV[customerTags],
-      	"line_item_skus" -> listToCSV[lineItemSkus],
-      	"order_tags" -> listToCSV[orderTags],
-      	"new_tags" -> listToCSV[newTags],
-      	"overwrite_tags" -> listToCSV[overwriteTags]
-      |>
+     
+     retVal = <|
+      	"order_number" -> number
+      	, "customer_id" -> customer["id"]
+      	, "current_tags" ->  listToCSV[customerTags]
+      	, "order_tags" -> listToCSV[orderTags]
+      	, "new_tags" -> listToCSV[newTags]
+      	, "overwrite_tags" -> listToCSV[overwriteTags]
+      	, "line_item_skus" -> listToCSV[lineItemSkus]
+      |>;
+      
+      
+      (*If[Length[newTags] > 0, Echo[retVal]];*)
+      
+      Throw[retVal];
+      
      ]
     ]
    

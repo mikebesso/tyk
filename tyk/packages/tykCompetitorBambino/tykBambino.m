@@ -27,8 +27,23 @@ bambinoScrape[meta_Association] := Module[
 			meta["Path"]}]
 		, scrape
 		, parsed
+		
+		(* Helper Functions *)
+		, filterPackaging
     }
 	,
+   
+    (* We only have "option2" if there are different types of packaging *)
+   	filterPackaging = If[
+   		meta["Packaging"] == "Single"
+   		, 
+   		True &
+   		,
+   		#["option2"] == meta["Packaging"] &
+   	];
+   		
+   		
+   
    
 	scrape = With[
 		{
@@ -52,27 +67,55 @@ bambinoScrape[meta_Association] := Module[
 		Map[
 			KeyTake[ {"title", "option2", "available", "inventory_quantity", "price"}]
 			, 
-			Select[json["variants"], #["option2"] == meta["Packaging"] &  ]
+			Select[json["variants"], filterPackaging]
 		]
 	];
+   
    
 	Join[meta, <| "JSON" -> parsed |>]
    
 ];
 
+
+
+
 bambinoFlattenScrape[data_Association] := Module[
 	{
-		mapVariants
+		(* helper functions *)
+		  mapVariants
+		, parseBags
+		, parseSize
 	}
 	,
+	
+	(* Default to "One Size" if product does not have sizes *)
+	parseSize[variant_Association] := If[
+		data["Has Sizes"]
+		,
+		First@StringSplit[variant["title"], " "]
+		,
+		"One Size"
+	];
+
+	(* Default to single quantity if product does not have multiple packagings *)
+	parseBags[variant_Association] := If[
+		data["Packaging"] == "Single"
+		,
+		1
+		,
+		ToExpression[First@StringSplit[variant["option2"], " "]]
+	];
+	
+	
 	mapVariants[variant_Association] := With[
 		{
-			size = First@StringSplit[variant["title"], " "]
-			, bags = ToExpression[First@StringSplit[variant["option2"], " "]]
+			size = parseSize[variant]
+			, bags = parseBags[variant]
 		}
 		,
+		
 		Join[
-			KeyDrop[data, {"JSON", "Packaging"}],
+			KeyDrop[data, {"JSON", "Packaging", "Has Sizes"}],
 			<|
 				"Date" -> dtToday[],
 				"Size" -> size, 
@@ -83,6 +126,7 @@ bambinoFlattenScrape[data_Association] := Module[
 			|>
 		]
 	];
+   
    
 	Map[mapVariants, data["JSON"]]
    
