@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    622268,      11470]
-NotebookOptionsPosition[    621558,      11449]
-NotebookOutlinePosition[    621960,      11465]
-CellTagsIndexPosition[    621917,      11462]
+NotebookDataLength[    624181,      11495]
+NotebookOptionsPosition[    623471,      11474]
+NotebookOutlinePosition[    623873,      11490]
+CellTagsIndexPosition[    623830,      11487]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -32,7 +32,7 @@ Cell[BoxData[{
   3.8017590823051443`*^9, 3.801759090438409*^9}, {3.801759335818234*^9, 
   3.801759336323348*^9}, {3.8017594301175423`*^9, 3.8017594515144672`*^9}, {
   3.823881620325165*^9, 3.823881621715914*^9}},
- CellLabel->"In[2]:=",ExpressionUUID->"fe30c873-a910-4e5c-947a-7c23c0b04054"],
+ CellLabel->"In[1]:=",ExpressionUUID->"fe30c873-a910-4e5c-947a-7c23c0b04054"],
 
 Cell[BoxData[
  RowBox[{"\[LeftAssociation]", 
@@ -46,7 +46,7 @@ Cell[BoxData[
    ",", 
    RowBox[{"\<\"Scrape File Path\"\>", 
     "\[Rule]", \
-"\<\"/Users/mike/projects/tykables/files/tykWarehouse/data/scrapes/2021-03-04.\
+"\<\"/Users/mike/projects/tykables/files/tykWarehouse/data/scrapes/2021-03-24.\
 xlsx\"\>"}], ",", 
    RowBox[{"\<\"Cleansed Folder Path\"\>", 
     "\[Rule]", \
@@ -60,7 +60,7 @@ xlsx\"\>"}], ",",
    RowBox[{"\<\"Report File Path\"\>", 
     "\[Rule]", \
 "\<\"/Users/mike/projects/tykables/files/tykWarehouse/output/warehouse-\
-supplies-2021-03-04.pdf\"\>"}], ",", 
+supplies-2021-03-24.pdf\"\>"}], ",", 
    RowBox[{"\<\"PublishQ\"\>", "\[Rule]", "False"}], ",", 
    RowBox[{"\<\"FailedQ\"\>", "\[Rule]", "False"}], ",", 
    RowBox[{"\<\"Failure Reason\"\>", "\[Rule]", "Null"}], ",", 
@@ -72,15 +72,16 @@ supplies-2021-03-04.pdf\"\>"}], ",",
  CellChangeTimes->{3.8017594518879347`*^9, 3.801759493333433*^9, 
   3.802187977927854*^9, 3.8021901206604023`*^9, 3.8021909078555098`*^9, 
   3.8139530644427023`*^9, 3.8155876327891912`*^9, 3.823881592540011*^9, 
-  3.823881642130064*^9, 3.8238820738702793`*^9},
- CellLabel->"Out[3]=",ExpressionUUID->"c7c586c3-0a1a-4714-a3c3-27a2ab0c4ee6"]
+  3.823881642130064*^9, 3.8238820738702793`*^9, 3.8256140473688087`*^9, 
+  3.825614105555636*^9, 3.825614247859744*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"38d03fba-98ce-4cbd-8064-dbb6013723d7"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"tykWarehouse$Run", "[", "False", "]"}]], "Input",
- CellLabel->"In[5]:=",ExpressionUUID->"ac16d51b-384c-481e-8f28-070a605352e2"],
+ CellLabel->"In[2]:=",ExpressionUUID->"ac16d51b-384c-481e-8f28-070a605352e2"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -89,7 +90,7 @@ Cell[BoxData[
     {"\<\"Scrapes Folder Path\"\>", \
 "\<\"/Users/mike/projects/tykables/files/tykWarehouse/data/scrapes\"\>"},
     {"\<\"Scrape File Path\"\>", \
-"\<\"/Users/mike/projects/tykables/files/tykWarehouse/data/scrapes/2021-03-04.\
+"\<\"/Users/mike/projects/tykables/files/tykWarehouse/data/scrapes/2021-03-24.\
 xlsx\"\>"},
     {"\<\"Cleansed Folder Path\"\>", \
 "\<\"/Users/mike/projects/tykables/files/tykWarehouse/data/cleansed\"\>"},
@@ -98,7 +99,7 @@ xlsx\"\>"},
     {"\<\"Download Folder Path\"\>", "\<\"/Users/mike/downloads\"\>"},
     {"\<\"Report File Path\"\>", \
 "\<\"/Users/mike/projects/tykables/files/tykWarehouse/output/warehouse-\
-supplies-2021-03-04.pdf\"\>"},
+supplies-2021-03-24.pdf\"\>"},
     {"\<\"PublishQ\"\>", "False"},
     {"\<\"FailedQ\"\>", "False"},
     {"\<\"Failure Reason\"\>", "\<\"Null\"\>"},
@@ -114,7 +115,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 5, 29, 11, 32, 31.355000019073486`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 174., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 174., 
             "Single Bag Box (12x16x8)" -> 100., "Dubble Bag Box (16x12x12)" -> 
             83., "Dubble Bag Box (16x14x12)" -> 87., 
             "Large Full Case Box (26x15x22)" -> 413., 
@@ -129,7 +130,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 6, 3, 21, 56, 45.388999938964844`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 88., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 88., 
             "Single Bag Box (12x16x8)" -> 78., "Dubble Bag Box (16x12x12)" -> 
             106., "Dubble Bag Box (16x14x12)" -> 75., 
             "Large Full Case Box (26x15x22)" -> 362., 
@@ -144,7 +145,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 6, 10, 19, 34, 24.170000076293945`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 11., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 11., 
             "Single Bag Box (12x16x8)" -> 50., "Dubble Bag Box (16x12x12)" -> 
             104., "Dubble Bag Box (16x14x12)" -> 53., 
             "Large Full Case Box (26x15x22)" -> 314., 
@@ -159,7 +160,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 6, 12, 17, 28, 24.00600004196167}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 300., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 300., 
             "Single Bag Box (12x16x8)" -> 141., "Dubble Bag Box (16x12x12)" -> 
             103., "Dubble Bag Box (16x14x12)" -> 150., 
             "Large Full Case Box (26x15x22)" -> 302., 
@@ -174,7 +175,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 6, 17, 19, 43, 1.6220002174377441`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 237., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 237., 
             "Single Bag Box (12x16x8)" -> 122., "Dubble Bag Box (16x12x12)" -> 
             104., "Dubble Bag Box (16x14x12)" -> 130., 
             "Large Full Case Box (26x15x22)" -> 266., 
@@ -189,7 +190,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 6, 20, 20, 36, 48.21500015258789}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 108., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 108., 
             "Single Bag Box (12x16x8)" -> 109., "Dubble Bag Box (16x12x12)" -> 
             103., "Dubble Bag Box (16x14x12)" -> 122., 
             "Large Full Case Box (26x15x22)" -> 0., 
@@ -204,7 +205,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 6, 25, 20, 53, 32.26700019836426}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 10., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 10., 
             "Single Bag Box (12x16x8)" -> 100., "Dubble Bag Box (16x12x12)" -> 
             99., "Dubble Bag Box (16x14x12)" -> 89., 
             "Large Full Case Box (26x15x22)" -> 38., 
@@ -219,7 +220,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 6, 27, 17, 51, 7.934000015258789}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 398., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 398., 
             "Single Bag Box (12x16x8)" -> 78., "Dubble Bag Box (16x12x12)" -> 
             102., "Dubble Bag Box (16x14x12)" -> 85., 
             "Large Full Case Box (26x15x22)" -> 17., 
@@ -234,7 +235,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 7, 2, 16, 0, 38.88600015640259}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 352., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 352., 
             "Single Bag Box (12x16x8)" -> 61., "Dubble Bag Box (16x12x12)" -> 
             85., "Dubble Bag Box (16x14x12)" -> 78., 
             "Large Full Case Box (26x15x22)" -> 0., 
@@ -249,7 +250,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 7, 8, 20, 55, 23.277999877929688`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 329., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 329., 
             "Single Bag Box (12x16x8)" -> 48., "Dubble Bag Box (16x12x12)" -> 
             79., "Dubble Bag Box (16x14x12)" -> 63., 
             "Large Full Case Box (26x15x22)" -> 778., 
@@ -264,7 +265,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 7, 10, 19, 47, 17.47599983215332}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 219., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 219., 
             "Single Bag Box (12x16x8)" -> 35., "Dubble Bag Box (16x12x12)" -> 
             74., "Dubble Bag Box (16x14x12)" -> 44., 
             "Large Full Case Box (26x15x22)" -> 758., 
@@ -279,7 +280,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 7, 15, 17, 59, 33.64300012588501}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 176., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 176., 
             "Single Bag Box (12x16x8)" -> 20., "Dubble Bag Box (16x12x12)" -> 
             96., "Dubble Bag Box (16x14x12)" -> 36., 
             "Large Full Case Box (26x15x22)" -> 733., 
@@ -294,7 +295,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 7, 19, 20, 25, 1.5320000648498535`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 123., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 123., 
             "Single Bag Box (12x16x8)" -> 0., "Dubble Bag Box (16x12x12)" -> 
             78., "Dubble Bag Box (16x14x12)" -> 28., 
             "Large Full Case Box (26x15x22)" -> 722., 
@@ -309,7 +310,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 7, 22, 18, 11, 26.02899980545044}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 100., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 100., 
             "Single Bag Box (12x16x8)" -> 0., "Dubble Bag Box (16x12x12)" -> 
             88., "Dubble Bag Box (16x14x12)" -> 23., 
             "Large Full Case Box (26x15x22)" -> 714., 
@@ -324,7 +325,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 7, 26, 16, 45, 46.93499994277954}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 478., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 478., 
             "Single Bag Box (12x16x8)" -> 100., "Dubble Bag Box (16x12x12)" -> 
             88., "Dubble Bag Box (16x14x12)" -> 111., 
             "Large Full Case Box (26x15x22)" -> 694., 
@@ -339,7 +340,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 8, 1, 16, 52, 2.558000087738037}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 382., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 382., 
             "Single Bag Box (12x16x8)" -> 85., "Dubble Bag Box (16x12x12)" -> 
             74., "Dubble Bag Box (16x14x12)" -> 109., 
             "Large Full Case Box (26x15x22)" -> 598., 
@@ -354,7 +355,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 8, 5, 20, 39, 17.478000164031982`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 347., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 347., 
             "Single Bag Box (12x16x8)" -> 78., "Dubble Bag Box (16x12x12)" -> 
             69., "Dubble Bag Box (16x14x12)" -> 52., 
             "Large Full Case Box (26x15x22)" -> 548., 
@@ -369,7 +370,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 8, 16, 20, 46, 21.99399995803833}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 250., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 250., 
             "Single Bag Box (12x16x8)" -> 34., "Dubble Bag Box (16x12x12)" -> 
             58., "Dubble Bag Box (16x14x12)" -> 88., 
             "Large Full Case Box (26x15x22)" -> 620., 
@@ -384,7 +385,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 8, 23, 16, 55, 53.5310001373291}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 182., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 182., 
             "Single Bag Box (12x16x8)" -> 24., "Dubble Bag Box (16x12x12)" -> 
             48., "Dubble Bag Box (16x14x12)" -> 77., 
             "Large Full Case Box (26x15x22)" -> 282., 
@@ -399,7 +400,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 9, 3, 13, 56, 1.136000156402588}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 127., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 127., 
             "Single Bag Box (12x16x8)" -> 7., "Dubble Bag Box (16x12x12)" -> 
             37., "Dubble Bag Box (16x14x12)" -> 61., 
             "Large Full Case Box (26x15x22)" -> 225., 
@@ -414,7 +415,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 9, 5, 18, 15, 29.032000064849854`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 76., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 76., 
             "Single Bag Box (12x16x8)" -> 1., "Dubble Bag Box (16x12x12)" -> 
             52., "Dubble Bag Box (16x14x12)" -> 53., 
             "Large Full Case Box (26x15x22)" -> 176., 
@@ -429,7 +430,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 9, 23, 19, 35, 51.282999992370605`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 327., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 327., 
             "Single Bag Box (12x16x8)" -> 54., "Dubble Bag Box (16x12x12)" -> 
             52., "Dubble Bag Box (16x14x12)" -> 125., 
             "Large Full Case Box (26x15x22)" -> 758., 
@@ -444,7 +445,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 10, 2, 18, 50, 51.33500003814697}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 83., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 83., 
             "Single Bag Box (12x16x8)" -> 47., "Dubble Bag Box (16x12x12)" -> 
             22., "Dubble Bag Box (16x14x12)" -> 111., 
             "Large Full Case Box (26x15x22)" -> 685., 
@@ -459,7 +460,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 10, 14, 20, 54, 3.5840001106262207`}, "Instant",
-               "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 388., 
+               "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 388., 
             "Single Bag Box (12x16x8)" -> 126., "Dubble Bag Box (16x12x12)" -> 
             16., "Dubble Bag Box (16x14x12)" -> 37., 
             "Large Full Case Box (26x15x22)" -> 588., 
@@ -474,7 +475,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 10, 28, 20, 55, 35.11399984359741}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 135., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 135., 
             "Single Bag Box (12x16x8)" -> 78., "Dubble Bag Box (16x12x12)" -> 
             30., "Dubble Bag Box (16x14x12)" -> 52., 
             "Large Full Case Box (26x15x22)" -> 489., 
@@ -489,7 +490,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 11, 1, 16, 51, 55.751999855041504`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 100., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 100., 
             "Single Bag Box (12x16x8)" -> 78., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 0., 
             "Large Full Case Box (26x15x22)" -> 481., 
@@ -504,7 +505,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 11, 25, 21, 51, 44.361000061035156`}, "Instant",
-               "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 178., 
+               "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 178., 
             "Single Bag Box (12x16x8)" -> 78., "Dubble Bag Box (16x12x12)" -> 
             75., "Dubble Bag Box (16x14x12)" -> 61., 
             "Large Full Case Box (26x15x22)" -> 168., 
@@ -519,7 +520,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 12, 17, 17, 38, 48.32600021362305}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 271., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 271., 
             "Single Bag Box (12x16x8)" -> 162., "Dubble Bag Box (16x12x12)" -> 
             65., "Dubble Bag Box (16x14x12)" -> 87., 
             "Large Full Case Box (26x15x22)" -> 664., 
@@ -534,7 +535,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2019, 12, 23, 19, 13, 51.43900012969971}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 172., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 172., 
             "Single Bag Box (12x16x8)" -> 105., "Dubble Bag Box (16x12x12)" -> 
             49., "Dubble Bag Box (16x14x12)" -> 80., 
             "Large Full Case Box (26x15x22)" -> 680., 
@@ -549,7 +550,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 1, 23, 19, 8, 8.998000144958496}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 328., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 328., 
             "Single Bag Box (12x16x8)" -> 154., "Dubble Bag Box (16x12x12)" -> 
             28., "Dubble Bag Box (16x14x12)" -> 133., 
             "Large Full Case Box (26x15x22)" -> 335., 
@@ -564,7 +565,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 2, 11, 19, 54, 29.472000122070312`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 104., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 104., 
             "Single Bag Box (12x16x8)" -> 214., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 87., 
             "Large Full Case Box (26x15x22)" -> 815., 
@@ -579,7 +580,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 2, 20, 18, 30, 32.367000102996826`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 12., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 12., 
             "Single Bag Box (12x16x8)" -> 217., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 83., 
             "Large Full Case Box (26x15x22)" -> 784., 
@@ -594,7 +595,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 2, 21, 18, 57, 19.756999969482422`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 398., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 398., 
             "Single Bag Box (12x16x8)" -> 217., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 78., 
             "Large Full Case Box (26x15x22)" -> 774., 
@@ -609,7 +610,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 3, 2, 21, 17, 56.86899995803833}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 294., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 294., 
             "Single Bag Box (12x16x8)" -> 178., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 54., 
             "Large Full Case Box (26x15x22)" -> 745., 
@@ -624,7 +625,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 3, 19, 19, 13, 8.80299997329712}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 340., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 340., 
             "Single Bag Box (12x16x8)" -> 350., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 100., 
             "Large Full Case Box (26x15x22)" -> 330., 
@@ -639,7 +640,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 4, 10, 17, 23, 42.7979998588562}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 106., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 106., 
             "Single Bag Box (12x16x8)" -> 336., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 62., 
             "Large Full Case Box (26x15x22)" -> 37., 
@@ -654,7 +655,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 4, 14, 19, 2, 18.876999855041504`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 44., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 44., 
             "Single Bag Box (12x16x8)" -> 310., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 62., 
             "Large Full Case Box (26x15x22)" -> 525., 
@@ -669,7 +670,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 4, 15, 21, 45, 40.46299982070923}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 25., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 25., 
             "Single Bag Box (12x16x8)" -> 312., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 56., 
             "Large Full Case Box (26x15x22)" -> 510., 
@@ -684,7 +685,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 5, 8, 19, 58, 34.866000175476074`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 70., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 70., 
             "Single Bag Box (12x16x8)" -> 261., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 50., 
             "Large Full Case Box (26x15x22)" -> 300., 
@@ -699,7 +700,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 5, 14, 17, 53, 0.25799989700317383`}, "Instant",
-               "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 334., 
+               "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 334., 
             "Single Bag Box (12x16x8)" -> 251., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 35., 
             "Large Full Case Box (26x15x22)" -> 277., 
@@ -714,7 +715,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 5, 21, 16, 47, 10.97700023651123}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 230., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 230., 
             "Single Bag Box (12x16x8)" -> 265., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 16., 
             "Large Full Case Box (26x15x22)" -> 230., 
@@ -729,7 +730,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 5, 27, 15, 47, 56.388999938964844`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 194., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 194., 
             "Single Bag Box (12x16x8)" -> 254., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 7., 
             "Large Full Case Box (26x15x22)" -> 217., 
@@ -744,7 +745,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 6, 2, 18, 45, 18.0939998626709}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 785., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 785., 
             "Single Bag Box (12x16x8)" -> 256., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 61., 
             "Large Full Case Box (26x15x22)" -> 184., 
@@ -759,7 +760,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 6, 16, 19, 41, 37.83500003814697}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 193., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 193., 
             "Single Bag Box (12x16x8)" -> 234., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 46., 
             "Large Full Case Box (26x15x22)" -> 685., 
@@ -774,7 +775,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 6, 18, 17, 40, 31.81599998474121}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 156., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 156., 
             "Single Bag Box (12x16x8)" -> 225., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 35., 
             "Large Full Case Box (26x15x22)" -> 668., 
@@ -789,7 +790,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 6, 26, 19, 35, 31.93400001525879}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 60., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 60., 
             "Single Bag Box (12x16x8)" -> 200., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 20., 
             "Large Full Case Box (26x15x22)" -> 600., 
@@ -804,7 +805,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 7, 6, 20, 9, 24.79099988937378}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 0., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 0., 
             "Single Bag Box (12x16x8)" -> 0., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 0., 
             "Large Full Case Box (26x15x22)" -> 0., 
@@ -819,7 +820,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 7, 21, 18, 33, 19.063000202178955`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 94., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 94., 
             "Single Bag Box (12x16x8)" -> 186., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 31., 
             "Large Full Case Box (26x15x22)" -> 435., 
@@ -834,7 +835,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 7, 28, 18, 37, 40.69500017166138}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 342., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 342., 
             "Single Bag Box (12x16x8)" -> 155., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 110., 
             "Large Full Case Box (26x15x22)" -> 382., 
@@ -849,7 +850,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 8, 11, 18, 42, 21.301000118255615`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 235., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 235., 
             "Single Bag Box (12x16x8)" -> 155., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 45., 
             "Large Full Case Box (26x15x22)" -> 260., 
@@ -864,7 +865,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 9, 3, 14, 54, 10.750999927520752`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 254., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 254., 
             "Single Bag Box (12x16x8)" -> 276., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 56., 
             "Large Full Case Box (26x15x22)" -> 374., 
@@ -879,7 +880,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 9, 29, 18, 29, 31.236000061035156`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 208., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 208., 
             "Single Bag Box (12x16x8)" -> 283., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 35., 
             "Large Full Case Box (26x15x22)" -> 411., 
@@ -894,7 +895,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 10, 8, 19, 54, 6.619999885559082}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 132., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 132., 
             "Single Bag Box (12x16x8)" -> 289., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 10., 
             "Large Full Case Box (26x15x22)" -> 345., 
@@ -909,7 +910,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 11, 9, 20, 17, 17.19099998474121}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 15., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 15., 
             "Single Bag Box (12x16x8)" -> 210., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 8., 
             "Large Full Case Box (26x15x22)" -> 138., 
@@ -924,7 +925,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 11, 28, 17, 20, 47.46400022506714}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 125., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 125., 
             "Single Bag Box (12x16x8)" -> 150., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 25., 
             "Large Full Case Box (26x15x22)" -> 500., 
@@ -939,7 +940,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 12, 8, 20, 28, 42.06899976730347}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 235., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 235., 
             "Single Bag Box (12x16x8)" -> 145., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 73., 
             "Large Full Case Box (26x15x22)" -> 425., 
@@ -954,7 +955,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 12, 22, 19, 42, 36.23899984359741}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 77., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 77., 
             "Single Bag Box (12x16x8)" -> 115., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 52., 
             "Large Full Case Box (26x15x22)" -> 410., 
@@ -969,7 +970,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2020, 12, 29, 21, 3, 21.868000030517578`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 0., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 0., 
             "Single Bag Box (12x16x8)" -> 75., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 10., 
             "Large Full Case Box (26x15x22)" -> 275., 
@@ -984,7 +985,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2021, 1, 11, 20, 54, 52.71799993515015}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 110., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 110., 
             "Single Bag Box (12x16x8)" -> 80., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 0., 
             "Large Full Case Box (26x15x22)" -> 135., 
@@ -999,7 +1000,7 @@ xlsx\"\>"},
            Association[
            "Timestamp" -> 
             DateObject[{2021, 3, 4, 17, 32, 31.080999851226807`}, "Instant", 
-              "Gregorian", -6.], "Single Bag Box (12x14x8)" -> 68., 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 68., 
             "Single Bag Box (12x16x8)" -> 335., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 145., 
             "Large Full Case Box (26x15x22)" -> 345., 
@@ -1010,6 +1011,21 @@ xlsx\"\>"},
             "Dubbler Bag (11x8x6)" -> 28., "Double Bag Box (14x12x10)" -> 
             120., "Triple Bag Box (24x14x12)" -> 25., 
             "Medium Full Case Box (26x15x19)" -> 370., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0.], 
+           Association[
+           "Timestamp" -> 
+            DateObject[{2021, 3, 24, 17, 32, 31.}, "Instant", 
+              "Gregorian", -5.], "Single Bag Box (12x14x8)" -> 108., 
+            "Single Bag Box (12x16x8)" -> 315., "Dubble Bag Box (16x12x12)" -> 
+            0., "Dubble Bag Box (16x14x12)" -> 65., 
+            "Large Full Case Box (26x15x22)" -> 225., 
+            "Brown Craft Tape (rolls)" -> 46., "Loge Poly Bags (15x12x1) " -> 
+            10., "Small Poly Bags (9x6x1)" -> 3., "FedEx Express Bags" -> 0., 
+            "Sample Ziplock Bags" -> 10., "Shrink Wrap (Rolls)" -> 14., 
+            "Gloves (boxes)" -> "", "Extra Pallets" -> 315., 
+            "Dubbler Bag (11x8x6)" -> 71., "Double Bag Box (14x12x10)" -> 
+            115., "Triple Bag Box (24x14x12)" -> 103., 
+            "Medium Full Case Box (26x15x19)" -> 205., 
             "Large Single Bag with Dubbler (22x12x8)" -> 0.]}, 
          "AllowEmbedding" -> True, "InitialShape" -> 
          TypeSystem`PackageScope`HeaderShape[
@@ -1055,7 +1071,7 @@ xlsx\"\>"},
                 TypeSystem`PackageScope`AtomShape[60], "Sample Ziplock Bags" -> 
                 TypeSystem`PackageScope`AtomShape[60], "Shrink Wrap (Rolls)" -> 
                 TypeSystem`PackageScope`AtomShape[60], "Gloves (boxes)" -> 
-                TypeSystem`PackageScope`AtomShape[60], "Extra Pallets" -> 
+                TypeSystem`PackageScope`UnknownShape[False], "Extra Pallets" -> 
                 TypeSystem`PackageScope`AtomShape[60], "Dubbler Bag (11x8x6)" -> 
                 TypeSystem`PackageScope`AtomShape[60], 
                 "Double Bag Box (14x12x10)" -> 
@@ -1091,14 +1107,13 @@ xlsx\"\>"},
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], TypeSystem`AnyType, 
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
-             TypeSystem`Atom[Real], 
-             TypeSystem`Atom[Real], 
-             TypeSystem`Atom[Real]}], 60], "Meta" -> Association[], 
+             TypeSystem`Atom[Real]}], 61], "Meta" -> Association[], 
          "RowTarget" -> 20, "ColumnTarget" -> 10, "Shape" -> 
          TypeSystem`PackageScope`HeaderShape[
            
@@ -1143,7 +1158,7 @@ xlsx\"\>"},
                 TypeSystem`PackageScope`AtomShape[60], "Sample Ziplock Bags" -> 
                 TypeSystem`PackageScope`AtomShape[60], "Shrink Wrap (Rolls)" -> 
                 TypeSystem`PackageScope`AtomShape[60], "Gloves (boxes)" -> 
-                TypeSystem`PackageScope`AtomShape[60], "Extra Pallets" -> 
+                TypeSystem`PackageScope`UnknownShape[False], "Extra Pallets" -> 
                 TypeSystem`PackageScope`AtomShape[60], "Dubbler Bag (11x8x6)" -> 
                 TypeSystem`PackageScope`AtomShape[60], 
                 "Double Bag Box (14x12x10)" -> 
@@ -1179,16 +1194,15 @@ xlsx\"\>"},
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
+             TypeSystem`Atom[Real], TypeSystem`AnyType, 
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
-             TypeSystem`Atom[Real], 
-             TypeSystem`Atom[Real], 
-             TypeSystem`Atom[Real]}], 60], "Path" -> {}, "BaseIndices" -> {}, 
+             TypeSystem`Atom[Real]}], 61], "Path" -> {}, "BaseIndices" -> {}, 
          "DisplayedRowCount" -> 20, "DisplayedColumnCount" -> 10, 
-         "DataRowCount" -> 60, "DataColumnCount" -> 19, "SortPaths" -> {}, 
+         "DataRowCount" -> 61, "DataColumnCount" -> 19, "SortPaths" -> {}, 
          "SortDirections" -> {}, "HiddenItemsMap" -> Null, "UpdateType" -> 1],
          TypeSystem`NestedGrid`PackagePrivate`$outputID$$, 
         TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
@@ -3835,7 +3849,7 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$vPos$$ + (-20) 
-                    If[True, 60, 1], {1, 60 - -20 + 1}]; 
+                    If[True, 61, 1], {1, 61 - -20 + 1}]; 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -3884,7 +3898,7 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$vPos$$ + (-20) 
-                    If[False, 60, 1], {1, 60 - -20 + 1}]; 
+                    If[False, 61, 1], {1, 61 - -20 + 1}]; 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -3900,14 +3914,14 @@ xlsx\"\>"},
                     Mouseover[
                     Row[{"rows ", 1, "\[Dash]", 20, " of ", 
                     Style[
-                    60, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
+                    61, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
                     BaseStyle -> {
                     FontSize -> 8., FontColor -> 
                     RGBColor[0.5098039215686274, 0.5098039215686274, 
                     0.5098039215686274]}], 
                     Row[{"rows ", 1, "\[Dash]", 20, " of ", 
                     Style[
-                    60, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
+                    61, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
                     BaseStyle -> {
                     FontSize -> 8., FontColor -> 
                     RGBColor[0.5098039215686274, 0.5098039215686274, 
@@ -3983,7 +3997,8 @@ xlsx\"\>"},
                     Rotate[
                     Translate[{
                     CapForm[Round], 
-                    RGBColor[0.5372549019607843, 0.5372549019607843, 
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
                     0.5372549019607843], 
                     Line[{{0, 0}, {4, 5}, {8, 0}}]}, {5, 6.5}], 180 Degree, {
                     9, 9}]}, ImageSize -> (1 -> 1), 
@@ -4011,7 +4026,7 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$vPos$$ + 
-                    20 If[False, 60, 1], {1, 60 - 20 + 1}]; 
+                    20 If[False, 61, 1], {1, 61 - 20 + 1}]; 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -4062,7 +4077,7 @@ xlsx\"\>"},
                     TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$vPos$$ + 
-                    20 If[True, 60, 1], {1, 60 - 20 + 1}]; 
+                    20 If[True, 61, 1], {1, 61 - 20 + 1}]; 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -4528,8 +4543,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
                     TypeSystem`NestedGrid`PackagePrivate`lastPath$, 
                     "Descending"]], MenuEvaluator -> Automatic], Nothing], 
-                    If[
-                    TypeSystem`NestedGrid`PackagePrivate`sortDirection$ =!= 
+                    If[TypeSystem`NestedGrid`PackagePrivate`sortDirection$ =!= 
                     None, 
                     MenuItem["Unsort", 
                     KernelExecute[
@@ -4707,20 +4721,19 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
       Selectable->False]},
     {"\<\"As Of\"\>", 
      TemplateBox[{
-       RowBox[{"\"2021-03-04\"", 
+       RowBox[{"\"2021-03-24\"", 
          StyleBox[
           RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
             StyleBox[
-             RowBox[{"-", "6"}], NumberMarks -> False, StripOnInput -> 
+             RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
              False]}], FontColor -> GrayLevel[0.5]]}], 
        RowBox[{"DateObject", "[", 
          RowBox[{
            RowBox[{"{", 
              
-             RowBox[{"2021", ",", "3", ",", "4", ",", "17", ",", "32", ",", 
-               "31.080999851226807`"}], "}"}], ",", "\"Instant\"", ",", 
-           "\"Gregorian\"", ",", 
-           RowBox[{"-", "6.`"}]}], "]"}]},
+             RowBox[{"2021", ",", "3", ",", "24", ",", "17", ",", "32", ",", 
+               "31.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", ",", 
+           RowBox[{"-", "5.`"}]}], "]"}]},
       "DateObject",
       Editable->False]},
     {"\<\"Data\"\>", 
@@ -4729,7 +4742,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
        DynamicModuleBox[{TypeSystem`NestedGrid`PackagePrivate`$state$$ = 
         Association["InitialData" -> {
            Association[
-           "Date" -> DateObject[{2019, 5, 29}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 5, 29}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 24., 
             "Double Bag Box (14x12x10)" -> 0., "Dubble Bag Box (16x12x12)" -> 
             83., "Dubble Bag Box (16x14x12)" -> 87., "Dubbler Bag (11x8x6)" -> 
@@ -4743,7 +4756,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 6, 3}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 6, 3}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 21., 
             "Double Bag Box (14x12x10)" -> 0., "Dubble Bag Box (16x12x12)" -> 
             106., "Dubble Bag Box (16x14x12)" -> 75., "Dubbler Bag (11x8x6)" -> 
@@ -4756,7 +4769,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             88., "Single Bag Box (12x16x8)" -> 78., "Small Poly Bags (9x6x1)" -> 
             2., "Triple Bag Box (24x14x12)" -> 0.], 
            Association[
-           "Date" -> DateObject[{2019, 6, 10}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 6, 10}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 18., 
             "Double Bag Box (14x12x10)" -> 0., "Dubble Bag Box (16x12x12)" -> 
             104., "Dubble Bag Box (16x14x12)" -> 53., "Dubbler Bag (11x8x6)" -> 
@@ -4769,7 +4782,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             11., "Single Bag Box (12x16x8)" -> 50., "Small Poly Bags (9x6x1)" -> 
             2., "Triple Bag Box (24x14x12)" -> 0.], 
            Association[
-           "Date" -> DateObject[{2019, 6, 12}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 6, 12}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 17., 
             "Double Bag Box (14x12x10)" -> 0., "Dubble Bag Box (16x12x12)" -> 
             103., "Dubble Bag Box (16x14x12)" -> 150., "Dubbler Bag (11x8x6)" -> 
@@ -4783,7 +4796,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 6, 17}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 6, 17}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 14., 
             "Double Bag Box (14x12x10)" -> 0., "Dubble Bag Box (16x12x12)" -> 
             104., "Dubble Bag Box (16x14x12)" -> 130., "Dubbler Bag (11x8x6)" -> 
@@ -4797,7 +4810,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 6, 20}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 6, 20}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 8., 
             "Double Bag Box (14x12x10)" -> 0., "Dubble Bag Box (16x12x12)" -> 
             103., "Dubble Bag Box (16x14x12)" -> 122., "Dubbler Bag (11x8x6)" -> 
@@ -4811,7 +4824,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 6, 25}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 6, 25}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 2., 
             "Double Bag Box (14x12x10)" -> 0., "Dubble Bag Box (16x12x12)" -> 
             99., "Dubble Bag Box (16x14x12)" -> 89., "Dubbler Bag (11x8x6)" -> 
@@ -4825,7 +4838,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 6, 27}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 6, 27}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 0., 
             "Double Bag Box (14x12x10)" -> 0., "Dubble Bag Box (16x12x12)" -> 
             102., "Dubble Bag Box (16x14x12)" -> 85., "Dubbler Bag (11x8x6)" -> 
@@ -4839,7 +4852,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 7, 2}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 7, 2}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 23., 
             "Double Bag Box (14x12x10)" -> 0., "Dubble Bag Box (16x12x12)" -> 
             85., "Dubble Bag Box (16x14x12)" -> 78., "Dubbler Bag (11x8x6)" -> 
@@ -4853,7 +4866,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 7, 8}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 7, 8}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 17., 
             "Double Bag Box (14x12x10)" -> 41., "Dubble Bag Box (16x12x12)" -> 
             79., "Dubble Bag Box (16x14x12)" -> 63., "Dubbler Bag (11x8x6)" -> 
@@ -4867,7 +4880,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 7, 10}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 7, 10}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 17., 
             "Double Bag Box (14x12x10)" -> 42., "Dubble Bag Box (16x12x12)" -> 
             74., "Dubble Bag Box (16x14x12)" -> 44., "Dubbler Bag (11x8x6)" -> 
@@ -4881,7 +4894,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 7, 15}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 7, 15}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 13., 
             "Double Bag Box (14x12x10)" -> 38., "Dubble Bag Box (16x12x12)" -> 
             96., "Dubble Bag Box (16x14x12)" -> 36., "Dubbler Bag (11x8x6)" -> 
@@ -4895,7 +4908,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 7, 19}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 7, 19}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 12., 
             "Double Bag Box (14x12x10)" -> 36., "Dubble Bag Box (16x12x12)" -> 
             78., "Dubble Bag Box (16x14x12)" -> 28., "Dubbler Bag (11x8x6)" -> 
@@ -4908,7 +4921,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             123., "Single Bag Box (12x16x8)" -> 0., "Small Poly Bags (9x6x1)" -> 
             2., "Triple Bag Box (24x14x12)" -> 0.], 
            Association[
-           "Date" -> DateObject[{2019, 7, 22}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 7, 22}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 11., 
             "Double Bag Box (14x12x10)" -> 35., "Dubble Bag Box (16x12x12)" -> 
             88., "Dubble Bag Box (16x14x12)" -> 23., "Dubbler Bag (11x8x6)" -> 
@@ -4921,7 +4934,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             100., "Single Bag Box (12x16x8)" -> 0., "Small Poly Bags (9x6x1)" -> 
             2., "Triple Bag Box (24x14x12)" -> 0.], 
            Association[
-           "Date" -> DateObject[{2019, 7, 26}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 7, 26}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 10., 
             "Double Bag Box (14x12x10)" -> 82., "Dubble Bag Box (16x12x12)" -> 
             88., "Dubble Bag Box (16x14x12)" -> 111., "Dubbler Bag (11x8x6)" -> 
@@ -4935,7 +4948,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 3., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 8, 1}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 8, 1}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 5., 
             "Double Bag Box (14x12x10)" -> 78., "Dubble Bag Box (16x12x12)" -> 
             74., "Dubble Bag Box (16x14x12)" -> 109., "Dubbler Bag (11x8x6)" -> 
@@ -4949,7 +4962,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 8, 5}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 8, 5}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 3., 
             "Double Bag Box (14x12x10)" -> 78., "Dubble Bag Box (16x12x12)" -> 
             69., "Dubble Bag Box (16x14x12)" -> 52., "Dubbler Bag (11x8x6)" -> 
@@ -4963,7 +4976,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 1., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 8, 16}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 8, 16}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 27., 
             "Double Bag Box (14x12x10)" -> 75., "Dubble Bag Box (16x12x12)" -> 
             58., "Dubble Bag Box (16x14x12)" -> 88., "Dubbler Bag (11x8x6)" -> 
@@ -4977,7 +4990,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 8, 23}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 8, 23}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 23., 
             "Double Bag Box (14x12x10)" -> 51., "Dubble Bag Box (16x12x12)" -> 
             48., "Dubble Bag Box (16x14x12)" -> 77., "Dubbler Bag (11x8x6)" -> 
@@ -4991,7 +5004,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 9, 3}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 9, 3}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 20., 
             "Double Bag Box (14x12x10)" -> 69., "Dubble Bag Box (16x12x12)" -> 
             37., "Dubble Bag Box (16x14x12)" -> 61., "Dubbler Bag (11x8x6)" -> 
@@ -5004,7 +5017,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             127., "Single Bag Box (12x16x8)" -> 7., "Small Poly Bags (9x6x1)" -> 
             1., "Triple Bag Box (24x14x12)" -> 0.], 
            Association[
-           "Date" -> DateObject[{2019, 9, 5}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 9, 5}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 18., 
             "Double Bag Box (14x12x10)" -> 72., "Dubble Bag Box (16x12x12)" -> 
             52., "Dubble Bag Box (16x14x12)" -> 53., "Dubbler Bag (11x8x6)" -> 
@@ -5017,7 +5030,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             76., "Single Bag Box (12x16x8)" -> 1., "Small Poly Bags (9x6x1)" -> 
             2., "Triple Bag Box (24x14x12)" -> 0.], 
            Association[
-           "Date" -> DateObject[{2019, 9, 23}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 9, 23}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 17., 
             "Double Bag Box (14x12x10)" -> 41., "Dubble Bag Box (16x12x12)" -> 
             52., "Dubble Bag Box (16x14x12)" -> 125., "Dubbler Bag (11x8x6)" -> 
@@ -5031,7 +5044,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 1., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 10, 2}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 10, 2}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 12., 
             "Double Bag Box (14x12x10)" -> 82., "Dubble Bag Box (16x12x12)" -> 
             22., "Dubble Bag Box (16x14x12)" -> 111., "Dubbler Bag (11x8x6)" -> 
@@ -5044,7 +5057,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             83., "Single Bag Box (12x16x8)" -> 47., "Small Poly Bags (9x6x1)" -> 
             1., "Triple Bag Box (24x14x12)" -> 0.], 
            Association[
-           "Date" -> DateObject[{2019, 10, 14}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 10, 14}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 3., 
             "Double Bag Box (14x12x10)" -> 132., "Dubble Bag Box (16x12x12)" -> 
             16., "Dubble Bag Box (16x14x12)" -> 37., "Dubbler Bag (11x8x6)" -> 
@@ -5058,7 +5071,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 1., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 10, 28}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 10, 28}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 45., 
             "Double Bag Box (14x12x10)" -> 75., "Dubble Bag Box (16x12x12)" -> 
             30., "Dubble Bag Box (16x14x12)" -> 52., "Dubbler Bag (11x8x6)" -> 
@@ -5072,7 +5085,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 0., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 11, 1}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 11, 1}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 35., 
             "Double Bag Box (14x12x10)" -> 85., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 0., "Dubbler Bag (11x8x6)" -> 
@@ -5086,7 +5099,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 0., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 11, 25}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 11, 25}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 21., 
             "Double Bag Box (14x12x10)" -> 128., "Dubble Bag Box (16x12x12)" -> 
             75., "Dubble Bag Box (16x14x12)" -> 61., "Dubbler Bag (11x8x6)" -> 
@@ -5100,7 +5113,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 0., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 12, 17}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 12, 17}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 45., 
             "Double Bag Box (14x12x10)" -> 104., "Dubble Bag Box (16x12x12)" -> 
             65., "Dubble Bag Box (16x14x12)" -> 87., "Dubbler Bag (11x8x6)" -> 
@@ -5114,7 +5127,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 3., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2019, 12, 23}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2019, 12, 23}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 45., 
             "Double Bag Box (14x12x10)" -> 50., "Dubble Bag Box (16x12x12)" -> 
             49., "Dubble Bag Box (16x14x12)" -> 80., "Dubbler Bag (11x8x6)" -> 
@@ -5128,11 +5141,11 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2020, 1, 23}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 1, 23}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 24., 
-            "Double Bag Box (14x12x10)" -> 75., "Dubble Bag Box (16x12x12)" -> 
-            28., "Dubble Bag Box (16x14x12)" -> 133., "Dubbler Bag (11x8x6)" -> 
-            209., "Extra Pallets" -> 165., "FedEx Express Bags" -> 5., 
+            "Double Bag Box (14x12x10)" -> 75., "Dubble Bag Box (16x12x12)" -> 2\
+8., "Dubble Bag Box (16x14x12)" -> 133., "Dubbler Bag (11x8x6)" -> 209., 
+            "Extra Pallets" -> 165., "FedEx Express Bags" -> 5., 
             "Gloves (boxes)" -> 5., "Large Full Case Box (26x15x22)" -> 335., 
             "Large Single Bag with Dubbler (22x12x8)" -> 0., 
             "Loge Poly Bags (15x12x1) " -> 1., 
@@ -5142,7 +5155,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 3., "Triple Bag Box (24x14x12)" -> 
             0.], 
            Association[
-           "Date" -> DateObject[{2020, 2, 11}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 2, 11}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 32., 
             "Double Bag Box (14x12x10)" -> 74., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 87., "Dubbler Bag (11x8x6)" -> 
@@ -5156,7 +5169,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 3., "Triple Bag Box (24x14x12)" -> 
             27.], 
            Association[
-           "Date" -> DateObject[{2020, 2, 20}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 2, 20}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 27., 
             "Double Bag Box (14x12x10)" -> 85., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 83., "Dubbler Bag (11x8x6)" -> 
@@ -5170,7 +5183,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 3., "Triple Bag Box (24x14x12)" -> 
             20.], 
            Association[
-           "Date" -> DateObject[{2020, 2, 21}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 2, 21}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 27., 
             "Double Bag Box (14x12x10)" -> 48., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 78., "Dubbler Bag (11x8x6)" -> 
@@ -5184,7 +5197,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 3., "Triple Bag Box (24x14x12)" -> 
             16.], 
            Association[
-           "Date" -> DateObject[{2020, 3, 2}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 3, 2}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 23., 
             "Double Bag Box (14x12x10)" -> 57., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 54., "Dubbler Bag (11x8x6)" -> 
@@ -5198,7 +5211,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 3., "Triple Bag Box (24x14x12)" -> 
             20.], 
            Association[
-           "Date" -> DateObject[{2020, 3, 19}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 3, 19}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 6., 
             "Double Bag Box (14x12x10)" -> 90., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 100., "Dubbler Bag (11x8x6)" -> 
@@ -5212,7 +5225,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 200., "Triple Bag Box (24x14x12)" -> 
             90.], 
            Association[
-           "Date" -> DateObject[{2020, 4, 10}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 4, 10}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 31., 
             "Double Bag Box (14x12x10)" -> 105., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 62., "Dubbler Bag (11x8x6)" -> 
@@ -5226,7 +5239,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             36.], 
            Association[
-           "Date" -> DateObject[{2020, 4, 14}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 4, 14}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 0., 
             "Double Bag Box (14x12x10)" -> 130., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 62., "Dubbler Bag (11x8x6)" -> 
@@ -5240,7 +5253,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 0., "Triple Bag Box (24x14x12)" -> 
             85.], 
            Association[
-           "Date" -> DateObject[{2020, 4, 15}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 4, 15}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 16., 
             "Double Bag Box (14x12x10)" -> 104., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 56., "Dubbler Bag (11x8x6)" -> 
@@ -5254,7 +5267,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 100., "Triple Bag Box (24x14x12)" -> 
             84.], 
            Association[
-           "Date" -> DateObject[{2020, 5, 8}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 5, 8}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 14., 
             "Double Bag Box (14x12x10)" -> 170., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 50., "Dubbler Bag (11x8x6)" -> 
@@ -5268,7 +5281,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 100., "Triple Bag Box (24x14x12)" -> 
             75.], 
            Association[
-           "Date" -> DateObject[{2020, 5, 14}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 5, 14}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 10., 
             "Double Bag Box (14x12x10)" -> 122., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 35., "Dubbler Bag (11x8x6)" -> 
@@ -5282,7 +5295,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 3., "Triple Bag Box (24x14x12)" -> 
             74.], 
            Association[
-           "Date" -> DateObject[{2020, 5, 21}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 5, 21}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 55., 
             "Double Bag Box (14x12x10)" -> 150., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 16., "Dubbler Bag (11x8x6)" -> 
@@ -5296,7 +5309,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             75.], 
            Association[
-           "Date" -> DateObject[{2020, 5, 27}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 5, 27}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 21., 
             "Double Bag Box (14x12x10)" -> 115., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 7., "Dubbler Bag (11x8x6)" -> 
@@ -5310,7 +5323,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 1., "Triple Bag Box (24x14x12)" -> 
             74.], 
            Association[
-           "Date" -> DateObject[{2020, 6, 2}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 6, 2}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 50., 
             "Double Bag Box (14x12x10)" -> 175., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 61., "Dubbler Bag (11x8x6)" -> 
@@ -5324,7 +5337,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             73.], 
            Association[
-           "Date" -> DateObject[{2020, 6, 16}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 6, 16}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 34., 
             "Double Bag Box (14x12x10)" -> 115., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 46., "Dubbler Bag (11x8x6)" -> 
@@ -5338,7 +5351,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             64.], 
            Association[
-           "Date" -> DateObject[{2020, 6, 18}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 6, 18}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 34., 
             "Double Bag Box (14x12x10)" -> 107., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 35., "Dubbler Bag (11x8x6)" -> 
@@ -5352,7 +5365,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 0., "Triple Bag Box (24x14x12)" -> 
             46.], 
            Association[
-           "Date" -> DateObject[{2020, 6, 26}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 6, 26}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 34., 
             "Double Bag Box (14x12x10)" -> 122., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 20., "Dubbler Bag (11x8x6)" -> 
@@ -5366,7 +5379,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 100., "Triple Bag Box (24x14x12)" -> 
             58.], 
            Association[
-           "Date" -> DateObject[{2020, 7, 6}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 7, 6}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 22., 
             "Double Bag Box (14x12x10)" -> 0., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 0., "Dubbler Bag (11x8x6)" -> 
@@ -5379,7 +5392,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             0., "Single Bag Box (12x16x8)" -> 0., "Small Poly Bags (9x6x1)" -> 
             1., "Triple Bag Box (24x14x12)" -> 0.], 
            Association[
-           "Date" -> DateObject[{2020, 7, 21}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 7, 21}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 13., 
             "Double Bag Box (14x12x10)" -> 162., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 31., "Dubbler Bag (11x8x6)" -> 
@@ -5393,7 +5406,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             29.], 
            Association[
-           "Date" -> DateObject[{2020, 7, 28}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 7, 28}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 68., 
             "Double Bag Box (14x12x10)" -> 35., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 110., "Dubbler Bag (11x8x6)" -> 
@@ -5407,7 +5420,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             128.], 
            Association[
-           "Date" -> DateObject[{2020, 8, 11}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 8, 11}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 32., 
             "Double Bag Box (14x12x10)" -> 154., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 45., "Dubbler Bag (11x8x6)" -> 
@@ -5421,7 +5434,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             111.], 
            Association[
-           "Date" -> DateObject[{2020, 9, 3}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 9, 3}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 37., 
             "Double Bag Box (14x12x10)" -> 138., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 56., "Dubbler Bag (11x8x6)" -> 
@@ -5435,7 +5448,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 3., "Triple Bag Box (24x14x12)" -> 
             108.], 
            Association[
-           "Date" -> DateObject[{2020, 9, 29}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 9, 29}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 12., 
             "Double Bag Box (14x12x10)" -> 111., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 35., "Dubbler Bag (11x8x6)" -> 
@@ -5449,7 +5462,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             68.], 
            Association[
-           "Date" -> DateObject[{2020, 10, 8}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 10, 8}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 56., 
             "Double Bag Box (14x12x10)" -> 145., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 10., "Dubbler Bag (11x8x6)" -> 
@@ -5463,7 +5476,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             72.], 
            Association[
-           "Date" -> DateObject[{2020, 11, 9}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 11, 9}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 26., 
             "Double Bag Box (14x12x10)" -> 150., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 8., "Dubbler Bag (11x8x6)" -> 
@@ -5477,7 +5490,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 2., "Triple Bag Box (24x14x12)" -> 
             11.], 
            Association[
-           "Date" -> DateObject[{2020, 11, 28}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 11, 28}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 16., 
             "Double Bag Box (14x12x10)" -> 120., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 25., "Dubbler Bag (11x8x6)" -> 
@@ -5491,7 +5504,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 50., "Triple Bag Box (24x14x12)" -> 
             50.], 
            Association[
-           "Date" -> DateObject[{2020, 12, 8}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 12, 8}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 2., 
             "Double Bag Box (14x12x10)" -> 50., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 73., "Dubbler Bag (11x8x6)" -> 
@@ -5505,12 +5518,11 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 1., "Triple Bag Box (24x14x12)" -> 
             80.], 
            Association[
-           "Date" -> 
-            DateObject[{2020, 12, 22}, "Day", "Gregorian", -6., {"ISODate"}], 
-            "Brown Craft Tape (rolls)" -> 31., "Double Bag Box (14x12x10)" -> 
-            100., "Dubble Bag Box (16x12x12)" -> 0., 
-            "Dubble Bag Box (16x14x12)" -> 52., "Dubbler Bag (11x8x6)" -> 58.,
-             "Extra Pallets" -> 300., "FedEx Express Bags" -> 0., 
+           "Date" -> DateObject[{2020, 12, 22}, "Day", "Gregorian", -5., {
+              "ISODate"}], "Brown Craft Tape (rolls)" -> 31., 
+            "Double Bag Box (14x12x10)" -> 100., "Dubble Bag Box (16x12x12)" -> 
+            0., "Dubble Bag Box (16x14x12)" -> 52., "Dubbler Bag (11x8x6)" -> 
+            58., "Extra Pallets" -> 300., "FedEx Express Bags" -> 0., 
             "Gloves (boxes)" -> 0., "Large Full Case Box (26x15x22)" -> 410., 
             "Large Single Bag with Dubbler (22x12x8)" -> 0., 
             "Loge Poly Bags (15x12x1) " -> 10., 
@@ -5520,7 +5532,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 10., "Triple Bag Box (24x14x12)" -> 
             58.], 
            Association[
-           "Date" -> DateObject[{2020, 12, 29}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2020, 12, 29}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 25., 
             "Double Bag Box (14x12x10)" -> 200., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 10., "Dubbler Bag (11x8x6)" -> 
@@ -5533,7 +5545,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             0., "Single Bag Box (12x16x8)" -> 75., "Small Poly Bags (9x6x1)" -> 
             10., "Triple Bag Box (24x14x12)" -> 62.], 
            Association[
-           "Date" -> DateObject[{2021, 1, 11}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2021, 1, 11}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 22., 
             "Double Bag Box (14x12x10)" -> 125., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 0., "Dubbler Bag (11x8x6)" -> 
@@ -5547,7 +5559,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Small Poly Bags (9x6x1)" -> 10., "Triple Bag Box (24x14x12)" -> 
             60.], 
            Association[
-           "Date" -> DateObject[{2021, 3, 4}, "Day", "Gregorian", -6., {
+           "Date" -> DateObject[{2021, 3, 4}, "Day", "Gregorian", -5., {
               "ISODate"}], "Brown Craft Tape (rolls)" -> 63., 
             "Double Bag Box (14x12x10)" -> 120., "Dubble Bag Box (16x12x12)" -> 
             0., "Dubble Bag Box (16x14x12)" -> 145., "Dubbler Bag (11x8x6)" -> 
@@ -5559,7 +5571,21 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             100., "Shrink Wrap (Rolls)" -> 13., "Single Bag Box (12x14x8)" -> 
             68., "Single Bag Box (12x16x8)" -> 335., 
             "Small Poly Bags (9x6x1)" -> 3., "Triple Bag Box (24x14x12)" -> 
-            25.]}, "AllowEmbedding" -> True, "InitialShape" -> 
+            25.], 
+           Association[
+           "Date" -> DateObject[{2021, 3, 24}, "Day", "Gregorian", -5., {
+              "ISODate"}], "Brown Craft Tape (rolls)" -> 46., 
+            "Double Bag Box (14x12x10)" -> 115., "Dubble Bag Box (16x12x12)" -> 
+            0., "Dubble Bag Box (16x14x12)" -> 65., "Dubbler Bag (11x8x6)" -> 
+            71., "Extra Pallets" -> 315., "FedEx Express Bags" -> 0., 
+            "Gloves (boxes)" -> 0., "Large Full Case Box (26x15x22)" -> 225., 
+            "Large Single Bag with Dubbler (22x12x8)" -> 0., 
+            "Loge Poly Bags (15x12x1) " -> 10., 
+            "Medium Full Case Box (26x15x19)" -> 205., "Sample Ziplock Bags" -> 
+            10., "Shrink Wrap (Rolls)" -> 14., "Single Bag Box (12x14x8)" -> 
+            108., "Single Bag Box (12x16x8)" -> 315., 
+            "Small Poly Bags (9x6x1)" -> 3., "Triple Bag Box (24x14x12)" -> 
+            103.]}, "AllowEmbedding" -> True, "InitialShape" -> 
          TypeSystem`PackageScope`HeaderShape[
            
            Association[{All, "Date"} -> 1, {All, "Brown Craft Tape (rolls)"} -> 
@@ -5645,7 +5671,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
-             TypeSystem`Atom[Real]}], 60], "Meta" -> Association[], 
+             TypeSystem`Atom[Real]}], 61], "Meta" -> Association[], 
          "RowTarget" -> 20, "ColumnTarget" -> 10, "Shape" -> 
          TypeSystem`PackageScope`HeaderShape[
            
@@ -5732,9 +5758,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
              TypeSystem`Atom[Real], 
-             TypeSystem`Atom[Real]}], 60], "Path" -> {}, "BaseIndices" -> {}, 
+             TypeSystem`Atom[Real]}], 61], "Path" -> {}, "BaseIndices" -> {}, 
          "DisplayedRowCount" -> 20, "DisplayedColumnCount" -> 10, 
-         "DataRowCount" -> 60, "DataColumnCount" -> 19, "SortPaths" -> {}, 
+         "DataRowCount" -> 61, "DataColumnCount" -> 19, "SortPaths" -> {}, 
          "SortDirections" -> {}, "HiddenItemsMap" -> Null, "UpdateType" -> 1],
          TypeSystem`NestedGrid`PackagePrivate`$outputID$$, 
         TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
@@ -8381,7 +8407,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$vPos$$ + (-20) 
-                    If[True, 60, 1], {1, 60 - -20 + 1}]; 
+                    If[True, 61, 1], {1, 61 - -20 + 1}]; 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -8430,7 +8456,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$vPos$$ + (-20) 
-                    If[False, 60, 1], {1, 60 - -20 + 1}]; 
+                    If[False, 61, 1], {1, 61 - -20 + 1}]; 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -8446,14 +8472,14 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     Mouseover[
                     Row[{"rows ", 1, "\[Dash]", 20, " of ", 
                     Style[
-                    60, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
+                    61, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
                     BaseStyle -> {
                     FontSize -> 8., FontColor -> 
                     RGBColor[0.5098039215686274, 0.5098039215686274, 
                     0.5098039215686274]}], 
                     Row[{"rows ", 1, "\[Dash]", 20, " of ", 
-                    Style[60, FontColor -> GrayLevel[0], FontWeight -> 
-                    "Medium"]}, 
+                    Style[
+                    61, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
                     BaseStyle -> {
                     FontSize -> 8., FontColor -> 
                     RGBColor[0.5098039215686274, 0.5098039215686274, 
@@ -8558,7 +8584,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$vPos$$ + 
-                    20 If[False, 60, 1], {1, 60 - 20 + 1}]; 
+                    20 If[False, 61, 1], {1, 61 - 20 + 1}]; 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -8609,7 +8635,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$], 
                     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 
                     Clip[TypeSystem`NestedGrid`PackagePrivate`$vPos$$ + 
-                    20 If[True, 60, 1], {1, 60 - 20 + 1}]; 
+                    20 If[True, 61, 1], {1, 61 - 20 + 1}]; 
                     TypeSystem`NestedGrid`PackagePrivate`updateState[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
@@ -8650,8 +8676,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     BaselinePosition -> Scaled[0.35]], 
                     Graphics[{{
                     EdgeForm[
-                    RGBColor[
-                    0.27450980392156865`, 0.5411764705882353, 
+                    RGBColor[0.27450980392156865`, 0.5411764705882353, 
                     0.796078431372549]], 
                     FaceForm[None], 
                     Rectangle[{2, 0}, {16, 18}, RoundingRadius -> 2]}, 
@@ -8935,7 +8960,6 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$], {}, 
                     TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger === 
-                    
                     TypeSystem`NestedGrid`PackagePrivate`$\
 lastContextMenuTrigger, TypeSystem`NestedGrid`PackagePrivate`$lastContextMenu,
                      True, TypeSystem`NestedGrid`PackagePrivate`$\
@@ -9076,8 +9100,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
                     TypeSystem`NestedGrid`PackagePrivate`lastPath$, 
                     "Descending"]], MenuEvaluator -> Automatic], Nothing], 
-                    If[
-                    TypeSystem`NestedGrid`PackagePrivate`sortDirection$ =!= 
+                    If[TypeSystem`NestedGrid`PackagePrivate`sortDirection$ =!= 
                     None, 
                     MenuItem["Unsort", 
                     KernelExecute[
@@ -9259,30 +9282,30 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
        DynamicModuleBox[{TypeSystem`NestedGrid`PackagePrivate`$state$$ = 
         Association["InitialData" -> {
            Association[
-           "Supply" -> "Brown Craft Tape (rolls)", "On Hand" -> 63., 
-            "Velocity" -> 0.9, "Days Remaining" -> 70., "Need 7 Days" -> 0, 
+           "Supply" -> "Brown Craft Tape (rolls)", "On Hand" -> 46., 
+            "Velocity" -> 0.89, "Days Remaining" -> 51., "Need 7 Days" -> 0, 
             "Need 14 Days" -> 0, "Need 30 Days" -> 0], 
            Association[
-           "Supply" -> "Double Bag Box (14x12x10)", "On Hand" -> 120., 
-            "Velocity" -> 2.92, "Days Remaining" -> 41., "Need 7 Days" -> 0, 
-            "Need 14 Days" -> 0, "Need 30 Days" -> 0], 
+           "Supply" -> "Double Bag Box (14x12x10)", "On Hand" -> 115., 
+            "Velocity" -> 2.7600000000000002`, "Days Remaining" -> 41., 
+            "Need 7 Days" -> 0, "Need 14 Days" -> 0, "Need 30 Days" -> 0], 
            Association[
            "Supply" -> "Dubble Bag Box (16x12x12)", "On Hand" -> 0., 
             "Velocity" -> 1.4000000000000001`, "Days Remaining" -> 0., 
             "Need 7 Days" -> 10., "Need 14 Days" -> 20., "Need 30 Days" -> 
             42.], 
            Association[
-           "Supply" -> "Dubble Bag Box (16x14x12)", "On Hand" -> 145., 
-            "Velocity" -> 2.24, "Days Remaining" -> 64., "Need 7 Days" -> 0, 
+           "Supply" -> "Dubble Bag Box (16x14x12)", "On Hand" -> 65., 
+            "Velocity" -> 2.33, "Days Remaining" -> 27., "Need 7 Days" -> 0, 
+            "Need 14 Days" -> 0, "Need 30 Days" -> 6.], 
+           Association[
+           "Supply" -> "Dubbler Bag (11x8x6)", "On Hand" -> 71., "Velocity" -> 
+            1.6300000000000001`, "Days Remaining" -> 43., "Need 7 Days" -> 0, 
             "Need 14 Days" -> 0, "Need 30 Days" -> 0], 
            Association[
-           "Supply" -> "Dubbler Bag (11x8x6)", "On Hand" -> 28., "Velocity" -> 
-            1.6300000000000001`, "Days Remaining" -> 17., "Need 7 Days" -> 0, 
-            "Need 14 Days" -> 0, "Need 30 Days" -> 22.], 
-           Association[
-           "Supply" -> "Extra Pallets", "On Hand" -> 210., "Velocity" -> 2.92,
-             "Days Remaining" -> 71., "Need 7 Days" -> 0, "Need 14 Days" -> 0,
-             "Need 30 Days" -> 0], 
+           "Supply" -> "Extra Pallets", "On Hand" -> 315., "Velocity" -> 2.92,
+             "Days Remaining" -> 107., "Need 7 Days" -> 0, "Need 14 Days" -> 
+            0, "Need 30 Days" -> 0], 
            Association[
            "Supply" -> "FedEx Express Bags", "On Hand" -> 0., "Velocity" -> 
             1.12, "Days Remaining" -> 0., "Need 7 Days" -> 8., "Need 14 Days" -> 
@@ -9292,9 +9315,10 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Days Remaining" -> 0., "Need 7 Days" -> 3., "Need 14 Days" -> 5.,
              "Need 30 Days" -> 10.], 
            Association[
-           "Supply" -> "Large Full Case Box (26x15x22)", "On Hand" -> 345., 
-            "Velocity" -> 11.55, "Days Remaining" -> 29., "Need 7 Days" -> 0, 
-            "Need 14 Days" -> 0, "Need 30 Days" -> 2.], 
+           "Supply" -> "Large Full Case Box (26x15x22)", "On Hand" -> 225., 
+            "Velocity" -> 11.290000000000001`, "Days Remaining" -> 19., 
+            "Need 7 Days" -> 0, "Need 14 Days" -> 0, "Need 30 Days" -> 114.], 
+           
            Association[
            "Supply" -> "Large Single Bag with Dubbler (22x12x8)", "On Hand" -> 
             0., "Velocity" -> 2., "Days Remaining" -> 0., "Need 7 Days" -> 
@@ -9304,33 +9328,33 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
             "Velocity" -> 3.33, "Days Remaining" -> 3., "Need 7 Days" -> 14., 
             "Need 14 Days" -> 37., "Need 30 Days" -> 90.], 
            Association[
-           "Supply" -> "Medium Full Case Box (26x15x19)", "On Hand" -> 370., 
-            "Velocity" -> 11.14, "Days Remaining" -> 33., "Need 7 Days" -> 0, 
-            "Need 14 Days" -> 0, "Need 30 Days" -> 0], 
+           "Supply" -> "Medium Full Case Box (26x15x19)", "On Hand" -> 205., 
+            "Velocity" -> 10.84, "Days Remaining" -> 18., "Need 7 Days" -> 0, 
+            "Need 14 Days" -> 0, "Need 30 Days" -> 121.], 
            Association[
-           "Supply" -> "Sample Ziplock Bags", "On Hand" -> 100., "Velocity" -> 
-            2.07, "Days Remaining" -> 48., "Need 7 Days" -> 0, "Need 14 Days" -> 
+           "Supply" -> "Sample Ziplock Bags", "On Hand" -> 10., "Velocity" -> 
+            2.21, "Days Remaining" -> 4., "Need 7 Days" -> 6., "Need 14 Days" -> 
+            21., "Need 30 Days" -> 57.], 
+           Association[
+           "Supply" -> "Shrink Wrap (Rolls)", "On Hand" -> 14., "Velocity" -> 
+            0.24, "Days Remaining" -> 59., "Need 7 Days" -> 0, "Need 14 Days" -> 
             0, "Need 30 Days" -> 0], 
            Association[
-           "Supply" -> "Shrink Wrap (Rolls)", "On Hand" -> 13., "Velocity" -> 
-            0.24, "Days Remaining" -> 54., "Need 7 Days" -> 0, "Need 14 Days" -> 
-            0, "Need 30 Days" -> 0], 
+           "Supply" -> "Single Bag Box (12x14x8)", "On Hand" -> 108., 
+            "Velocity" -> 10.43, "Days Remaining" -> 10., "Need 7 Days" -> 0, 
+            "Need 14 Days" -> 38., "Need 30 Days" -> 205.], 
            Association[
-           "Supply" -> "Single Bag Box (12x14x8)", "On Hand" -> 68., 
-            "Velocity" -> 10.43, "Days Remaining" -> 6., "Need 7 Days" -> 5., 
-            "Need 14 Days" -> 78., "Need 30 Days" -> 245.], 
-           Association[
-           "Supply" -> "Single Bag Box (12x16x8)", "On Hand" -> 335., 
-            "Velocity" -> 3.37, "Days Remaining" -> 99., "Need 7 Days" -> 0, 
+           "Supply" -> "Single Bag Box (12x16x8)", "On Hand" -> 315., 
+            "Velocity" -> 3.23, "Days Remaining" -> 97., "Need 7 Days" -> 0, 
             "Need 14 Days" -> 0, "Need 30 Days" -> 0], 
            Association[
            "Supply" -> "Small Poly Bags (9x6x1)", "On Hand" -> 3., "Velocity" -> 
             2.27, "Days Remaining" -> 1., "Need 7 Days" -> 13., 
             "Need 14 Days" -> 29., "Need 30 Days" -> 66.], 
            Association[
-           "Supply" -> "Triple Bag Box (24x14x12)", "On Hand" -> 25., 
-            "Velocity" -> 1.25, "Days Remaining" -> 19., "Need 7 Days" -> 0, 
-            "Need 14 Days" -> 0, "Need 30 Days" -> 13.]}, "AllowEmbedding" -> 
+           "Supply" -> "Triple Bag Box (24x14x12)", "On Hand" -> 103., 
+            "Velocity" -> 1.25, "Days Remaining" -> 82., "Need 7 Days" -> 0, 
+            "Need 14 Days" -> 0, "Need 30 Days" -> 0]}, "AllowEmbedding" -> 
          True, "InitialShape" -> TypeSystem`PackageScope`HeaderShape[
            
            Association[{All, "Supply"} -> 1, {All, "On Hand"} -> 
@@ -9638,7 +9662,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["63.0"], 
+                   RawBoxes["46.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
@@ -9649,7 +9673,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0.9"], 
+                   RawBoxes["0.89"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
@@ -9660,7 +9684,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["70.0"], 
+                   RawBoxes["51.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
@@ -9714,7 +9738,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["120.0"], 
+                   RawBoxes["115.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
@@ -9725,7 +9749,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["2.92"], 
+                   RawBoxes["2.76"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
@@ -9866,7 +9890,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["145.0"], 
+                   RawBoxes["65.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
@@ -9877,7 +9901,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["2.24"], 
+                   RawBoxes["2.33"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
@@ -9888,7 +9912,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["64.0"], 
+                   RawBoxes["27.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
@@ -9921,7 +9945,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0"], 
+                   RawBoxes["6.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
@@ -9942,7 +9966,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["28.0"], 
+                   RawBoxes["71.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
@@ -9964,7 +9988,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["17.0"], 
+                   RawBoxes["43.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
@@ -9997,7 +10021,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["22.0"], 
+                   RawBoxes["0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
@@ -10018,7 +10042,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["210.0"], 
+                   RawBoxes["315.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
@@ -10040,7 +10064,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["71.0"], 
+                   RawBoxes["107.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{6, 
@@ -10246,7 +10270,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["345.0"], 
+                   RawBoxes["225.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{9, 
@@ -10257,7 +10281,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["11.55"], 
+                   RawBoxes["11.29"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{9, 
@@ -10268,7 +10292,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["29.0"], 
+                   RawBoxes["19.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{9, 
@@ -10301,7 +10325,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["2.0"], 
+                   RawBoxes["114.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{9, 
@@ -10474,7 +10498,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["370.0"], 
+                   RawBoxes["205.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{12, 
@@ -10485,7 +10509,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["11.14"], 
+                   RawBoxes["10.84"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{12, 
@@ -10496,7 +10520,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["33.0"], 
+                   RawBoxes["18.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{12, 
@@ -10529,7 +10553,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0"], 
+                   RawBoxes["121.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{12, 
@@ -10550,7 +10574,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["100.0"], 
+                   RawBoxes["10.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
@@ -10561,7 +10585,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["2.07"], 
+                   RawBoxes["2.21"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
@@ -10572,7 +10596,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["48.0"], 
+                   RawBoxes["4.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
@@ -10583,7 +10607,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0"], 
+                   RawBoxes["6.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
@@ -10594,7 +10618,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0"], 
+                   RawBoxes["21.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
@@ -10605,7 +10629,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["0"], 
+                   RawBoxes["57.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{13, 
@@ -10626,7 +10650,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["13.0"], 
+                   RawBoxes["14.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{14, 
@@ -10648,7 +10672,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["54.0"], 
+                   RawBoxes["59.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{14, 
@@ -10702,7 +10726,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["68.0"], 
+                   RawBoxes["108.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
@@ -10724,7 +10748,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["6.0"], 
+                   RawBoxes["10.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
@@ -10735,7 +10759,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["5.0"], 
+                   RawBoxes["0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
@@ -10746,7 +10770,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["78.0"], 
+                   RawBoxes["38.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
@@ -10757,7 +10781,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["245.0"], 
+                   RawBoxes["205.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{15, 
@@ -10778,7 +10802,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["335.0"], 
+                   RawBoxes["315.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{16, 
@@ -10789,7 +10813,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["3.37"], 
+                   RawBoxes["3.23"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{16, 
@@ -10800,7 +10824,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["99.0"], 
+                   RawBoxes["97.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{16, 
@@ -10930,7 +10954,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["25.0"], 
+                   RawBoxes["103.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{18, 
@@ -10952,7 +10976,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["19.0"], 
+                   RawBoxes["82.0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{18, 
@@ -10985,7 +11009,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                 Item[
                  Pane[
                   Annotation[
-                   RawBoxes["13.0"], 
+                   RawBoxes["0"], 
                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{18, 
@@ -11322,8 +11346,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
      TagBox[GridBox[{
         {"\<\" \"\>"},
         {"\<\"Warehouse Supplies Inventory Report\"\>"},
-        {"\<\"The table below was generated on Thu 4 Mar 2021 with inventory \
-counts as of 2021-03-04.\"\>"},
+        {"\<\"The table below was generated on Wed 24 Mar 2021 with inventory \
+counts as of 2021-03-24.\"\>"},
         {
          TagBox[GridBox[{
             {
@@ -11331,68 +11355,68 @@ counts as of 2021-03-04.\"\>"},
                 {
                  InterpretationBox[Cell[BoxData[
                    FormBox["\<\"Supply\"\>", TextForm]], "InlineText",
-                   ExpressionUUID->"7080975a-3bac-48cc-b44a-90e96ebbcf88"],
+                   ExpressionUUID->"1efabd32-f794-469b-b038-9a30453e42f1"],
                   Text["Supply"]], 
                  InterpretationBox[Cell[BoxData[
                    FormBox["\<\"On Hand\"\>", TextForm]], "InlineText",
-                   ExpressionUUID->"da0dfb93-fb6e-46b7-b411-00c9ea99c2a3"],
+                   ExpressionUUID->"b2e9d17c-6b9c-4d03-b605-f12999c3f47d"],
                   Text["On Hand"]], 
                  InterpretationBox[Cell[BoxData[
                    FormBox["\<\"Velocity\"\>", TextForm]], "InlineText",
-                   ExpressionUUID->"273e3870-9ff5-4dd7-99ee-48c4307c8667"],
+                   ExpressionUUID->"83721b89-66ef-4a10-95ea-989dff24779b"],
                   Text["Velocity"]], 
                  InterpretationBox[Cell[BoxData[
                    FormBox["\<\"Days Remaining\"\>", TextForm]], "InlineText",
-                   ExpressionUUID->"b9fa47d2-7436-4166-8e52-371ccf8434d8"],
+                   ExpressionUUID->"6853ce13-440c-46f4-9463-7042f120e0e2"],
                   Text["Days Remaining"]], 
                  InterpretationBox[Cell[BoxData[
                    FormBox["\<\"Need 7 Days\"\>", TextForm]], "InlineText",
-                   ExpressionUUID->"f1ae8ddb-c821-451e-b892-368cdddf1044"],
+                   ExpressionUUID->"a562513b-1aa9-406c-b828-65f9a57059bb"],
                   Text["Need 7 Days"]], 
                  InterpretationBox[Cell[BoxData[
                    FormBox["\<\"Need 14 Days\"\>", TextForm]], "InlineText",
-                   ExpressionUUID->"75c24b2e-f6f1-4666-a6d7-bdcdcd4d90e9"],
+                   ExpressionUUID->"042b86cc-a576-43ae-93be-8095f3df7d61"],
                   Text["Need 14 Days"]], 
                  InterpretationBox[Cell[BoxData[
                    FormBox["\<\"Need 30 Days\"\>", TextForm]], "InlineText",
-                   ExpressionUUID->"5f844d58-3e62-4a45-8ec4-103537d97df0"],
+                   ExpressionUUID->"f5724242-7049-47eb-ba00-87eaaa76f649"],
                   Text["Need 30 Days"]]},
-                {"\<\"Brown Craft Tape (rolls)\"\>", "63.`", "0.9`", "70.`", 
+                {"\<\"Brown Craft Tape (rolls)\"\>", "46.`", "0.89`", "51.`", 
                  "0", "0", "0"},
-                {"\<\"Double Bag Box (14x12x10)\"\>", "120.`", "2.92`", 
-                 "41.`", "0", "0", "0"},
+                {"\<\"Double Bag Box (14x12x10)\"\>", "115.`", 
+                 "2.7600000000000002`", "41.`", "0", "0", "0"},
                 {"\<\"Dubble Bag Box (16x12x12)\"\>", "0.`", 
                  "1.4000000000000001`", "0.`", "10.`", "20.`", "42.`"},
-                {"\<\"Dubble Bag Box (16x14x12)\"\>", "145.`", "2.24`", 
-                 "64.`", "0", "0", "0"},
-                {"\<\"Dubbler Bag (11x8x6)\"\>", "28.`", 
-                 "1.6300000000000001`", "17.`", "0", "0", "22.`"},
-                {"\<\"Extra Pallets\"\>", "210.`", "2.92`", "71.`", "0", "0", 
-                 "0"},
+                {"\<\"Dubble Bag Box (16x14x12)\"\>", "65.`", "2.33`", "27.`",
+                  "0", "0", "6.`"},
+                {"\<\"Dubbler Bag (11x8x6)\"\>", "71.`", 
+                 "1.6300000000000001`", "43.`", "0", "0", "0"},
+                {"\<\"Extra Pallets\"\>", "315.`", "2.92`", "107.`", "0", "0",
+                  "0"},
                 {"\<\"FedEx Express Bags\"\>", "0.`", "1.12`", "0.`", "8.`", 
                  "16.`", "34.`"},
                 {"\<\"Gloves (boxes)\"\>", "0.`", "0.3`", "0.`", "3.`", "5.`",
                   "10.`"},
-                {"\<\"Large Full Case Box (26x15x22)\"\>", "345.`", "11.55`", 
-                 "29.`", "0", "0", "2.`"},
+                {"\<\"Large Full Case Box (26x15x22)\"\>", "225.`", 
+                 "11.290000000000001`", "19.`", "0", "0", "114.`"},
                 {"\<\"Large Single Bag with Dubbler (22x12x8)\"\>", "0.`", 
                  "2.`", "0.`", "14.`", "28.`", "60.`"},
                 {"\<\"Loge Poly Bags (15x12x1) \"\>", "10.`", "3.33`", "3.`", 
                  "14.`", "37.`", "90.`"},
-                {"\<\"Medium Full Case Box (26x15x19)\"\>", "370.`", "11.14`",
-                  "33.`", "0", "0", "0"},
-                {"\<\"Sample Ziplock Bags\"\>", "100.`", "2.07`", "48.`", "0",
-                  "0", "0"},
-                {"\<\"Shrink Wrap (Rolls)\"\>", "13.`", "0.24`", "54.`", "0", 
+                {"\<\"Medium Full Case Box (26x15x19)\"\>", "205.`", "10.84`",
+                  "18.`", "0", "0", "121.`"},
+                {"\<\"Sample Ziplock Bags\"\>", "10.`", "2.21`", "4.`", "6.`",
+                  "21.`", "57.`"},
+                {"\<\"Shrink Wrap (Rolls)\"\>", "14.`", "0.24`", "59.`", "0", 
                  "0", "0"},
-                {"\<\"Single Bag Box (12x14x8)\"\>", "68.`", "10.43`", "6.`", 
-                 "5.`", "78.`", "245.`"},
-                {"\<\"Single Bag Box (12x16x8)\"\>", "335.`", "3.37`", "99.`",
+                {"\<\"Single Bag Box (12x14x8)\"\>", "108.`", "10.43`", 
+                 "10.`", "0", "38.`", "205.`"},
+                {"\<\"Single Bag Box (12x16x8)\"\>", "315.`", "3.23`", "97.`",
                   "0", "0", "0"},
                 {"\<\"Small Poly Bags (9x6x1)\"\>", "3.`", "2.27`", "1.`", 
                  "13.`", "29.`", "66.`"},
-                {"\<\"Triple Bag Box (24x14x12)\"\>", "25.`", "1.25`", "19.`",
-                  "0", "0", "13.`"}
+                {"\<\"Triple Bag Box (24x14x12)\"\>", "103.`", "1.25`", 
+                 "82.`", "0", "0", "0"}
                },
                AutoDelete->False,
                GridBoxAlignment->{"Columns" -> {{Right}}},
@@ -11423,13 +11447,13 @@ counts as of 2021-03-04.\"\>"},
       "Column"]},
     {"\<\"Previous Report Date\"\>", 
      TemplateBox[{
-       RowBox[{"\"2020-12-22\""}], 
+       RowBox[{"\"2021-03-24\""}], 
        RowBox[{"DateObject", "[", 
          RowBox[{
            RowBox[{"{", 
-             RowBox[{"2020", ",", "12", ",", "22"}], "}"}], ",", "\"Day\"", 
+             RowBox[{"2021", ",", "3", ",", "24"}], "}"}], ",", "\"Day\"", 
            ",", "\"Gregorian\"", ",", 
-           RowBox[{"-", "6.`"}], ",", 
+           RowBox[{"-", "5.`"}], ",", 
            RowBox[{"{", "\"ISODate\"", "}"}]}], "]"}]},
       "DateObject",
       Editable->False]},
@@ -11443,8 +11467,9 @@ counts as of 2021-03-04.\"\>"},
  CellChangeTimes->{3.8017596101774797`*^9, 3.80218800689008*^9, 
   3.802190143204114*^9, 3.8021909313273907`*^9, 3.813953066871357*^9, 
   3.815587635057816*^9, 3.82388159411712*^9, 3.8238820811530943`*^9, 
-  3.823882239450818*^9},
- CellLabel->"Out[5]=",ExpressionUUID->"fe6333ee-4741-4b07-aeb9-c6ca614f2bdb"]
+  3.823882239450818*^9, 3.825614048687909*^9, 3.8256141067445297`*^9, 
+  3.825614251504652*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"caf2285a-c70a-4541-b806-2626bdbb6048"]
 }, Open  ]]
 },
 WindowSize->{1865, 905},
@@ -11466,11 +11491,11 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 609, 12, 115, "Input",ExpressionUUID->"fe30c873-a910-4e5c-947a-7c23c0b04054"],
-Cell[1192, 36, 1823, 39, 122, "Output",ExpressionUUID->"c7c586c3-0a1a-4714-a3c3-27a2ab0c4ee6"]
+Cell[1192, 36, 1894, 40, 122, "Output",ExpressionUUID->"38d03fba-98ce-4cbd-8064-dbb6013723d7"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3052, 80, 151, 2, 30, "Input",ExpressionUUID->"ac16d51b-384c-481e-8f28-070a605352e2"],
-Cell[3206, 84, 618336, 11362, 2639, "Output",ExpressionUUID->"fe6333ee-4741-4b07-aeb9-c6ca614f2bdb"]
+Cell[3123, 81, 151, 2, 30, "Input",ExpressionUUID->"ac16d51b-384c-481e-8f28-070a605352e2"],
+Cell[3277, 85, 620178, 11386, 2639, "Output",ExpressionUUID->"caf2285a-c70a-4541-b806-2626bdbb6048"]
 }, Open  ]]
 }
 ]
