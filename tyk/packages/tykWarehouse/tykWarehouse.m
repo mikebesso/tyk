@@ -221,12 +221,13 @@ Catch[
 abortIfFailed[warehouse];
 
 (* we will need to add to this list as we learn what other data entry errors can occur *)
-replaceBadData[$data_Dataset] :=ReplaceAll[
-$data ,
-{
-""->0.0,
-"01"->1
-}
+replaceBadData[$data_Dataset] := ReplaceAll[
+	$data 
+	,
+	{
+		"" -> 0.0,
+		"01" -> 1
+	}
 ];
 
 (* save the data with a filename that indicates the last date in the file *)
@@ -245,19 +246,20 @@ $data
 
 (* we want a clean date column, named "Date" *)
 warehouse[keyData] = With[
-{
-rawData = warehouse[keyRawData]
-},
-dsAddColumn[
-replaceBadData[rawData],
-<| "Date" -> str$Tidy[#"Timestamp"] |>&
-][
-All,
-Prepend[ 
-Complement[dsColumnNames[rawData], {"Timestamp"} ], 
-"Date"
-]
-]
+	{
+		rawData = warehouse[keyRawData]
+	}
+	,
+	dsAddColumn[
+		replaceBadData[rawData],
+		<| "Date" -> str$Tidy[#"Timestamp"] |>&
+	][
+		All,
+		Prepend[ 
+			Complement[dsColumnNames[rawData], {"Timestamp"} ], 
+			"Date"
+		]
+	]
 ];
 
 (* 
@@ -296,6 +298,7 @@ getWarehouseData[$warehouse_Association] := Module[
 		
 		Since we deleted previously downloaded files during initialization, we do not have to worry about getting more than one.
 		*)
+		
 		If[
 			warehouse[keyScraped],
 			CopyFile[getMatchingDownloads[downloadFileNamePattern[]][[1]],warehouse[keyScrapeFilePath],OverwriteTarget->True],
@@ -381,7 +384,7 @@ downloadWarehouseInventory[$warehouse_Association] := Module[
 
 	(*warehouse[keyScraped] = "/Users/mike/projects/tykables/files/tykWarehouse/data/scrapes/Warehouse Shipping Inventory (Responses).xlsx";
 	*)
-	warehouse[keyScraped] = "/Users/mike/projects/tykables/files/tykWarehouse/data/scrapes/2020-10-09.xlsx";
+	warehouse[keyScraped] = "/Users/mike/projects/tykables/files/tykWarehouse/data/scrapes/2021-04-21.xlsx";
 	Return[warehouse];
 
 
