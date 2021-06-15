@@ -102,56 +102,58 @@ tykCompetitors$Analyze[OptionsPattern[]] := Module[
 			impute[data, #] &,
 			filteredKeys
 		];
-
-	Echo[Length[imputed], "Length[imputed]"];
-
-	result = dsInnerJoin[
-		imputed[
-			All, 
-			Complement[dsColumnNames[imputed ], {"Key", "Color", "Pattern"}]
-		],
-    	productMetadata[
-     		All, 
-     		{"Page", "Category", "Subcategory", "Packaging"}
-     	],
-    	"Page"
-	][
-		All,
-		<|
-			#,
-			"Sales" -> #["Price"] * #["Sold"],
-			"Orders" -> If[
-				#["Category"] == "Incontinence"
-				, 
-				Ceiling[#["Sold"] / 4.0]
-				, 
-       			1.0
-       		]
-		|> &
-   ] ;
-
-	Echo[Length[result], "Length[result]"];
-
-	Echo[tykCompetitors$OutputFolder, "Output Folder"];
-
-	csvExport[
-		File[
-			FileNameJoin[
-				{tykCompetitors$OutputFolder, "sku-velocity.csv"}
-			]
-		],
-  		result[Select[#["Latest"] &], All] 
-  	];
-  	
-	csvExport[
-  		File[
-  			FileNameJoin[
-  				{tykCompetitors$OutputFolder, "sku-sales.csv"}
-  			]
-  		],
-  
-  		result
+		
+	If[
+		Length[imputed] > 0	,
+	
+		Block[ 
+			{}
+			,
+			result = dsInnerJoin[
+				imputed[
+					All, 
+					Complement[dsColumnNames[imputed ], {"Key", "Color", "Pattern"}]
+				],
+		    	productMetadata[
+		     		All, 
+		     		{"Page", "Category", "Subcategory", "Packaging"}
+		     	],
+		    	"Page"
+			][
+				All,
+				<|
+					#,
+					"Sales" -> #["Price"] * #["Sold"],
+					"Orders" -> If[
+						#["Category"] == "Incontinence"
+						, 
+						Ceiling[#["Sold"] / 4.0]
+						, 
+		       			1.0
+		       		]
+				|> &
+		   ] ;
+	
+	
+			csvExport[
+				File[
+					FileNameJoin[
+						{tykCompetitors$OutputFolder, "sku-velocity.csv"}
+					]
+				],
+		  		result[Select[#["Latest"] &], All] 
+		  	];
+		  	
+			csvExport[
+		  		File[
+		  			FileNameJoin[
+		  				{tykCompetitors$OutputFolder, "sku-sales.csv"}
+		  			]
+		  		];
+	  		
+			];
  
+		];
 	];
 
 ];

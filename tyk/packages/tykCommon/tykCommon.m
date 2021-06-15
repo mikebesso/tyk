@@ -85,6 +85,8 @@ tyk$HyperlinkToSkulabs[orderNumber_String] := With[
 tyk$HyperlinkToSkulabs[orderNumber_Integer] := tyk$HyperlinkToSkulabs[str$Tidy[orderNumber]];
 	
 
+
+
 tyk$FilesFolder = FileNameJoin[
 	{
 	    $HomeDirectory,
@@ -112,6 +114,7 @@ tyk$MetadataFolder[project_String] := FileNameJoin[
 
 tyk$DataFolder[project_String] := FileNameJoin[
 	{
+		
 		tyk$ProjectFolder[project],
 		If[tyk$TestMode, "data-test", "data"]
 	}

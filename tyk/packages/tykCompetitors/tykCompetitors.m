@@ -202,7 +202,7 @@ tykCleanPattern[pattern_String] :=
    ];
 
 
-tykCompetitors$MetaDataFile[] := FileNameJoin[{tykCompetitors$MetadataFolder, "competitors.xlsx"}]
+tykCompetitors$MetaDataFile[] := FindFile["competitors.xlsx"];
 
 tykCompetitors$GetProductMetadata[company_String] := Block[
 	{
